@@ -1,0 +1,13 @@
+[project]
+name = "jns1993-vme-momentum"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.9,<4",
+    "numpy>=2,<3",
+    "pandas>=2.2,<3",
+    "pandas-stubs~=2.2.3",
+    "pyarrow>=20",
+    "wrds>=3.5,<4",
+]

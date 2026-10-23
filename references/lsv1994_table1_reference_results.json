@@ -1,0 +1,2260 @@
+{
+  "paper": "Lakonishok, Shleifer, and Vishny (1994), Table I, printed pp.1548-1549",
+  "notebook": "references/lsv1994_table1_wrds_replication.ipynb",
+  "notebook_sha256": "f55b11f04f464ad6cb964284d0e5e3b4ccfa7f4737c37334f6f4e49227597305",
+  "note": "Notebook execution outputs were displayed after round(3); use only as a rounded historical benchmark. Full-precision parity requires replay on the same local data.",
+  "rows": [
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 1,
+      "notebook_rounded": 0.101,
+      "paper": 0.11
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 2,
+      "notebook_rounded": 0.108,
+      "paper": 0.117
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 3,
+      "notebook_rounded": 0.114,
+      "paper": 0.135
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 4,
+      "notebook_rounded": 0.118,
+      "paper": 0.123
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 5,
+      "notebook_rounded": 0.119,
+      "paper": 0.131
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 6,
+      "notebook_rounded": 0.142,
+      "paper": 0.154
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 7,
+      "notebook_rounded": 0.138,
+      "paper": 0.154
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 8,
+      "notebook_rounded": 0.164,
+      "paper": 0.17
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 9,
+      "notebook_rounded": 0.165,
+      "paper": 0.183
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R1",
+      "decile": 10,
+      "notebook_rounded": 0.173,
+      "paper": 0.173
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 1,
+      "notebook_rounded": 0.067,
+      "paper": 0.079
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 2,
+      "notebook_rounded": 0.092,
+      "paper": 0.107
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 3,
+      "notebook_rounded": 0.121,
+      "paper": 0.14
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 4,
+      "notebook_rounded": 0.13,
+      "paper": 0.145
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 5,
+      "notebook_rounded": 0.141,
+      "paper": 0.153
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 6,
+      "notebook_rounded": 0.143,
+      "paper": 0.156
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 7,
+      "notebook_rounded": 0.154,
+      "paper": 0.169
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 8,
+      "notebook_rounded": 0.151,
+      "paper": 0.164
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 9,
+      "notebook_rounded": 0.164,
+      "paper": 0.182
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R2",
+      "decile": 10,
+      "notebook_rounded": 0.174,
+      "paper": 0.188
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 1,
+      "notebook_rounded": 0.09,
+      "paper": 0.107
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 2,
+      "notebook_rounded": 0.124,
+      "paper": 0.132
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 3,
+      "notebook_rounded": 0.143,
+      "paper": 0.155
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 4,
+      "notebook_rounded": 0.158,
+      "paper": 0.167
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 5,
+      "notebook_rounded": 0.158,
+      "paper": 0.165
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 6,
+      "notebook_rounded": 0.163,
+      "paper": 0.172
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 7,
+      "notebook_rounded": 0.174,
+      "paper": 0.191
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 8,
+      "notebook_rounded": 0.197,
+      "paper": 0.207
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 9,
+      "notebook_rounded": 0.182,
+      "paper": 0.196
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R3",
+      "decile": 10,
+      "notebook_rounded": 0.197,
+      "paper": 0.204
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 1,
+      "notebook_rounded": 0.065,
+      "paper": 0.081
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 2,
+      "notebook_rounded": 0.115,
+      "paper": 0.133
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 3,
+      "notebook_rounded": 0.118,
+      "paper": 0.136
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 4,
+      "notebook_rounded": 0.144,
+      "paper": 0.16
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 5,
+      "notebook_rounded": 0.153,
+      "paper": 0.17
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 6,
+      "notebook_rounded": 0.149,
+      "paper": 0.169
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 7,
+      "notebook_rounded": 0.173,
+      "paper": 0.188
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 8,
+      "notebook_rounded": 0.175,
+      "paper": 0.204
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 9,
+      "notebook_rounded": 0.196,
+      "paper": 0.213
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R4",
+      "decile": 10,
+      "notebook_rounded": 0.2,
+      "paper": 0.207
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 1,
+      "notebook_rounded": 0.062,
+      "paper": 0.088
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 2,
+      "notebook_rounded": 0.11,
+      "paper": 0.137
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 3,
+      "notebook_rounded": 0.14,
+      "paper": 0.163
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 4,
+      "notebook_rounded": 0.16,
+      "paper": 0.175
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 5,
+      "notebook_rounded": 0.155,
+      "paper": 0.171
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 6,
+      "notebook_rounded": 0.163,
+      "paper": 0.176
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 7,
+      "notebook_rounded": 0.184,
+      "paper": 0.216
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 8,
+      "notebook_rounded": 0.185,
+      "paper": 0.201
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 9,
+      "notebook_rounded": 0.184,
+      "paper": 0.206
+    },
+    {
+      "strategy": "B/M",
+      "stat": "R5",
+      "decile": 10,
+      "notebook_rounded": 0.203,
+      "paper": 0.215
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 1,
+      "notebook_rounded": 0.077,
+      "paper": 0.093
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 2,
+      "notebook_rounded": 0.11,
+      "paper": 0.125
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 3,
+      "notebook_rounded": 0.127,
+      "paper": 0.146
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 4,
+      "notebook_rounded": 0.142,
+      "paper": 0.154
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 5,
+      "notebook_rounded": 0.145,
+      "paper": 0.158
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 6,
+      "notebook_rounded": 0.152,
+      "paper": 0.166
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 7,
+      "notebook_rounded": 0.164,
+      "paper": 0.184
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 8,
+      "notebook_rounded": 0.174,
+      "paper": 0.189
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 9,
+      "notebook_rounded": 0.178,
+      "paper": 0.196
+    },
+    {
+      "strategy": "B/M",
+      "stat": "AR",
+      "decile": 10,
+      "notebook_rounded": 0.189,
+      "paper": 0.198
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 1,
+      "notebook_rounded": 0.45,
+      "paper": 0.56
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 2,
+      "notebook_rounded": 0.683,
+      "paper": 0.802
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 3,
+      "notebook_rounded": 0.82,
+      "paper": 0.973
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 4,
+      "notebook_rounded": 0.941,
+      "paper": 1.045
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 5,
+      "notebook_rounded": 0.968,
+      "paper": 1.082
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 6,
+      "notebook_rounded": 1.029,
+      "paper": 1.152
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 7,
+      "notebook_rounded": 1.14,
+      "paper": 1.32
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 8,
+      "notebook_rounded": 1.234,
+      "paper": 1.375
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 9,
+      "notebook_rounded": 1.271,
+      "paper": 1.449
+    },
+    {
+      "strategy": "B/M",
+      "stat": "CR5",
+      "decile": 10,
+      "notebook_rounded": 1.379,
+      "paper": 1.462
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 1,
+      "notebook_rounded": -0.047,
+      "paper": -0.043
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 2,
+      "notebook_rounded": -0.023,
+      "paper": -0.02
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 3,
+      "notebook_rounded": -0.008,
+      "paper": -0.003
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 4,
+      "notebook_rounded": 0.006,
+      "paper": 0.004
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 5,
+      "notebook_rounded": 0.008,
+      "paper": 0.006
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 6,
+      "notebook_rounded": 0.012,
+      "paper": 0.012
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 7,
+      "notebook_rounded": 0.02,
+      "paper": 0.024
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 8,
+      "notebook_rounded": 0.025,
+      "paper": 0.028
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 9,
+      "notebook_rounded": 0.028,
+      "paper": 0.033
+    },
+    {
+      "strategy": "B/M",
+      "stat": "SAAR",
+      "decile": 10,
+      "notebook_rounded": 0.038,
+      "paper": 0.035
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 1,
+      "notebook_rounded": 0.075,
+      "paper": 0.084
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 2,
+      "notebook_rounded": 0.118,
+      "paper": 0.124
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 3,
+      "notebook_rounded": 0.125,
+      "paper": 0.14
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 4,
+      "notebook_rounded": 0.121,
+      "paper": 0.14
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 5,
+      "notebook_rounded": 0.145,
+      "paper": 0.153
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 6,
+      "notebook_rounded": 0.134,
+      "paper": 0.148
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 7,
+      "notebook_rounded": 0.139,
+      "paper": 0.157
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 8,
+      "notebook_rounded": 0.158,
+      "paper": 0.178
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 9,
+      "notebook_rounded": 0.166,
+      "paper": 0.183
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R1",
+      "decile": 10,
+      "notebook_rounded": 0.184,
+      "paper": 0.183
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 1,
+      "notebook_rounded": 0.045,
+      "paper": 0.067
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 2,
+      "notebook_rounded": 0.104,
+      "paper": 0.108
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 3,
+      "notebook_rounded": 0.114,
+      "paper": 0.126
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 4,
+      "notebook_rounded": 0.139,
+      "paper": 0.153
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 5,
+      "notebook_rounded": 0.139,
+      "paper": 0.156
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 6,
+      "notebook_rounded": 0.152,
+      "paper": 0.17
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 7,
+      "notebook_rounded": 0.16,
+      "paper": 0.177
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 8,
+      "notebook_rounded": 0.16,
+      "paper": 0.18
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 9,
+      "notebook_rounded": 0.168,
+      "paper": 0.183
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R2",
+      "decile": 10,
+      "notebook_rounded": 0.172,
+      "paper": 0.19
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 1,
+      "notebook_rounded": 0.079,
+      "paper": 0.096
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 2,
+      "notebook_rounded": 0.125,
+      "paper": 0.133
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 3,
+      "notebook_rounded": 0.145,
+      "paper": 0.153
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 4,
+      "notebook_rounded": 0.157,
+      "paper": 0.172
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 5,
+      "notebook_rounded": 0.167,
+      "paper": 0.17
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 6,
+      "notebook_rounded": 0.174,
+      "paper": 0.191
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 7,
+      "notebook_rounded": 0.178,
+      "paper": 0.191
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 8,
+      "notebook_rounded": 0.185,
+      "paper": 0.202
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 9,
+      "notebook_rounded": 0.184,
+      "paper": 0.193
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R3",
+      "decile": 10,
+      "notebook_rounded": 0.2,
+      "paper": 0.204
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 1,
+      "notebook_rounded": 0.079,
+      "paper": 0.098
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 2,
+      "notebook_rounded": 0.098,
+      "paper": 0.111
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 3,
+      "notebook_rounded": 0.134,
+      "paper": 0.146
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 4,
+      "notebook_rounded": 0.137,
+      "paper": 0.159
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 5,
+      "notebook_rounded": 0.147,
+      "paper": 0.166
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 6,
+      "notebook_rounded": 0.156,
+      "paper": 0.172
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 7,
+      "notebook_rounded": 0.165,
+      "paper": 0.182
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 8,
+      "notebook_rounded": 0.173,
+      "paper": 0.192
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 9,
+      "notebook_rounded": 0.198,
+      "paper": 0.223
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R4",
+      "decile": 10,
+      "notebook_rounded": 0.213,
+      "paper": 0.218
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 1,
+      "notebook_rounded": 0.082,
+      "paper": 0.108
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 2,
+      "notebook_rounded": 0.113,
+      "paper": 0.134
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 3,
+      "notebook_rounded": 0.138,
+      "paper": 0.161
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 4,
+      "notebook_rounded": 0.151,
+      "paper": 0.162
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 5,
+      "notebook_rounded": 0.161,
+      "paper": 0.187
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 6,
+      "notebook_rounded": 0.171,
+      "paper": 0.177
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 7,
+      "notebook_rounded": 0.172,
+      "paper": 0.191
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 8,
+      "notebook_rounded": 0.181,
+      "paper": 0.209
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 9,
+      "notebook_rounded": 0.188,
+      "paper": 0.212
+    },
+    {
+      "strategy": "C/P",
+      "stat": "R5",
+      "decile": 10,
+      "notebook_rounded": 0.197,
+      "paper": 0.208
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 1,
+      "notebook_rounded": 0.072,
+      "paper": 0.091
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 2,
+      "notebook_rounded": 0.112,
+      "paper": 0.122
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 3,
+      "notebook_rounded": 0.131,
+      "paper": 0.145
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 4,
+      "notebook_rounded": 0.141,
+      "paper": 0.157
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 5,
+      "notebook_rounded": 0.152,
+      "paper": 0.166
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 6,
+      "notebook_rounded": 0.157,
+      "paper": 0.171
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 7,
+      "notebook_rounded": 0.163,
+      "paper": 0.18
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 8,
+      "notebook_rounded": 0.171,
+      "paper": 0.192
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 9,
+      "notebook_rounded": 0.181,
+      "paper": 0.199
+    },
+    {
+      "strategy": "C/P",
+      "stat": "AR",
+      "decile": 10,
+      "notebook_rounded": 0.193,
+      "paper": 0.201
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 1,
+      "notebook_rounded": 0.414,
+      "paper": 0.543
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 2,
+      "notebook_rounded": 0.697,
+      "paper": 0.779
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 3,
+      "notebook_rounded": 0.852,
+      "paper": 0.969
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 4,
+      "notebook_rounded": 0.935,
+      "paper": 1.074
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 5,
+      "notebook_rounded": 1.027,
+      "paper": 1.158
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 6,
+      "notebook_rounded": 1.076,
+      "paper": 1.206
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 7,
+      "notebook_rounded": 1.125,
+      "paper": 1.283
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 8,
+      "notebook_rounded": 1.203,
+      "paper": 1.406
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 9,
+      "notebook_rounded": 1.294,
+      "paper": 1.476
+    },
+    {
+      "strategy": "C/P",
+      "stat": "CR5",
+      "decile": 10,
+      "notebook_rounded": 1.419,
+      "paper": 1.494
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 1,
+      "notebook_rounded": -0.054,
+      "paper": -0.049
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 2,
+      "notebook_rounded": -0.023,
+      "paper": -0.025
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 3,
+      "notebook_rounded": -0.007,
+      "paper": -0.006
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 4,
+      "notebook_rounded": 0.001,
+      "paper": 0.005
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 5,
+      "notebook_rounded": 0.011,
+      "paper": 0.013
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 6,
+      "notebook_rounded": 0.019,
+      "paper": 0.019
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 7,
+      "notebook_rounded": 0.024,
+      "paper": 0.025
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 8,
+      "notebook_rounded": 0.028,
+      "paper": 0.034
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 9,
+      "notebook_rounded": 0.031,
+      "paper": 0.037
+    },
+    {
+      "strategy": "C/P",
+      "stat": "SAAR",
+      "decile": 10,
+      "notebook_rounded": 0.043,
+      "paper": 0.039
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 1,
+      "notebook_rounded": 0.11,
+      "paper": 0.123
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 2,
+      "notebook_rounded": 0.113,
+      "paper": 0.125
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 3,
+      "notebook_rounded": 0.125,
+      "paper": 0.14
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 4,
+      "notebook_rounded": 0.124,
+      "paper": 0.13
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 5,
+      "notebook_rounded": 0.122,
+      "paper": 0.135
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 6,
+      "notebook_rounded": 0.139,
+      "paper": 0.156
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 7,
+      "notebook_rounded": 0.151,
+      "paper": 0.17
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 8,
+      "notebook_rounded": 0.155,
+      "paper": 0.18
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 9,
+      "notebook_rounded": 0.171,
+      "paper": 0.193
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R1",
+      "decile": 10,
+      "notebook_rounded": 0.16,
+      "paper": 0.162
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 1,
+      "notebook_rounded": 0.079,
+      "paper": 0.101
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 2,
+      "notebook_rounded": 0.093,
+      "paper": 0.113
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 3,
+      "notebook_rounded": 0.114,
+      "paper": 0.124
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 4,
+      "notebook_rounded": 0.131,
+      "paper": 0.143
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 5,
+      "notebook_rounded": 0.148,
+      "paper": 0.167
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 6,
+      "notebook_rounded": 0.148,
+      "paper": 0.164
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 7,
+      "notebook_rounded": 0.167,
+      "paper": 0.18
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 8,
+      "notebook_rounded": 0.158,
+      "paper": 0.185
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 9,
+      "notebook_rounded": 0.163,
+      "paper": 0.183
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R2",
+      "decile": 10,
+      "notebook_rounded": 0.151,
+      "paper": 0.174
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 1,
+      "notebook_rounded": 0.1,
+      "paper": 0.118
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 2,
+      "notebook_rounded": 0.125,
+      "paper": 0.138
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 3,
+      "notebook_rounded": 0.149,
+      "paper": 0.157
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 4,
+      "notebook_rounded": 0.16,
+      "paper": 0.171
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 5,
+      "notebook_rounded": 0.165,
+      "paper": 0.171
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 6,
+      "notebook_rounded": 0.172,
+      "paper": 0.191
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 7,
+      "notebook_rounded": 0.181,
+      "paper": 0.198
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 8,
+      "notebook_rounded": 0.177,
+      "paper": 0.188
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 9,
+      "notebook_rounded": 0.174,
+      "paper": 0.188
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R3",
+      "decile": 10,
+      "notebook_rounded": 0.182,
+      "paper": 0.195
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 1,
+      "notebook_rounded": 0.091,
+      "paper": 0.111
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 2,
+      "notebook_rounded": 0.105,
+      "paper": 0.124
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 3,
+      "notebook_rounded": 0.131,
+      "paper": 0.145
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 4,
+      "notebook_rounded": 0.137,
+      "paper": 0.151
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 5,
+      "notebook_rounded": 0.138,
+      "paper": 0.157
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 6,
+      "notebook_rounded": 0.146,
+      "paper": 0.159
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 7,
+      "notebook_rounded": 0.166,
+      "paper": 0.198
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 8,
+      "notebook_rounded": 0.174,
+      "paper": 0.199
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 9,
+      "notebook_rounded": 0.19,
+      "paper": 0.205
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R4",
+      "decile": 10,
+      "notebook_rounded": 0.202,
+      "paper": 0.214
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 1,
+      "notebook_rounded": 0.094,
+      "paper": 0.119
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 2,
+      "notebook_rounded": 0.1,
+      "paper": 0.129
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 3,
+      "notebook_rounded": 0.136,
+      "paper": 0.151
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 4,
+      "notebook_rounded": 0.15,
+      "paper": 0.167
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 5,
+      "notebook_rounded": 0.157,
+      "paper": 0.171
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 6,
+      "notebook_rounded": 0.168,
+      "paper": 0.168
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 7,
+      "notebook_rounded": 0.171,
+      "paper": 0.196
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 8,
+      "notebook_rounded": 0.177,
+      "paper": 0.201
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 9,
+      "notebook_rounded": 0.188,
+      "paper": 0.211
+    },
+    {
+      "strategy": "E/P",
+      "stat": "R5",
+      "decile": 10,
+      "notebook_rounded": 0.196,
+      "paper": 0.207
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 1,
+      "notebook_rounded": 0.095,
+      "paper": 0.114
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 2,
+      "notebook_rounded": 0.107,
+      "paper": 0.126
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 3,
+      "notebook_rounded": 0.131,
+      "paper": 0.143
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 4,
+      "notebook_rounded": 0.14,
+      "paper": 0.152
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 5,
+      "notebook_rounded": 0.146,
+      "paper": 0.16
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 6,
+      "notebook_rounded": 0.155,
+      "paper": 0.167
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 7,
+      "notebook_rounded": 0.167,
+      "paper": 0.188
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 8,
+      "notebook_rounded": 0.168,
+      "paper": 0.191
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 9,
+      "notebook_rounded": 0.177,
+      "paper": 0.196
+    },
+    {
+      "strategy": "E/P",
+      "stat": "AR",
+      "decile": 10,
+      "notebook_rounded": 0.178,
+      "paper": 0.19
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 1,
+      "notebook_rounded": 0.574,
+      "paper": 0.717
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 2,
+      "notebook_rounded": 0.663,
+      "paper": 0.808
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 3,
+      "notebook_rounded": 0.85,
+      "paper": 0.953
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 4,
+      "notebook_rounded": 0.928,
+      "paper": 1.031
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 5,
+      "notebook_rounded": 0.977,
+      "paper": 1.102
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 6,
+      "notebook_rounded": 1.051,
+      "paper": 1.168
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 7,
+      "notebook_rounded": 1.164,
+      "paper": 1.37
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 8,
+      "notebook_rounded": 1.173,
+      "paper": 1.393
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 9,
+      "notebook_rounded": 1.261,
+      "paper": 1.446
+    },
+    {
+      "strategy": "E/P",
+      "stat": "CR5",
+      "decile": 10,
+      "notebook_rounded": 1.269,
+      "paper": 1.388
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 1,
+      "notebook_rounded": -0.038,
+      "paper": -0.035
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 2,
+      "notebook_rounded": -0.024,
+      "paper": -0.024
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 3,
+      "notebook_rounded": -0.006,
+      "paper": -0.009
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 4,
+      "notebook_rounded": 0.002,
+      "paper": -0.001
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 5,
+      "notebook_rounded": 0.008,
+      "paper": 0.005
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 6,
+      "notebook_rounded": 0.019,
+      "paper": 0.013
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 7,
+      "notebook_rounded": 0.028,
+      "paper": 0.026
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 8,
+      "notebook_rounded": 0.024,
+      "paper": 0.026
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 9,
+      "notebook_rounded": 0.029,
+      "paper": 0.029
+    },
+    {
+      "strategy": "E/P",
+      "stat": "SAAR",
+      "decile": 10,
+      "notebook_rounded": 0.025,
+      "paper": 0.019
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 1,
+      "notebook_rounded": 0.17,
+      "paper": 0.187
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 2,
+      "notebook_rounded": 0.159,
+      "paper": 0.183
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 3,
+      "notebook_rounded": 0.153,
+      "paper": 0.164
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 4,
+      "notebook_rounded": 0.145,
+      "paper": 0.169
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 5,
+      "notebook_rounded": 0.144,
+      "paper": 0.162
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 6,
+      "notebook_rounded": 0.15,
+      "paper": 0.157
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 7,
+      "notebook_rounded": 0.137,
+      "paper": 0.159
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 8,
+      "notebook_rounded": 0.129,
+      "paper": 0.164
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 9,
+      "notebook_rounded": 0.104,
+      "paper": 0.142
+    },
+    {
+      "strategy": "GS",
+      "stat": "R1",
+      "decile": 10,
+      "notebook_rounded": 0.097,
+      "paper": 0.114
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 1,
+      "notebook_rounded": 0.161,
+      "paper": 0.181
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 2,
+      "notebook_rounded": 0.153,
+      "paper": 0.18
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 3,
+      "notebook_rounded": 0.154,
+      "paper": 0.186
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 4,
+      "notebook_rounded": 0.161,
+      "paper": 0.169
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 5,
+      "notebook_rounded": 0.143,
+      "paper": 0.166
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 6,
+      "notebook_rounded": 0.138,
+      "paper": 0.162
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 7,
+      "notebook_rounded": 0.124,
+      "paper": 0.152
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 8,
+      "notebook_rounded": 0.123,
+      "paper": 0.157
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 9,
+      "notebook_rounded": 0.125,
+      "paper": 0.147
+    },
+    {
+      "strategy": "GS",
+      "stat": "R2",
+      "decile": 10,
+      "notebook_rounded": 0.098,
+      "paper": 0.131
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 1,
+      "notebook_rounded": 0.18,
+      "paper": 0.204
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 2,
+      "notebook_rounded": 0.193,
+      "paper": 0.206
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 3,
+      "notebook_rounded": 0.177,
+      "paper": 0.194
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 4,
+      "notebook_rounded": 0.177,
+      "paper": 0.186
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 5,
+      "notebook_rounded": 0.163,
+      "paper": 0.181
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 6,
+      "notebook_rounded": 0.155,
+      "paper": 0.18
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 7,
+      "notebook_rounded": 0.167,
+      "paper": 0.168
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 8,
+      "notebook_rounded": 0.146,
+      "paper": 0.178
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 9,
+      "notebook_rounded": 0.14,
+      "paper": 0.157
+    },
+    {
+      "strategy": "GS",
+      "stat": "R3",
+      "decile": 10,
+      "notebook_rounded": 0.121,
+      "paper": 0.138
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 1,
+      "notebook_rounded": 0.175,
+      "paper": 0.205
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 2,
+      "notebook_rounded": 0.166,
+      "paper": 0.193
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 3,
+      "notebook_rounded": 0.171,
+      "paper": 0.201
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 4,
+      "notebook_rounded": 0.172,
+      "paper": 0.19
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 5,
+      "notebook_rounded": 0.141,
+      "paper": 0.181
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 6,
+      "notebook_rounded": 0.144,
+      "paper": 0.174
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 7,
+      "notebook_rounded": 0.164,
+      "paper": 0.16
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 8,
+      "notebook_rounded": 0.13,
+      "paper": 0.153
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 9,
+      "notebook_rounded": 0.131,
+      "paper": 0.167
+    },
+    {
+      "strategy": "GS",
+      "stat": "R4",
+      "decile": 10,
+      "notebook_rounded": 0.11,
+      "paper": 0.126
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 1,
+      "notebook_rounded": 0.177,
+      "paper": 0.197
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 2,
+      "notebook_rounded": 0.185,
+      "paper": 0.213
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 3,
+      "notebook_rounded": 0.161,
+      "paper": 0.194
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 4,
+      "notebook_rounded": 0.171,
+      "paper": 0.199
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 5,
+      "notebook_rounded": 0.168,
+      "paper": 0.168
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 6,
+      "notebook_rounded": 0.144,
+      "paper": 0.184
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 7,
+      "notebook_rounded": 0.158,
+      "paper": 0.185
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 8,
+      "notebook_rounded": 0.137,
+      "paper": 0.168
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 9,
+      "notebook_rounded": 0.138,
+      "paper": 0.163
+    },
+    {
+      "strategy": "GS",
+      "stat": "R5",
+      "decile": 10,
+      "notebook_rounded": 0.107,
+      "paper": 0.125
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 1,
+      "notebook_rounded": 0.172,
+      "paper": 0.195
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 2,
+      "notebook_rounded": 0.171,
+      "paper": 0.195
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 3,
+      "notebook_rounded": 0.163,
+      "paper": 0.188
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 4,
+      "notebook_rounded": 0.165,
+      "paper": 0.183
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 5,
+      "notebook_rounded": 0.152,
+      "paper": 0.171
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 6,
+      "notebook_rounded": 0.146,
+      "paper": 0.171
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 7,
+      "notebook_rounded": 0.15,
+      "paper": 0.165
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 8,
+      "notebook_rounded": 0.133,
+      "paper": 0.164
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 9,
+      "notebook_rounded": 0.128,
+      "paper": 0.155
+    },
+    {
+      "strategy": "GS",
+      "stat": "AR",
+      "decile": 10,
+      "notebook_rounded": 0.107,
+      "paper": 0.127
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 1,
+      "notebook_rounded": 1.215,
+      "paper": 1.434
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 2,
+      "notebook_rounded": 1.203,
+      "paper": 1.435
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 3,
+      "notebook_rounded": 1.13,
+      "paper": 1.364
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 4,
+      "notebook_rounded": 1.147,
+      "paper": 1.314
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 5,
+      "notebook_rounded": 1.026,
+      "paper": 1.205
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 6,
+      "notebook_rounded": 0.978,
+      "paper": 1.206
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 7,
+      "notebook_rounded": 1.01,
+      "paper": 1.144
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 8,
+      "notebook_rounded": 0.867,
+      "paper": 1.136
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 9,
+      "notebook_rounded": 0.823,
+      "paper": 1.057
+    },
+    {
+      "strategy": "GS",
+      "stat": "CR5",
+      "decile": 10,
+      "notebook_rounded": 0.659,
+      "paper": 0.818
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 1,
+      "notebook_rounded": 0.02,
+      "paper": 0.022
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 2,
+      "notebook_rounded": 0.025,
+      "paper": 0.027
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 3,
+      "notebook_rounded": 0.02,
+      "paper": 0.025
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 4,
+      "notebook_rounded": 0.026,
+      "paper": 0.024
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 5,
+      "notebook_rounded": 0.016,
+      "paper": 0.015
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 6,
+      "notebook_rounded": 0.009,
+      "paper": 0.015
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 7,
+      "notebook_rounded": 0.012,
+      "paper": 0.008
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 8,
+      "notebook_rounded": -0.003,
+      "paper": 0.008
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 9,
+      "notebook_rounded": -0.007,
+      "paper": 0
+    },
+    {
+      "strategy": "GS",
+      "stat": "SAAR",
+      "decile": 10,
+      "notebook_rounded": -0.028,
+      "paper": -0.024
+    }
+  ],
+  "published_cell_audit": {
+    "cells": 320,
+    "mismatches": 0,
+    "source_pdf_pages": [
+      9,
+      10
+    ],
+    "printed_pages": [
+      1548,
+      1549
+    ]
+  }
+}

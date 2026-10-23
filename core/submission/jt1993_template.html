@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phil Xu · JT1993 replication · Homework 1, $question_scope</title>
+  <style>$style</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="eyebrow">Homework 1 / $question_scope</div>
+  <h1>Jegadeesh &amp; Titman (1993)<br><span>Replication and comparison</span></h1>
+  <p class="author">Phil Xu <span>·</span> Finance PhD, CUHK</p>
+  <p class="lead">Returns to Buying Winners and Selling Losers:<br>Implications for Stock Market Efficiency</p>
+  <div class="sample"><span>Q1-1 sample: NYSE / AMEX common stocks</span><span>January 1965–December 1989</span><span>300 calendar months</span></div>
+</header>
+
+<nav aria-label="Report sections">
+  <a href="#table-i">Q1-1 · Table I</a><a href="#table-ii">Table II</a>
+  <a href="#table-vii">Table VII</a>$extension_nav<a href="#sample-filters">Q1-4 · Filters</a>$ff3_nav
+</nav>
+
+<main>
+<section id="table-i">
+  <div class="section-label">Q1-1 / Portfolio returns</div>
+  <h2>Table I · Returns of relative strength portfolios</h2>
+  <p>J is the formation horizon and K is the holding horizon, both in months. Sell is the lowest
+    past-return decile, Buy is the highest, and Buy–Sell is the zero-cost winner-minus-loser spread.</p>
+  <details class="methods">
+    <summary>Sample and portfolio construction</summary>
+    <p>The sample uses historical NYSE/AMEX classifications (exchange codes 1/2) and common shares
+      (share codes 10/11). Monthly stock returns are compounded from CRSP daily returns. Ranking uses
+      information available before the holding period. Stocks are assigned to past-return deciles,
+      with equal stock weights rebalanced monthly within fixed formation cohorts.</p>
+    <p>Table I equally weights K active cohorts. Panel A uses contiguous ranking and holding periods;
+      Panel B implements a one-week gap as five trading days. Earlier data initialize rankings and
+      overlapping positions before January 1965. Missing holding returns are excluded from cohort
+      means, and no separate delisting-return adjustment is added in this legacy-data baseline.</p>
+    <p>Five trading days, the ranking tie rule, and missing-return handling follow the supplied notebook
+      conventions. These details are not all fully specified by the paper. The comparisons below use
+      the paper’s published numbers, independently of the notebook benchmark.</p>
+  </details>
+  <div class="finding"><p>All $n_positive of the 32 calculated Buy–Sell means are positive;
+    $n_significant have positive returns with conventional |t| ≥ 1.96. The (6,6) Panel A return is
+    $wl_mean per month versus $wl_paper in the paper, a difference of $wl_gap bp/month.</p></div>
+  $table1
+  <p class="table-note">Monthly returns in decimals. Conventional t-statistics in parentheses, without HAC
+    or multiple-testing adjustment. Panel A has no gap; Panel B skips five trading days.</p>
+  <h3>Comparison with the original paper</h3>
+  <p>My results are on the left and the published results on the right. Both Sell and Buy are retained
+    so that differences in the spread can be traced to the two legs.</p>
+  $comparison1
+  <p class="table-note">Original Table I: printed p. 70. Paper values retain their published precision.</p>
+  $figure1
+  <p>The mean absolute difference in Buy–Sell returns across the 32 strategies is $mean_abs_gap bp/month.
+    Positive momentum in this sample is consistent with the paper’s central finding. Numerical
+    differences alone do not identify whether data revisions or construction conventions are responsible.</p>
+</section>
+
+<section id="table-ii">
+  <div class="section-label">Q1-1 / Portfolio characteristics</div>
+  <h2>Table II · Betas and market capitalization</h2>
+  <p>These are the ten (6,6) Panel A portfolios. P1 contains past losers and P10 past winners.
+    Beta is measured against the CRSP value-weighted market index. Size is average market
+    capitalization in USD millions.</p>
+  <aside class="convention"><strong>Draft construction convention.</strong> Replication betas use monthly OLS
+    with an intercept and raw portfolio/market returns. Capitalization is measured at the month end
+    before each cohort forms, held fixed within that cohort, and averaged over eligible stocks,
+    active cohorts, and report months. The paper does not fully specify these choices; this table
+    has not been established as a numerical match to the paper.</aside>
+  $table2
+  <p class="table-note">The spread’s market capitalization is undefined and displayed as a dash.</p>
+  <h3>Comparison with the original paper</h3>
+  $comparison2
+  <p class="table-note">Original Table II: printed p. 73. Differences are replication minus paper;
+    beta differences are unitless and size differences are in USD millions.</p>
+  $figure2
+  <p>The calculated spread beta is $beta compared with $beta_paper in the paper. Its negative sign
+    agrees with the paper: the winner-minus-loser portfolio does not simply load positively on the
+    contemporaneous market. The size comparison also makes the magnitude of the differences
+    visible under the stated capitalization convention.</p>
+</section>
+
+<section id="table-vii">
+  <div class="section-label">Q1-1 / Event-time performance</div>
+  <h2>Table VII · Performance after portfolio formation</h2>
+  <p>Stocks are ranked using six months of past returns. Each winner-minus-loser formation cohort
+    is followed for 36 months. These are event-time cohort returns, distinct from Table I’s
+    overlapping calendar-time strategy returns.</p>
+  <aside class="convention"><strong>Draft endpoint and inference conventions.</strong> The replication uses
+    $n_cohorts formation cohorts from January 1965 through $formation_end, each with all 36 calendar
+    holding months inside the window ending December 1989. This is a calendar cutoff, not a requirement
+    that individual stocks survive. Cumulative returns sum monthly spreads. Monthly t-statistics are
+    conventional; cumulative t-statistics use Newey–West with Bartlett weights, n/(n−1) correction,
+    and lags equal to $hac_lags. The paper specifies autocorrelation-consistent cumulative inference
+    but does not fully specify the endpoint policy or these standard-error settings.</aside>
+  $table7
+  <p class="table-note">Monthly and cumulative returns in decimals; t-statistics in parentheses.
+    Cumulative returns are additive.</p>
+  <h3>Comparison with the original paper</h3>
+  $comparison7
+  <p class="table-note">Original Table VII: printed p. 84. Differences are in basis points.
+    Published cumulative values are preserved as printed, rather than reconstructed from rounded monthly returns.</p>
+  $figure7
+  <p>The calculated cumulative return is $month12 at month 12 and $month36 at month 36, compared
+    with $month12_paper and $month36_paper in the paper. The first-year gains and subsequent decline
+    reproduce the broad event-time pattern. The inference and endpoint conventions above remain
+    relevant when assessing the numerical gaps.</p>
+</section>
+
+$exchange_section
+$subperiod_section
+<section id="sample-filters">
+  <div class="section-label">Q1-4 / Sample filters</div>
+  <h2>Sample-selection and data-availability rules</h2>
+  <p>The baseline replication uses CRSP ordinary common shares listed on the NYSE and AMEX.
+    Following the supplied WRDS reference implementation, the following sample-selection and
+    data-availability rules are applied:</p>
+  <ol class="filter-list">
+    <li><strong>Exchange membership.</strong> Eligible observations have exchange codes
+      <code>EXCHCD = 1 or 2</code>. Exchange membership is determined using the historical
+      classification valid on each observation date.</li>
+    <li><strong>Security type.</strong> The sample is restricted to ordinary common shares with
+      <code>SHRCD = 10 or 11</code>. This restriction excludes American Depositary Receipts (ADRs)
+      and securities classified by CRSP as real estate investment trusts (REITs). ADR classifications
+      include share codes 30 and 31, while REIT classifications include codes 18 and 48. These
+      restrictions follow <a href="https://www.crsp.org/wp-content/uploads/ShareCode.html"
+      target="_blank" rel="noopener noreferrer">CRSP’s share-code definitions</a>.</li>
+    <li><strong>Sample period.</strong> Reported portfolio returns cover January 1965 through
+      December 1989. Earlier observations, beginning in July 1962, supply the return history
+      required for portfolio ranking and overlapping holding cohorts.</li>
+    <li><strong>Availability of ranking returns.</strong> For Table I, Panel A, a stock must have
+      valid returns for <i>J</i> consecutive months preceding portfolio formation. For Panel B,
+      the ranking window excludes the five trading days immediately preceding the holding month.
+      A stock’s observed history must span the relevant ranking window and contain at least one
+      valid daily return within it. Stocks without a valid ranking signal are excluded from that
+      formation’s portfolios.</li>
+    <li><strong>Return validity.</strong> Missing, nonfinite, and below −100% returns are treated
+      as unavailable; valid −100% returns are retained. Missing monthly ranking returns are not
+      replaced with zero. During the holding period, portfolio averages are calculated using
+      constituents with available returns.</li>
+  </ol>
+  <p>Additional availability requirements apply to Tables II and VII. For Table II, market
+    capitalization is calculated using finite, positive absolute prices and shares outstanding.
+    Observations with unavailable capitalization are omitted from size calculations while
+    remaining eligible for return portfolios. For Table VII, formation cohorts are selected to
+    provide complete 36-month calendar follow-up windows within the sample. This requirement
+    applies to cohort timing and does not require every constituent stock to survive for 36 months.</p>
+</section>
+$ff3_section
+</main>
+<footer>Phil Xu · Homework 1 · Jegadeesh &amp; Titman (1993) · $question_scope</footer>
+<script>
+document.querySelectorAll('.table-expand').forEach(button => {
+  button.addEventListener('click', () => {
+    const panel = button.closest('.table-panel');
+    const expanded = panel.classList.toggle('is-expanded');
+    button.setAttribute('aria-expanded', String(expanded));
+    button.textContent = expanded ? 'Collapse table' : 'Expand table';
+  });
+});
+document.querySelectorAll('.case-select').forEach(select => {
+  select.addEventListener('change', () => {
+    document.getElementById(select.dataset.group).querySelectorAll('.case-panel').forEach(panel => {
+      panel.hidden = panel.id !== select.value;
+    });
+  });
+});
+</script>
+</body>
+</html>

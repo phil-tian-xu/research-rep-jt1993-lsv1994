@@ -1,0 +1,10 @@
+strategy,horizon,mean,t
+C/P tails,1,0.079,3.379
+C/P tails,3,0.357,6.164
+C/P tails,5,0.841,7.63
+C/P-GS,1,0.102,3.746
+C/P-GS,3,0.464,4.524
+C/P-GS,5,1.073,5.939
+B/M tails,1,0.063,2.076
+B/M tails,3,0.344,3.475
+B/M tails,5,0.842,7.104

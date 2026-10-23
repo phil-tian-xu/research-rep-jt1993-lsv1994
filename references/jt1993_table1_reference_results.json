@@ -1,0 +1,11 @@
+{
+  "notebook": "references/jt1993_table1_wrds_replication.ipynb",
+  "source_exports": ["jt1993_table1_results_v3/panel_a_comparison_long.csv", "jt1993_table1_results_v3/panel_b_comparison_long.csv"],
+  "reported_start": "1965-01-01",
+  "reported_end": "1989-12-31",
+  "universe": "NYSE/AMEX common shares, exchange codes 1/2, share codes 10/11",
+  "rows": 96,
+  "return_units": "decimal monthly returns",
+  "validation": "All 96 reference means and t-statistics match the notebook's saved HTML outputs at their displayed six decimal places. CSV exports retain full precision.",
+  "paper_source": "Jegadeesh and Titman (1993), Table I, page 70; values checked against the supplied paper."
+}

@@ -1,0 +1,7 @@
+{
+  "source": "https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions",
+  "verified_at": "2026-10-23",
+  "coverage_start": "1960-01",
+  "coverage_end": "2026-10",
+  "convention": "Peak and trough months inclusive, preserving the original-paper Figure 2 convention; not the FRED USREC following-peak convention."
+}

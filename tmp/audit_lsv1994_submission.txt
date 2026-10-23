@@ -1,0 +1,1306 @@
+Phil Xu · LSV1994 replication · Homework 1, Question 2
+Homework 1 / Question 2
+Lakonishok, Shleifer & Vishny (1994)Replication and comparison
+Phil Xu · Finance PhD, CUHK
+Contrarian Investment, Extrapolation, and Risk
+Q2-1 · NYSE / AMEX common stocksApril formations: 1968–1989Holding returns: May 1968–April 1990Q2-2 / Q2-3: available-data extensions
+Q2-1 · IIIIVVVI & Figure 2Q2-2 · UniversesQ2-3 · SubsamplesQ2-4 · Filters
+Assignment coverage
+Original replication and available-data extensionsThe requested extended period is not fully covered. The shared cache starts in 1957 and ends in December 2024. Five-year GS signals first support April 1963 formations; April 1962 needs accounting history from 1956. Complete May–April holding years end in April 2024. Thus Q2-2 and the recent Q2-3 sample below do not include 2025 returns. These are the available-data parts of the assignment.
+Assignment coverage and effective samplesExpand tableAssignment coverage and effective samples
+TaskRequested sampleUniverseApril formationsHolding returnsR1 / R2 / R3 / R4 / R5 cohortsFuture-growth cohorts
+Q2-1Original paperNYSE/AMEX1968–1989May 1968–April 199022 / 21 / 20 / 19 / 1822
+Q2-21962–2025NYSE1963–2023May 1963–April 202461 / 60 / 59 / 58 / 5758
+Q2-21962–2025NYSE/AMEX/Nasdaq1963–2023May 1963–April 202461 / 60 / 59 / 58 / 5758
+Q2-31963–1989NYSE/AMEX1963–1988May 1963–April 198926 / 25 / 24 / 23 / 2223
+Q2-31990–2025NYSE/AMEX1990–2023May 1990–April 202434 / 33 / 32 / 31 / 3031
+Cohort counts refer to complete annual holding horizons. For Q2-3, the early calendar window stops in 1989 and the recent window starts in 1990. The annual definitions omit the 1989 formation, whose first holding year crosses the boundary, and do not import portfolios formed before the recent window. Warm-up history may precede a window; holding returns and future accounting growth cannot exceed its endpoint.
+Q2-1 / One-dimensional value strategies
+Table I · Returns of decile portfolios
+Stocks are independently sorted into ascending deciles of book-to-market (B/M), cash-flow-to-price (C/P), earnings-to-price (E/P), or weighted past sales growth (GS).
+For the three valuation ratios, decile 1 is glamour and decile 10 is value. The direction reverses for GS.
+Timing, weighting, and size adjustment
+April t formations use accounting observations dated in calendar year t−1 and April market equity. C/P and E/P sorts require positive ratios.
+GS uses five consecutive annual sales-growth ranks, normalized to percentiles and weighted 5,4,3,2,1 from most recent to oldest. SAS average-rank deciles keep ties together.
+Returns are annual May–April buy-and-hold returns. Surviving original stocks receive equal weights at the beginning of each subsequent holding year; portfolios are not re-sorted.
+Months after a stock's final CRSP row in a holding year receive the corresponding size-decile return. Internal missing returns remain missing.
+Previous-December market equity determines each holding year's size benchmark.
+Each horizon averages all available formation cohorts, giving 22, 21, 20, 19 and 18 cohorts for years 1–5. AR averages the five horizon means; CR5 compounds those means;
+SAAR averages the five size-adjusted horizon means. This CR5 is distinct from Table VI's mean of cohort-specific cumulative returns.
+My results · Table 1 · B/MExpand tableMy results · Table 1 · B/M
+Statistic12345678910
+R10.10110.10750.11420.11810.11920.14220.13790.16370.16500.1728
+R20.06710.09240.12110.12990.14080.14270.15350.15080.16450.1739
+R30.09010.12380.14340.15770.15790.16300.17370.19710.18210.1970
+R40.06540.11510.11800.14440.15270.14930.17340.17540.19630.1998
+R50.06230.11030.13950.15980.15510.16290.18370.18540.18370.2033
+AR0.07720.10980.12720.14200.14510.15200.16450.17450.17830.1894
+CR50.44960.68340.81950.94120.96851.02881.13991.23371.27091.3792
+SAAR-0.0467-0.0227-0.00840.00570.00830.01230.02050.02450.02770.0378
+My results · Table 1 · C/PExpand tableMy results · Table 1 · C/P
+Statistic12345678910
+R10.07460.11780.12510.12140.14520.13420.13910.15810.16580.1842
+R20.04500.10400.11360.13870.13880.15210.15980.15970.16780.1721
+R30.07890.12510.14540.15720.16720.17440.17760.18490.18380.2002
+R40.07920.09800.13360.13740.14660.15550.16520.17260.19800.2133
+R50.08180.11330.13840.15140.16150.17080.17230.18060.18810.1970
+AR0.07190.11160.13120.14120.15190.15740.16280.17120.18070.1934
+CR50.41450.69720.85200.93521.02721.07621.12511.20311.29371.4194
+SAAR-0.0544-0.0230-0.00710.00140.01080.01880.02390.02840.03090.0432
+My results · Table 1 · E/PExpand tableMy results · Table 1 · E/P
+Statistic12345678910
+R10.11040.11320.12480.12410.12200.13910.15070.15470.17090.1597
+R20.07920.09270.11400.13100.14810.14780.16670.15750.16320.1515
+R30.09980.12530.14930.15970.16540.17230.18090.17730.17390.1818
+R40.09120.10460.13110.13730.13790.14610.16600.17390.19020.2023
+R50.09410.09970.13560.15000.15740.16780.17060.17670.18830.1960
+AR0.09500.10710.13100.14040.14610.15460.16700.16800.17730.1783
+CR50.57360.66280.84970.92840.97701.05151.16401.17351.26131.2693
+SAAR-0.0382-0.0238-0.00600.00160.00800.01950.02800.02420.02880.0254
+My results · Table 1 · GSExpand tableMy results · Table 1 · GS
+Statistic12345678910
+R10.16950.15910.15340.14520.14370.15020.13700.12930.10400.0972
+R20.16120.15350.15430.16110.14290.13760.12390.12290.12500.0979
+R30.17960.19280.17700.17700.16310.15490.16680.14560.14010.1206
+R40.17450.16600.17080.17150.14060.14370.16410.13040.13110.1104
+R50.17730.18450.16090.17080.16810.14430.15780.13710.13810.1071
+AR0.17240.17120.16330.16510.15170.14610.14990.13310.12770.1066
+CR51.21521.20271.13011.14661.02550.97781.00950.86730.82280.6593
+SAAR0.02040.02450.01990.02550.01560.00940.0117-0.0026-0.0075-0.0281
+Returns in decimals: 0.1000 means 10%. The default calculation matches all 320 cells of an independent replay of the supplied Table I notebook to floating-point precision.
+The published paper is a separate benchmark.
+Comparison with the original paper
+Table 1 · B/M · Replication versus paperExpand tableTable 1 · B/M · Replication versus paper
+My resultsPublished paper
+Statistic1234567891012345678910
+R10.10110.10750.11420.11810.11920.14220.13790.16370.16500.17280.1100.1170.1350.1230.1310.1540.1540.1700.1830.173
+R20.06710.09240.12110.12990.14080.14270.15350.15080.16450.17390.0790.1070.1400.1450.1530.1560.1690.1640.1820.188
+R30.09010.12380.14340.15770.15790.16300.17370.19710.18210.19700.1070.1320.1550.1670.1650.1720.1910.2070.1960.204
+R40.06540.11510.11800.14440.15270.14930.17340.17540.19630.19980.0810.1330.1360.1600.1700.1690.1880.2040.2130.207
+R50.06230.11030.13950.15980.15510.16290.18370.18540.18370.20330.0880.1370.1630.1750.1710.1760.2160.2010.2060.215
+AR0.07720.10980.12720.14200.14510.15200.16450.17450.17830.18940.0930.1250.1460.1540.1580.1660.1840.1890.1960.198
+CR50.44960.68340.81950.94120.96851.02881.13991.23371.27091.37920.5600.8020.9731.0451.0821.1521.3201.3751.4491.462
+SAAR-0.0467-0.0227-0.00840.00570.00830.01230.02050.02450.02770.0378-0.043-0.020-0.0030.0040.0060.0120.0240.0280.0330.035
+Table 1 · C/P · Replication versus paperExpand tableTable 1 · C/P · Replication versus paper
+My resultsPublished paper
+Statistic1234567891012345678910
+R10.07460.11780.12510.12140.14520.13420.13910.15810.16580.18420.0840.1240.1400.1400.1530.1480.1570.1780.1830.183
+R20.04500.10400.11360.13870.13880.15210.15980.15970.16780.17210.0670.1080.1260.1530.1560.1700.1770.1800.1830.190
+R30.07890.12510.14540.15720.16720.17440.17760.18490.18380.20020.0960.1330.1530.1720.1700.1910.1910.2020.1930.204
+R40.07920.09800.13360.13740.14660.15550.16520.17260.19800.21330.0980.1110.1460.1590.1660.1720.1820.1920.2230.218
+R50.08180.11330.13840.15140.16150.17080.17230.18060.18810.19700.1080.1340.1610.1620.1870.1770.1910.2090.2120.208
+AR0.07190.11160.13120.14120.15190.15740.16280.17120.18070.19340.0910.1220.1450.1570.1660.1710.1800.1920.1990.201
+CR50.41450.69720.85200.93521.02721.07621.12511.20311.29371.41940.5430.7790.9691.0741.1581.2061.2831.4061.4761.494
+SAAR-0.0544-0.0230-0.00710.00140.01080.01880.02390.02840.03090.0432-0.049-0.025-0.0060.0050.0130.0190.0250.0340.0370.039
+Table 1 · E/P · Replication versus paperExpand tableTable 1 · E/P · Replication versus paper
+My resultsPublished paper
+Statistic1234567891012345678910
+R10.11040.11320.12480.12410.12200.13910.15070.15470.17090.15970.1230.1250.1400.1300.1350.1560.1700.1800.1930.162
+R20.07920.09270.11400.13100.14810.14780.16670.15750.16320.15150.1010.1130.1240.1430.1670.1640.1800.1850.1830.174
+R30.09980.12530.14930.15970.16540.17230.18090.17730.17390.18180.1180.1380.1570.1710.1710.1910.1980.1880.1880.195
+R40.09120.10460.13110.13730.13790.14610.16600.17390.19020.20230.1110.1240.1450.1510.1570.1590.1980.1990.2050.214
+R50.09410.09970.13560.15000.15740.16780.17060.17670.18830.19600.1190.1290.1510.1670.1710.1680.1960.2010.2110.207
+AR0.09500.10710.13100.14040.14610.15460.16700.16800.17730.17830.1140.1260.1430.1520.1600.1670.1880.1910.1960.190
+CR50.57360.66280.84970.92840.97701.05151.16401.17351.26131.26930.7170.8080.9531.0311.1021.1681.3701.3931.4461.388
+SAAR-0.0382-0.0238-0.00600.00160.00800.01950.02800.02420.02880.0254-0.035-0.024-0.009-0.0010.0050.0130.0260.0260.0290.019
+Table 1 · GS · Replication versus paperExpand tableTable 1 · GS · Replication versus paper
+My resultsPublished paper
+Statistic1234567891012345678910
+R10.16950.15910.15340.14520.14370.15020.13700.12930.10400.09720.1870.1830.1640.1690.1620.1570.1590.1640.1420.114
+R20.16120.15350.15430.16110.14290.13760.12390.12290.12500.09790.1810.1800.1860.1690.1660.1620.1520.1570.1470.131
+R30.17960.19280.17700.17700.16310.15490.16680.14560.14010.12060.2040.2060.1940.1860.1810.1800.1680.1780.1570.138
+R40.17450.16600.17080.17150.14060.14370.16410.13040.13110.11040.2050.1930.2010.1900.1810.1740.1600.1530.1670.126
+R50.17730.18450.16090.17080.16810.14430.15780.13710.13810.10710.1970.2130.1940.1990.1680.1840.1850.1680.1630.125
+AR0.17240.17120.16330.16510.15170.14610.14990.13310.12770.10660.1950.1950.1880.1830.1710.1710.1650.1640.1550.127
+CR51.21521.20271.13011.14661.02550.97781.00950.86730.82280.65931.4341.4351.3641.3141.2051.2061.1441.1361.0570.818
+SAAR0.02040.02450.01990.02550.01560.00940.0117-0.0026-0.0075-0.02810.0220.0270.0250.0240.0150.0150.0080.0080.000-0.024
+Published Table I: printed pp. 1548–1549. Numerical differences can reflect data vintage, linking, and construction conventions; notebook agreement does not establish an exact match to the paper.
+Average annual returns across all four one-dimensional sorts. GS runs from value to glamour; the other signals run from glamour to value.
+Q2-1 / Joint classifications
+Table II · Two-dimensional value strategies
+For each pair of signals, the eligible sample is independently split into bottom 30%, middle 40%, and top 30% groups on each signal. Their intersections give nine portfolios.
+The five pairs are C/P–GS, E/P–GS, B/M–GS, E/P–B/M, and B/M–C/P. Column labels give the first and second signal's group.
+Independent sorts and portfolio construction
+Both ranks use the pair's common eligible sample; C/P and E/P must be positive when used for classification.
+Groups collapse SAS deciles 1–3, 4–7, and 8–10, preserving the baseline tie convention. The sorts are independent rather than sequential.
+Annual holding returns, size adjustment, and horizon averaging follow Table I.
+The calculated C/P–GS annual value-minus-glamour spread is 11.25 percentage points, compared with 10.7 percentage points in the published table.
+This contrasts high C/P and low GS with low C/P and high GS.
+My results · Table 2 · C/P-GSExpand tableMy results · Table 2 · C/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12290.12000.09340.16570.13780.11120.19920.18230.1339
+R20.10480.10810.08120.16590.15040.13160.20160.16380.1421
+R30.15020.12800.10010.18480.16750.15390.22020.19400.1765
+R40.13940.10620.09000.17480.15270.13110.21060.19460.1764
+R50.15270.11540.09300.18360.16090.14120.18870.19220.1734
+AR0.13400.11550.09150.17490.15390.13380.20410.18540.1605
+CR50.87390.72720.54931.23891.04510.87301.53021.34001.1033
+SAAR-0.0096-0.0138-0.03780.02820.0173-0.00200.05260.03880.0181
+My results · Table 2 · E/P-GSExpand tableMy results · Table 2 · E/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.15320.12220.09410.15570.14380.10960.19470.17830.1268
+R20.12620.11010.08000.17540.15060.12800.19350.15680.1411
+R30.15730.13400.10330.19920.16940.14460.20290.18330.1668
+R40.14910.11020.08720.17630.14820.12200.19880.19650.1744
+R50.16310.10750.08380.17900.16090.13640.18970.19160.1708
+AR0.14980.11680.08970.17710.15460.12810.19590.18130.1560
+CR51.00870.73690.53611.25911.05160.82661.44621.29951.0629
+SAAR0.0034-0.0118-0.03800.03380.0189-0.00690.04380.03360.0114
+My results · Table 2 · B/M-GSExpand tableMy results · Table 2 · B/M-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12620.12320.10820.14630.13990.10660.18200.17790.1389
+R20.10680.11190.10120.15600.14940.12520.17580.16040.1512
+R30.12910.13960.11160.18350.16350.15130.19970.19600.1813
+R40.12270.11010.08960.16710.15850.14430.19110.19230.2015
+R50.12940.11600.09330.18090.15980.15500.18620.20090.1799
+AR0.12280.12020.10080.16680.15420.13650.18700.18550.1705
+CR50.78450.76330.61611.16161.04830.89461.35581.34101.1955
+SAAR-0.0143-0.0096-0.02940.02220.0172-0.00140.03460.03690.0230
+My results · Table 2 · E/P-B/MExpand tableMy results · Table 2 · E/P-B/M
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.10530.11640.17010.12300.13030.15840.06130.15170.1749
+R20.07280.11220.17480.13760.14520.17580.15810.15420.1596
+R30.10070.15560.19960.15770.16480.20190.15360.16390.1896
+R40.08300.14830.18180.12780.14720.17290.12950.18020.1991
+R50.07550.16330.18780.14150.15870.19240.17070.17390.1963
+AR0.08750.13920.18280.13750.14930.18030.13460.16480.1839
+CR50.52020.91691.31490.90421.00441.28940.87481.14351.3249
+SAAR-0.0385-0.00520.02930.00090.01450.0330-0.01210.02030.0324
+My results · Table 2 · B/M-C/PExpand tableMy results · Table 2 · B/M-C/P
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.10180.12790.12030.11070.13240.15350.15910.14950.1815
+R20.07480.14590.15710.10760.14510.16240.16120.16000.1707
+R30.10350.15740.17730.14000.16470.17890.17440.19370.1965
+R40.09030.12530.14880.13620.15440.17530.15120.16930.2099
+R50.08940.13950.13200.16190.16520.18050.18610.18540.1950
+AR0.09190.13920.14710.13130.15230.17010.16640.17160.1907
+CR50.55200.91800.98470.85131.03141.19321.15831.20631.3928
+SAAR-0.03640.00290.0039-0.01200.01490.02710.01320.02140.0400
+Comparison with the original paper
+Table 2 · C/P-GS · Replication versus paperExpand tableTable 2 · C/P-GS · Replication versus paper
+My resultsPublished paper
+Statistic1,11,21,32,12,22,33,13,23,31,11,21,32,12,22,33,13,23,3
+R10.12290.12000.09340.16570.13780.11120.19920.18230.13390.1570.1310.1130.1810.1560.1390.2150.2020.137
+R20.10480.10810.08120.16590.15040.13160.20160.16380.14210.1470.1200.1000.1910.1650.1670.2130.1880.165
+R30.15020.12800.10010.18480.16750.15390.22020.19400.17650.1650.1400.1210.1970.1900.1650.2270.1950.172
+R40.13940.10620.09000.17480.15270.13110.21060.19460.17640.1640.1240.1140.1980.1690.1660.2310.2040.177
+R50.15270.11540.09300.18360.16090.14120.18870.19220.17340.1790.1350.1210.2000.1730.1510.2180.2160.184
+AR0.13400.11550.09150.17490.15390.13380.20410.18540.16050.1620.1300.1140.1930.1710.1570.2210.2010.167
+CR50.87390.72720.54931.23891.04510.87301.53021.34001.10331.1220.8430.7121.4191.2001.0761.7111.4971.163
+SAAR-0.0096-0.0138-0.03780.02820.0173-0.00200.05260.03880.0181-0.006-0.020-0.0330.0300.0140.0030.0540.0360.008
+Table 2 · E/P-GS · Replication versus paperExpand tableTable 2 · E/P-GS · Replication versus paper
+My resultsPublished paper
+Statistic1,11,21,32,12,22,33,13,23,31,11,21,32,12,22,33,13,23,3
+R10.15320.12220.09410.15570.14380.10960.19470.17830.12680.1840.1480.1180.1880.1530.1390.2240.2050.174
+R20.12620.11010.08000.17540.15060.12800.19350.15680.14110.1670.1340.1000.2040.1740.1540.2140.1870.190
+R30.15730.13400.10330.19920.16940.14460.20290.18330.16680.1850.1530.1190.2220.1890.1690.2210.1980.189
+R40.14910.11020.08720.17630.14820.12200.19880.19650.17440.1900.1380.1030.2050.1750.1600.2320.2170.188
+R50.16310.10750.08380.17900.16090.13640.18970.19160.17080.1890.1630.1040.2010.1800.1570.2150.2100.199
+AR0.14980.11680.08970.17710.15460.12810.19590.18130.15600.1830.1470.1090.2040.1740.1560.2210.2030.188
+CR51.00870.73690.53611.25911.05160.82661.44621.29951.06291.3150.9860.6741.5331.2301.0631.7161.5231.365
+SAAR0.0034-0.0118-0.03800.03380.0189-0.00690.04380.03360.01140.005-0.011-0.0370.0330.0130.0020.0400.0340.017
+Table 2 · B/M-GS · Replication versus paperExpand tableTable 2 · B/M-GS · Replication versus paper
+My resultsPublished paper
+Statistic1,11,21,32,12,22,33,13,23,31,11,21,32,12,22,33,13,23,3
+R10.12620.12320.10820.14630.13990.10660.18200.17790.13890.1470.1410.1320.1600.1590.1210.2040.1850.135
+R20.10680.11190.10120.15600.14940.12520.17580.16040.15120.1270.1380.1270.1750.1660.1500.2000.1720.163
+R30.12910.13960.11160.18350.16350.15130.19970.19600.18130.1490.1490.1370.1900.1860.1520.2210.1920.182
+R40.12270.11010.08960.16710.15850.14430.19110.19230.20150.1470.1300.1300.1910.1760.1540.2220.1900.195
+R50.12940.11600.09330.18090.15980.15500.18620.20090.17990.1580.1400.1240.2030.1800.1650.2160.2110.164
+AR0.12280.12020.10080.16680.15420.13650.18700.18550.17050.1460.1400.1300.1840.1730.1480.2120.1900.168
+CR50.78450.76330.61611.16161.04830.89461.35581.34101.19550.9740.9250.8421.3251.2240.9961.6181.3871.171
+SAAR-0.0143-0.0096-0.02940.02220.0172-0.00140.03460.03690.0230-0.009-0.012-0.0210.0220.015-0.0090.0390.0300.017
+Table 2 · E/P-B/M · Replication versus paperExpand tableTable 2 · E/P-B/M · Replication versus paper
+My resultsPublished paper
+Statistic1,11,21,32,12,22,33,13,23,31,11,21,32,12,22,33,13,23,3
+R10.10530.11640.17010.12300.13030.15840.06130.15170.17490.1160.1180.1860.1420.1430.1740.1350.1740.189
+R20.07280.11220.17480.13760.14520.17580.15810.15420.15960.0860.1200.1940.1460.1630.1920.1730.1780.185
+R30.10070.15560.19960.15770.16480.20190.15360.16390.18960.1140.1540.2010.1570.1840.2200.1770.1780.204
+R40.08300.14830.18180.12780.14720.17290.12950.18020.19910.0930.1510.2180.1500.1660.1930.1880.2000.214
+R50.07550.16330.18780.14150.15870.19240.17070.17390.19630.0930.1880.2180.1680.1690.2090.2410.2050.204
+AR0.08750.13920.18280.13750.14930.18030.13460.16480.18390.1000.1460.2030.1520.1650.1980.1830.1870.199
+CR50.52020.91691.31490.90421.00441.28940.87481.14351.32490.6130.9761.5211.0321.1461.4641.3111.3541.479
+SAAR-0.0385-0.00520.02930.00090.01450.0330-0.01210.02030.0324-0.039-0.0090.0220.0020.0090.0330.0030.0230.030
+Table 2 · B/M-C/P · Replication versus paperExpand tableTable 2 · B/M-C/P · Replication versus paper
+My resultsPublished paper
+Statistic1,11,21,32,12,22,33,13,23,31,11,21,32,12,22,33,13,23,3
+R10.10180.12790.12030.11070.13240.15350.15910.14950.18150.1110.1530.1410.1010.1440.1710.1700.1610.194
+R20.07480.14590.15710.10760.14510.16240.16120.16000.17070.0850.1640.1720.1110.1600.1810.1740.1730.189
+R30.10350.15740.17730.14000.16470.17890.17440.19370.19650.1110.1720.1790.1470.1770.1910.1920.2060.207
+R40.09030.12530.14880.13620.15440.17530.15120.16930.20990.1010.1530.1870.1550.1680.2000.1770.1950.219
+R50.08940.13950.13200.16190.16520.18050.18610.18540.19500.1080.1620.2500.1840.1780.2080.2330.2010.209
+AR0.09190.13920.14710.13130.15230.17010.16640.17160.19070.1030.1610.1860.1390.1650.1900.1890.1870.203
+CR50.55200.91800.98470.85131.03141.19321.15831.20631.39280.6331.1081.3390.9171.1481.3871.3781.3551.524
+SAAR-0.03640.00290.0039-0.01200.01490.02710.01320.02140.0400-0.0370.0070.018-0.0210.0110.0260.0060.0200.037
+Returns in decimals. Published Table II: printed pp. 1552–1553. Complete results retain all nine intersections for each pair.Extreme-portfolio raw and size-adjusted annual spreads for each independent two-dimensional sort.
+Q2-1 / Cross-sectional regressions
+Table IV · Returns regressed on characteristics
+Nine specifications are estimated separately for each of the 22 April formation years. The dependent variable is the stock's following one-year raw buy-and-hold return.
+The table reports the average annual coefficient, with its time-series t-statistic in parentheses.
+Regressors and inference
+SIZE is log April market equity in USD millions. E/P+ and C/P+ equal their positive ratios and zero otherwise;
+DE/P and DC/P indicate negative earnings and cash flow. Missing ratios remain missing. Negative-ratio firms are retained in the regressions when their required characteristics are available.
+The two univariate positive-part specifications have no negative dummy, matching the displayed models; the multivariate specifications include the displayed dummy.
+Each annual regression uses complete observations for its own regressors, with an intercept and no winsorization. Standard errors equal the time-series standard deviation
+of the annual coefficient divided by the square root of 22. An all-zero negative-ratio dummy is unavailable for that annual fit; other slopes remain estimated. Each coefficient uses its own number of identified years for time-series inference. Other rank deficiencies cause an error.
+My results · Table IV · Annual cross-sectional regressionsExpand tableMy results · Table IV · Annual cross-sectional regressions
+ModelInt.GSB/MSIZEE/P+DE/PC/P+DC/P
+10.197-0.119——————
+(3.49)(-2.63)
+20.104—0.029—————
+(2.00)(2.84)
+30.157——-0.007————
+(1.80)(-0.79)
+40.118———0.238———
+(2.02)(1.57)
+50.111—————0.159—
+(1.99)(2.77)
+60.166-0.1130.007———0.142-0.019
+(3.40)(-3.01)(0.77)(2.52)(-0.57)
+70.127—0.015-0.005——0.089-0.010
+(1.46)(1.61)(-0.63)(2.06)(-0.38)
+80.187-0.0910.004-0.007——0.132-0.025
+(2.38)(-2.35)(0.52)(-0.82)(2.79)(-1.04)
+90.199-0.0920.014-0.0080.111-0.040——
+(2.47)(-2.43)(1.67)(-0.94)(0.83)(-2.25)
+Comparison with the original paper
+Table IV · All coefficient and t-statistic comparisonsExpand tableTable IV · All coefficient and t-statistic comparisons
+My resultsPublished paperMy − paper
+ModelTermCoefficienttCoefficienttDifference
+1intercept0.1973.4870.1803.2510.017
+1gs-0.119-2.626-0.061-2.200-0.058
+2intercept0.1042.0050.1082.167-0.004
+2bm0.0292.8390.0392.132-0.010
+3intercept0.1571.8020.1852.140-0.028
+3size-0.007-0.786-0.009-1.0950.002
+4intercept0.1182.0210.1102.0290.008
+4ep_positive0.2381.5680.5262.541-0.288
+5intercept0.1111.9880.0991.8730.012
+5cp_positive0.1592.7650.3564.240-0.197
+6intercept0.1663.4040.1292.5840.037
+6gs-0.113-3.010-0.058-2.832-0.055
+6bm0.0070.7750.0060.3300.001
+6cp_positive0.1422.5230.3013.697-0.159
+6cp_negative-0.019-0.569-0.029-1.2220.010
+7intercept0.1271.4550.1431.562-0.016
+7bm0.0151.6080.0090.5650.006
+7size-0.005-0.626-0.009-1.1480.004
+7cp_positive0.0892.0620.2804.223-0.191
+7cp_negative-0.010-0.375-0.032-1.6250.022
+8intercept0.1872.3820.1691.9470.018
+8gs-0.091-2.355-0.044-2.125-0.047
+8bm0.0040.5250.0000.0050.004
+8size-0.007-0.819-0.009-1.0620.002
+8cp_positive0.1322.7870.2964.553-0.164
+8cp_negative-0.025-1.043-0.036-1.6250.011
+9intercept0.1992.4690.1721.9610.027
+9gs-0.092-2.426-0.051-2.527-0.041
+9bm0.0141.6740.0161.036-0.002
+9size-0.008-0.936-0.009-1.0650.001
+9ep_positive0.1110.8270.3942.008-0.283
+9ep_negative-0.040-2.246-0.032-1.940-0.008
+Published Table IV: printed p. 1558. The complete comparison includes all 32 coefficients and their t-statistics. SIZE slopes depend on the stated unit of market equity.Single-characteristic regression slopes, with 1.96 standard-error bands based on the time series of annual coefficients. Slopes have different units across panels.
+Q2-1 / Extrapolation and fundamentals
+Table V · Fundamentals, past growth, and future growth
+Glamour and value portfolios are the B/M extremes (deciles 1 and 10), and the C/P–GS extremes (groups 1,3 and 3,1).
+Panel A reports valuation ratios and average size; Panel B reports past growth and the previous three-year stock return; Panel C reports subsequent accounting growth.
+Accounting-growth implementation. Relative accounting year 0 is the preformation year t−1.
+For each annual transition, paired observations use a fixed ownership proportion equal to the inverse of market equity at the April starting the base relative year.
+Accounting amounts per dollar are averaged within portfolios and then across formation cohorts before growth rates are calculated.
+Geometric averages combine these annual transition growth rates. The paper does not fully specify missing-outcome handling or the exact price observation used in every transition;
+these conventions are stated so the numerical comparisons can be assessed.
+Outcome availability and past returns
+Fundamental ratios retain negative accounting amounts and are first averaged within each formation cohort.
+Growth uses the same firms on both sides of each annual transition; future accounting availability never affects formation membership.
+Market equity for later accounting outcomes is read from the separate extended legacy cache, through April 1993; accounts extend through 1993.
+These later observations do not extend the April 1990 holding-return cutoff.
+Past performance is the equal-weighted mean of individual three-year buy-and-hold returns from May t−3 through April t, using complete 36-month stock histories.
+Missing returns are not filled. Undefined geometric growth from a nonpositive aggregate accounting level is displayed as a dash and retained with an explanation in the saved calculation.
+Observed difference from the published sample. There are 10 undefined statistics in this Table V calculation because aggregate earnings or cash-flow levels are nonpositive. The baseline retains negative-book-equity firms: its B/M glamour portfolio has average B/M -0.048, versus 0.225 in the paper. These cells are not numerical replications of the published growth statistics. No extra positivity filter or winsorization has been selected to force agreement.
+My results · Table V · Fundamentals and performanceExpand tableMy results · Table V · Fundamentals and performance
+B/MC/P-GS
+MetricGlamourValueGlamourValue
+E/P-0.198-0.0350.0490.116
+C/P-0.0600.2380.0780.325
+S/P2.0629.7241.2736.611
+D/P0.0170.0370.0130.044
+B/M-0.0482.6310.4031.554
+SIZE847.76132.00727.15623.36
+AEG(-5,0)—-0.3340.2990.185
+ACG(-5,0)0.672-0.0260.2580.064
+ASG(-5,0)0.0340.0550.2100.026
+RETURN(-3,0)1.573-0.0961.4240.234
+AEG(0,5)———0.378
+ACG(0,5)——0.1400.057
+ASG(0,5)0.032-0.0280.0890.033
+AEG(2,5)———1.137
+ACG(2,5)0.404—0.1710.162
+ASG(2,5)0.017-0.0400.0590.035
+Comparison with the original paper
+Table V · Replication versus paperExpand tableTable V · Replication versus paper
+My resultsPublished paper
+MetricB/M GB/M VC/P-GS GC/P-GS VB/M GB/M VC/P-GS GC/P-GS V
+E/P-0.198-0.0350.0490.1160.0290.0040.0540.114
+C/P-0.0600.2380.0780.3250.0590.1720.0800.279
+S/P2.0629.7241.2736.6110.9936.8491.1155.279
+D/P0.0170.0370.0130.0440.0120.0320.0140.039
+B/M-0.0482.6310.4031.5540.2251.9980.3851.414
+SIZE847.76132.00727.15623.36663.00120.00681.00390.00
+AEG(-5,0)—-0.3340.2990.1850.309-0.2740.1420.082
+ACG(-5,0)0.672-0.0260.2580.0640.217-0.0130.2100.078
+ASG(-5,0)0.0340.0550.2100.0260.0910.0300.1120.013
+RETURN(-3,0)1.573-0.0961.4240.2341.455-0.1191.3900.225
+AEG(0,5)———0.3780.0500.4360.0890.086
+ACG(0,5)——0.1400.0570.1270.0700.1120.052
+ASG(0,5)0.032-0.0280.0890.0330.0620.0200.1000.037
+AEG(2,5)———1.1370.0700.2150.0840.147
+ACG(2,5)0.404—0.1710.1620.0860.1110.0950.088
+ASG(2,5)0.017-0.0400.0590.0350.0590.0230.0820.038
+Published Table V: printed p. 1560. Ratios, growth rates, and cumulative returns are decimals. SIZE is USD millions.
+AEG, ACG, and ASG denote geometric average growth of earnings, cash flow, and sales.C/P-GS portfolio accounting growth. Bars are calculated results; black marks are published values. Undefined growth from nonpositive aggregate levels is left blank.
+Q2-1 / Consistency over time
+Table VI · Year-by-year value-minus-glamour returns
+Each row follows portfolios formed in that April for one, three or five complete years. Returns on each value and glamour leg are compounded separately before subtraction.
+Later formations are omitted only from horizons that cannot finish by April 1990; constituent stocks need not survive for the full horizon.
+Portfolio definition and inference. C/P and B/M combine stocks from deciles 9/10 versus 1/2 with equal initial stock weights.
+The B/M choice follows the column heading and surrounding text on p. 1566; its caption instead says decile 10 versus 1. That alternative is saved as a sensitivity.
+C/P–GS uses groups 3,1 versus 1,3. Hansen–Hodrick standard errors use rectangular weights, lags 0/2/4 for one/three/five-year horizons, and an n/(n−1) correction.
+A nonpositive estimated long-run variance is left undefined rather than replaced with a different estimator.
+The stated HH estimator does not reproduce every published multi-year t-statistic when applied to the paper's rounded cohort returns; this discrepancy is retained in the inference audit. The published t-statistics below are transcribed, not reconstructed.
+For C/P–GS, value outperforms glamour in 17 of 22 one-year cohorts and 18 of 18 complete five-year cohorts.
+The worst calculated one-year spread is -18.70 percentage points. These are descriptive outcomes under the stated construction rules.
+My results · Table VI · Cohort value-minus-glamour returnsExpand tableMy results · Table VI · Cohort value-minus-glamour returns
+C/P tailsC/P-GSB/M tails
+Formation1-year3-year5-year1-year3-year5-year1-year3-year5-year
+19680.0220.3140.5000.1130.2880.4370.0750.2050.334
+19690.1260.2460.4330.1510.1230.4500.0660.0560.303
+19700.1640.2380.4000.0600.3440.5480.0260.0310.292
+1971-0.0820.2150.422-0.0910.2800.576-0.1150.1600.465
+19720.1610.3230.7380.1860.4720.9360.1060.3400.804
+19730.0380.3360.8900.1370.6011.2440.0690.4540.982
+1974-0.0130.5731.4200.0800.7201.5030.0290.6621.662
+19750.2940.9631.2140.3831.1451.1020.4391.1261.301
+19760.2360.7691.6840.2150.5820.8910.1640.7251.111
+19770.2150.2490.7510.2270.0450.6400.2020.1700.621
+19780.043-0.1270.210-0.008-0.0940.189-0.027-0.3570.122
+1979-0.185-0.1330.226-0.1870.0320.655-0.200-0.1140.606
+1980-0.0380.7271.323-0.0081.0251.684-0.0601.0691.751
+19810.2590.7381.8200.2480.9852.2560.2110.8042.044
+1982-0.0140.3811.1490.1580.6051.7450.2600.6501.463
+19830.2080.3760.8050.2770.6501.4220.2220.2730.537
+19840.1770.4250.7790.0460.5550.9580.0340.2500.525
+1985-0.0100.2450.510-0.0820.3660.543-0.0040.2040.306
+19860.0560.299—0.1410.444—0.0080.128—
+19870.0980.248—0.1550.362—0.0760.100—
+19880.076——0.114——0.010——
+1989-0.103——0.016——-0.171——
+Average0.0790.3700.8490.1060.4760.9880.0650.3470.846
+t-statistic2.9005.43522.7753.7485.0629.2852.0673.19723.107
+Comparison with the original paper
+Table VI · C/P tails · Replication versus paperExpand tableTable VI · C/P tails · Replication versus paper
+My resultsPublished paper
+Formation1-year3-year5-year1-year3-year5-year
+19680.0220.3140.5000.0220.2870.474
+19690.1260.2460.4330.1230.1950.410
+19700.1640.2380.4000.1350.2460.428
+1971-0.0820.2150.422-0.0780.2310.478
+19720.1610.3230.7380.1550.3190.693
+19730.0380.3360.8900.0210.3820.846
+1974-0.0130.5731.420-0.0070.4961.343
+19750.2940.9631.2140.2620.8161.310
+19760.2360.7691.6840.1740.6731.468
+19770.2150.2490.7510.1930.2470.764
+19780.043-0.1270.2100.048-0.1060.272
+1979-0.185-0.1330.226-0.168-0.1020.274
+1980-0.0380.7271.3230.0390.7451.225
+19810.2590.7381.8200.2030.6501.584
+1982-0.0140.3811.149-0.0320.3381.253
+19830.2080.3760.8050.2040.3320.851
+19840.1770.4250.7790.1920.5520.888
+1985-0.0100.2450.5100.0140.3220.576
+19860.0560.299—0.1080.339—
+19870.0980.248—0.0930.170—
+19880.076——0.092——
+1989-0.103——-0.063——
+Average0.0790.3700.8490.0790.3570.841
+t-statistic2.9005.43522.7753.3796.1647.630
+Table VI · C/P-GS · Replication versus paperExpand tableTable VI · C/P-GS · Replication versus paper
+My resultsPublished paper
+Formation1-year3-year5-year1-year3-year5-year
+19680.1130.2880.4370.1440.1530.267
+19690.1510.1230.4500.065-0.1430.283
+19700.0600.3440.5480.0020.1600.356
+1971-0.0910.2800.576-0.1440.1960.531
+19720.1860.4720.9360.1340.3620.932
+19730.1370.6011.2440.1520.7021.416
+19740.0800.7201.5030.0690.6501.597
+19750.3831.1451.1020.3791.1151.229
+19760.2150.5820.8910.2170.7151.235
+19770.2270.0450.6400.2190.1490.844
+1978-0.008-0.0940.1890.039-0.0720.581
+1979-0.1870.0320.655-0.1760.0980.757
+1980-0.0081.0251.6840.1101.2462.000
+19810.2480.9852.2560.2360.9402.134
+19820.1580.6051.7450.1180.5391.886
+19830.2770.6501.4220.2520.5781.470
+19840.0460.5550.9580.0520.6411.092
+1985-0.0820.3660.543-0.0320.5310.708
+19860.1410.444—0.1960.427—
+19870.1550.362—0.1110.290—
+19880.114——0.089——
+19890.016——0.010——
+Average0.1060.4760.9880.1020.4641.073
+t-statistic3.7485.0629.2853.7464.5245.939
+Table VI · B/M tails · Replication versus paperExpand tableTable VI · B/M tails · Replication versus paper
+My resultsPublished paper
+Formation1-year3-year5-year1-year3-year5-year
+19680.0750.2050.3340.0980.2010.344
+19690.0660.0560.3030.0740.0700.303
+19700.0260.0310.2920.0230.0320.279
+1971-0.1150.1600.465-0.1080.1560.463
+19720.1060.3400.8040.0980.3280.784
+19730.0690.4540.9820.0420.4500.925
+19740.0290.6621.6620.0500.6421.726
+19750.4391.1261.3010.4181.0341.182
+19760.1640.7251.1110.1320.7270.993
+19770.2020.1700.6210.1950.1810.614
+1978-0.027-0.3570.1220.037-0.2640.286
+1979-0.200-0.1140.606-0.207-0.1230.569
+1980-0.0601.0691.751-0.0341.0661.676
+19810.2110.8042.0440.1850.8101.955
+19820.2600.6501.4630.2400.5891.477
+19830.2220.2730.5370.2210.2560.648
+19840.0340.2500.5250.0430.3240.640
+1985-0.0040.2040.306-0.0070.2370.299
+19860.0080.128—0.0510.149—
+19870.0760.100—0.0780.015—
+19880.010——-0.037——
+1989-0.171——-0.207——
+Average0.0650.3470.8460.0630.3440.842
+t-statistic2.0673.19723.1072.0763.4757.104
+Published Table VI: printed p. 1565. Complete comparisons retain all formation years, horizon returns, average returns, and t-statistics.
+A dash in a late cohort means that its full holding horizon exceeds the original return cutoff.
+Figure 2 · Annual C/P–GS value-minus-glamour performanceR denotes a May-April holding window overlapping the versioned NBER peak-to-trough dates, including the peak month; D denotes a negative CRSP equally weighted index buy-and-hold return over that window. The R convention may differ from printed marker placement.
+These annual returns are exactly the one-year C/P–GS column of Table VI. The figure compares the frequency and timing of gains with the published series.
+Persistence alone does not establish a risk-based or behavioral explanation.
+Q2-2 / Exchange universes
+NYSE and NYSE/AMEX/Nasdaq
+Both universes use the same shared CRSP/Compustat/CCM vintage, April formation dates, accounting definitions and holding-return endpoints. Ranks and size benchmarks are recomputed for each selected stock universe. The broader universe adds AMEX and Nasdaq as their historical exchange codes become available.
+Table I spreads subtract glamour from value (decile 10 minus 1 for valuation ratios; 1 minus 10 for GS). Table VI uses pooled 9/10 minus 1/2 tails for C/P and B/M, so those spreads are different portfolio definitions. The B/M 10−1 sensitivity is labelled separately. All differences below are descriptive comparisons between overlapping stock universes.
+Comparison spreads and differences are in percentage points. AR averages the five annual holding-horizon means; SAAR averages the corresponding size-adjusted means. Table VI three- and five-year spreads are cumulative rather than annualized. N counts complete formation cohorts.
+Q2-2 · Table I value-minus-glamour comparisonExpand tableQ2-2 · Table I value-minus-glamour comparison
+SignalStatisticNYSENYSE/AMEX/NasdaqNYSE/AMEX/Nasdaq − NYSE
+B/MR16.9112.045.13
+B/MAR7.6310.572.94
+B/MSAAR3.256.473.22
+C/PR18.3311.132.80
+C/PAR7.889.701.82
+C/PSAAR4.657.122.47
+E/PR14.676.672.00
+E/PAR5.136.631.49
+E/PSAAR2.664.591.93
+GSR14.066.522.45
+GSAR2.793.130.35
+GSSAAR0.820.43-0.39
+Q2-2 · Table VI premium and inference comparisonExpand tableQ2-2 · Table VI premium and inference comparison
+NYSENYSE/AMEX/NasdaqNYSE/AMEX/Nasdaq − NYSE
+StrategyYearsMean (pp)tNMean (pp)tNDifference (pp)
+C/P tails16.182.70619.123.76612.94
+C/P tails324.103.625935.284.455911.19
+C/P tails544.163.775763.663.875719.50
+C/P-GS17.273.00619.023.75611.74
+C/P-GS326.193.855931.314.14595.12
+C/P-GS549.213.445758.163.83578.95
+B/M tails16.332.496110.654.33614.32
+B/M tails323.733.085940.224.365916.49
+B/M tails544.943.515773.384.525728.44
+B/M 10−1 (sensitivity)16.912.106112.044.17615.13
+B/M 10−1 (sensitivity)329.072.935947.874.315918.80
+B/M 10−1 (sensitivity)552.583.495787.444.295734.85Table I average annual decile returns, using each case's complete horizons. GS runs from value to glamour; valuation-ratio deciles run from glamour to value.Table II extreme-portfolio annual raw and size-adjusted spreads for all five independent double sorts.Table VI average cohort spreads with 1.96 Hansen–Hodrick standard-error bands. Three- and five-year returns are cumulative, not annualized. These bands describe each mean; they do not test the difference between samples.Complete Tables I, II, IV, V, VI and Figure 2 for each caseShow results forNYSENYSE/AMEX/Nasdaq
+NYSE
+April formations 1963–2023; holding returns end 2024-04-30. Table V future growth uses 58 complete five-year follow-up cohorts, with outcomes through 2024; 13 growth cells are undefined because aggregate accounting levels are nonpositive. 164 formation observations have non-USD accounts without currency conversion. Table IV annual negative-ratio dummies with no negative observations remain unavailable: model 6 cp_negative: 60/61 years; model 8 cp_negative: 60/61 years. Other slopes retain their identified annual estimates.
+The complete tables use decimal returns and growth rates; 0.1000 means 10%. SIZE is USD millions. The comparison summaries above use percentage points. Expand any table to display all rows.
+Q2-2 · NYSE · Table 1 · B/MExpand tableQ2-2 · NYSE · Table 1 · B/M
+Statistic12345678910
+R10.13600.11510.12930.12210.12280.12880.13990.15350.17380.2050
+R20.11610.10890.13180.13100.14220.13950.15020.16070.16180.2077
+R30.10970.11960.12500.13060.13640.14700.14440.15620.17240.1969
+R40.11690.11290.12490.12830.14160.14200.14140.15430.18060.1876
+R50.11350.12190.13100.13330.13140.14080.15520.16350.17400.1766
+AR0.11840.11570.12840.12910.13490.13960.14620.15760.17250.1948
+CR50.74980.72860.82940.83480.88240.92210.97851.07901.21581.4340
+SAAR-0.0081-0.0118-0.0019-0.0031-0.00030.00260.00460.01030.01780.0244
+Q2-2 · NYSE · Table 1 · C/PExpand tableQ2-2 · NYSE · Table 1 · C/P
+Statistic12345678910
+R10.11340.12610.11710.12810.13850.12810.14310.15550.16720.1968
+R20.09860.11680.12500.13870.13880.15100.15040.16450.17290.1939
+R30.10740.11620.13280.13330.14080.14660.14750.15420.17340.1866
+R40.11700.11560.12300.13100.13790.13940.14450.15190.16390.1965
+R50.11510.11710.13190.13580.14540.14400.14330.15840.16750.1717
+AR0.11030.11830.12600.13340.14030.14190.14580.15690.16900.1891
+CR50.68720.74930.80960.87000.92770.94090.97441.07241.18271.3770
+SAAR-0.0184-0.0114-0.0064-0.00170.00380.00330.00600.01340.01890.0281
+Q2-2 · NYSE · Table 1 · E/PExpand tableQ2-2 · NYSE · Table 1 · E/P
+Statistic12345678910
+R10.12440.12060.12360.11960.12460.13710.14990.15070.16490.1711
+R20.12070.12240.12980.12880.14230.14480.14770.16000.16790.1689
+R30.12410.11910.13000.14160.14290.14840.14190.15270.15960.1788
+R40.11590.11400.12640.13250.13110.13570.14690.15110.17220.1773
+R50.12510.12240.13370.12610.13750.14260.14610.15190.16870.1707
+AR0.12200.11970.12870.12970.13570.14170.14650.15330.16670.1734
+CR50.77840.75990.83190.83990.88900.93980.98111.04021.16131.2242
+SAAR-0.0112-0.0106-0.0030-0.00420.00170.00590.00890.01010.01940.0154
+Q2-2 · NYSE · Table 1 · GSExpand tableQ2-2 · NYSE · Table 1 · GS
+Statistic12345678910
+R10.16940.15910.14400.14880.14210.14920.14590.14110.13340.1287
+R20.16120.15780.14970.14720.14070.14380.14290.14230.14530.1336
+R30.14740.15990.15210.14820.13160.14990.14370.13070.13240.1322
+R40.15280.14930.14570.14330.14530.14030.14050.13410.12690.1262
+R50.15670.15190.14840.13960.14560.13930.14000.13720.13590.1275
+AR0.15750.15560.14800.14540.14110.14450.14260.13710.13480.1296
+CR51.07761.06090.99400.97150.93440.96390.94740.90080.88180.8394
+SAAR0.00270.01000.00740.00680.00350.00710.00580.00190.0013-0.0055
+Q2-2 · NYSE · Table 2 · C/P-GSExpand tableQ2-2 · NYSE · Table 2 · C/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12680.13010.11150.13950.13340.12710.18430.17680.1583
+R20.12250.11990.11050.14660.14050.14470.18750.16990.1706
+R30.12150.12440.11360.14440.13460.14020.18360.17160.1548
+R40.12710.11460.11140.13790.13980.13240.17390.16730.1578
+R50.13520.11530.11390.13830.14200.13970.17220.15860.1562
+AR0.12660.12080.11220.14140.13810.13680.18030.16880.1595
+CR50.81500.76890.70170.93690.90900.89851.29051.18151.0959
+SAAR-0.0098-0.0070-0.01450.00070.00300.00240.02500.02010.0143
+Q2-2 · NYSE · Table 2 · E/P-GSExpand tableQ2-2 · NYSE · Table 2 · E/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12760.13330.11320.13930.13400.12450.17070.17080.1520
+R20.14120.12240.11560.14600.14110.13780.17080.16240.1641
+R30.13030.12850.11480.15250.13880.13990.17240.16320.1500
+R40.12160.11950.10830.13600.13680.13360.17740.16370.1531
+R50.14410.12420.10980.13810.13590.13690.17130.15960.1564
+AR0.13300.12560.11230.14240.13730.13450.17250.16400.1551
+CR50.86660.80680.70270.94540.90280.87951.21601.13641.0563
+SAAR-0.0076-0.0030-0.01380.00560.00360.00090.01790.01740.0109
+Q2-2 · NYSE · Table 2 · B/M-GSExpand tableQ2-2 · NYSE · Table 2 · B/M-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12380.13010.13200.12750.13410.12610.19740.17780.1557
+R20.12780.11530.12330.13150.14520.14230.19160.16600.1707
+R30.11360.12390.11270.13830.13640.13970.18730.17160.1594
+R40.11930.12350.11040.14120.13120.13430.16910.17790.1615
+R50.13260.11740.11820.14800.13650.13750.16770.16840.1655
+AR0.12340.12200.11930.13730.13670.13600.18260.17230.1626
+CR50.78930.77830.75670.90240.89740.89151.31281.21441.1236
+SAAR-0.0085-0.0038-0.0065-0.00080.00200.00120.02060.01900.0117
+Q2-2 · NYSE · Table 2 · E/P-B/MExpand tableQ2-2 · NYSE · Table 2 · E/P-B/M
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11820.12070.15090.13310.11960.15690.15400.15510.1699
+R20.10470.13190.17000.13220.13350.16820.18980.15500.1694
+R30.11010.13530.16140.13490.13730.16610.14400.14490.1783
+R40.10570.12580.16470.12840.13170.15720.15060.15140.1767
+R50.11220.13710.17070.12790.13270.16070.15350.15450.1699
+AR0.11020.13010.16360.13130.13100.16180.15840.15220.1728
+CR50.68630.84351.13250.85290.85021.11681.08481.03051.2191
+SAAR-0.0134-0.00660.00640.0010-0.00140.01440.01490.01220.0177
+Q2-2 · NYSE · Table 2 · B/M-C/PExpand tableQ2-2 · NYSE · Table 2 · B/M-C/P
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11880.13440.15900.11540.12350.15370.15070.15480.1814
+R20.10630.14040.16360.12420.13820.16340.15560.15630.1860
+R30.11270.13290.14520.13060.13620.14740.14630.15730.1866
+R40.11180.12650.14550.13360.13320.14980.14940.15480.1837
+R50.11300.12930.16420.13000.13600.15540.16850.16790.1689
+AR0.11250.13270.15550.12680.13340.15400.15410.15820.1813
+CR50.70420.86451.05950.81610.87031.04611.04741.08421.3003
+SAAR-0.01190.00210.0123-0.0107-0.00080.0148-0.00220.00780.0238
+Q2-2 · NYSE · Table IV · Annual cross-sectional regressionsExpand tableQ2-2 · NYSE · Table IV · Annual cross-sectional regressions
+ModelInt.GSB/MSIZEE/P+DE/PC/P+DC/P
+10.173-0.055——————
+(4.81)(-1.81)
+20.127—0.016—————
+(4.51)(2.52)
+30.238——-0.016————
+(3.25)(-2.20)
+40.133———0.134———
+(4.32)(1.88)
+50.124—————0.132—
+(4.30)(3.30)
+60.132-0.0360.006———0.1460.031
+(4.34)(-1.30)(0.83)(3.77)(1.04)
+70.213—-0.004-0.014——0.1150.005
+(3.36)(-0.67)(-2.35)(3.73)(0.24)
+80.228-0.021-0.003-0.015——0.1260.009
+(3.65)(-0.86)(-0.41)(-2.49)(3.51)(0.41)
+90.236-0.0190.006-0.0150.0570.015——
+(3.77)(-0.78)(0.81)(-2.56)(0.78)(0.86)
+Q2-2 · NYSE · Table V · Fundamentals and performanceExpand tableQ2-2 · NYSE · Table V · Fundamentals and performance
+B/MC/P-GS
+MetricGlamourValueGlamourValue
+E/P-0.420-0.2250.0380.094
+C/P-0.2660.1100.0610.303
+S/P2.5877.0210.8694.445
+D/P0.0300.0470.0110.054
+B/M-0.5822.5730.3221.145
+SIZE7276.791867.278149.403704.59
+AEG(-5,0)——0.272—
+ACG(-5,0)—-0.0220.231-0.029
+ASG(-5,0)-0.0210.0400.194-0.001
+RETURN(-3,0)1.089-0.1071.1740.190
+AEG(0,5)——0.382—
+ACG(0,5)——0.0520.079
+ASG(0,5)-0.013-0.0430.0900.005
+AEG(2,5)——0.649—
+ACG(2,5)0.142—0.0160.303
+ASG(2,5)0.003-0.0450.0580.017
+Q2-2 · NYSE · Table VI · Cohort value-minus-glamour returnsExpand tableQ2-2 · NYSE · Table VI · Cohort value-minus-glamour returns
+C/P tailsC/P-GSB/M tails
+Formation1-year3-year5-year1-year3-year5-year1-year3-year5-year
+19630.1130.6270.9970.0910.1190.3840.0710.7631.434
+19640.1140.3390.8590.064-0.0270.3800.0530.3260.920
+19650.0200.1800.064-0.187-0.107-0.1260.1360.4420.202
+1966-0.0730.3760.340-0.1200.1920.121-0.0840.4690.318
+19670.1000.1930.3050.1450.3170.2900.1820.2660.196
+19680.1230.1740.2480.1540.1930.2920.1790.0760.065
+1969-0.000-0.0520.1700.082-0.0720.301-0.026-0.1740.073
+19700.1340.0610.244-0.0010.1730.4510.043-0.1430.185
+1971-0.1650.0720.304-0.1310.2070.637-0.1920.0500.352
+19720.1200.2870.7750.1280.4671.0570.0640.3540.926
+19730.0690.4541.0220.1630.7301.4530.1020.5231.128
+19740.0260.7201.5310.1320.9581.9280.0450.7991.622
+19750.2740.9371.3240.3801.2491.3700.3761.1211.382
+19760.2600.7121.5160.2760.6671.1610.2600.7971.340
+19770.2100.3430.6990.2080.1230.5970.1540.2190.446
+19780.0300.0620.060-0.010-0.0150.4100.072-0.0180.112
+1979-0.089-0.0900.247-0.133-0.0100.427-0.157-0.1830.247
+1980-0.0300.3770.809-0.0230.8021.480-0.0370.5551.046
+19810.2480.5441.4440.1990.6351.6620.1660.4701.316
+1982-0.1480.2130.5920.0440.2370.9950.0550.3250.863
+19830.2160.3080.6990.2830.4201.2450.2390.1820.469
+19840.2460.4700.7930.0110.4850.9640.0330.0680.433
+1985-0.0470.1780.332-0.1070.3670.460-0.0430.1160.219
+19860.0360.1870.1480.1590.3690.331-0.0060.154-0.085
+19870.0710.1140.0320.1280.2450.1890.0800.029-0.156
+19880.098-0.0990.0710.1410.1620.4150.043-0.290-0.071
+1989-0.111-0.154-0.0420.0080.0450.173-0.209-0.288-0.096
+1990-0.134-0.0350.057-0.0540.1790.242-0.1480.0960.275
+19910.0050.3280.4760.0520.5510.6660.1510.5500.974
+19920.1390.2740.5400.1990.3650.5870.1810.3860.849
+1993-0.037-0.0180.3220.0410.084-0.0030.0890.2040.740
+1994-0.0160.0160.092-0.0150.049-0.025-0.0210.152-0.041
+1995-0.0620.236-0.085-0.0690.156-0.785-0.1000.202-0.411
+19960.0480.010-0.0650.009-0.034-0.1920.025-0.0110.111
+19970.016-0.235-0.1720.008-0.311-0.2980.050-0.1710.247
+1998-0.118-0.097-0.054-0.041-0.214-0.219-0.184-0.0740.217
+1999-0.1180.2120.6370.018-0.0120.184-0.0260.2820.795
+20000.1900.6011.8040.0680.1891.1040.1620.5891.821
+20010.3570.7321.1360.1850.6101.0840.4250.9151.630
+2002-0.0320.4601.0710.0320.4420.956-0.0870.3031.090
+20030.3721.0401.2740.3851.0231.5230.4101.2061.134
+20040.1500.3540.1780.0970.4000.1540.0430.369-0.004
+2005-0.0020.0300.156-0.0090.0680.1390.033-0.0770.129
+20060.061-0.1210.1450.182-0.0670.0230.059-0.151-0.080
+2007-0.0860.009-0.035-0.1200.019-0.041-0.160-0.023-0.149
+20080.0110.2800.5520.0070.3370.679-0.0540.1690.525
+20090.6220.7051.5430.8130.7771.9240.9300.6452.031
+2010-0.0130.1090.126-0.0550.1890.212-0.0590.0010.029
+2011-0.0270.1520.221-0.0670.2300.191-0.0470.1760.194
+20120.1000.1610.0820.2290.4450.6530.0740.0860.232
+20130.161-0.1050.0130.1610.1790.2000.090-0.0520.104
+2014-0.066-0.194-0.453-0.046-0.030-0.130-0.131-0.060-0.273
+2015-0.129-0.263-0.580-0.045-0.048-0.301-0.050-0.061-0.522
+20160.039-0.056-0.1480.061-0.092-0.087-0.029-0.362-0.904
+2017-0.075-0.261-0.020-0.079-0.479-0.174-0.007-0.398-0.221
+2018-0.139-0.0800.229-0.152-0.1640.376-0.193-0.384-0.091
+2019-0.3340.6400.550-0.3560.4490.362-0.2080.3010.300
+20200.7451.541—0.7161.015—0.5891.684—
+20210.2180.259—0.2880.215—0.4060.499—
+2022-0.034——-0.058——0.013——
+20230.114——-0.034——0.036——
+Average0.0620.2410.4420.0730.2620.4920.0630.2370.449
+t-statistic2.7013.6223.7692.9983.8523.4432.4883.0813.509
+Figure 2 · Annual C/P–GS performanceR denotes a May-April holding window overlapping the versioned NBER peak-to-trough dates, including the peak month; D denotes a negative CRSP equally weighted index buy-and-hold return over that window. The R convention may differ from printed marker placement.
+NYSE/AMEX/Nasdaq
+April formations 1963–2023; holding returns end 2024-04-30. Table V future growth uses 58 complete five-year follow-up cohorts, with outcomes through 2024; 16 growth cells are undefined because aggregate accounting levels are nonpositive. 509 formation observations have non-USD accounts without currency conversion.
+The complete tables use decimal returns and growth rates; 0.1000 means 10%. SIZE is USD millions. The comparison summaries above use percentage points. Expand any table to display all rows.
+Q2-2 · NYSE/AMEX/Nasdaq · Table 1 · B/MExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 1 · B/M
+Statistic12345678910
+R10.11610.10090.11700.11570.12720.14000.15240.16700.19500.2365
+R20.09460.10030.12300.13120.14430.15820.16600.17140.19710.2300
+R30.10310.12220.12650.13710.13710.15650.16200.17580.18820.2168
+R40.12070.12770.12930.13410.14610.14820.15910.16540.17330.1964
+R50.10970.12310.13790.13440.15010.15460.16330.16570.17780.1929
+AR0.10890.11490.12670.13050.14100.15150.16050.16910.18630.2145
+CR50.67610.72180.81590.84650.93331.02421.10521.18361.34881.6414
+SAAR-0.0252-0.0152-0.0033-0.00140.00650.01510.01820.01940.02840.0395
+Q2-2 · NYSE/AMEX/Nasdaq · Table 1 · C/PExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 1 · C/P
+Statistic12345678910
+R10.10740.11670.13210.13970.14480.14850.14950.17040.18850.2187
+R20.10260.11130.13100.14600.15200.15310.16410.17540.19260.2251
+R30.10960.12580.13850.14220.14740.14960.16030.17290.19010.2215
+R40.12770.12300.13560.13050.14080.14580.15340.16290.18440.2125
+R50.13380.12670.13850.14290.14040.15240.15990.16060.17990.1885
+AR0.11620.12070.13510.14030.14510.14990.15740.16840.18710.2132
+CR50.73210.76780.88480.92770.96861.01021.07711.17771.35711.6278
+SAAR-0.0192-0.01150.00130.00600.00990.01250.01960.02680.03770.0520
+Q2-2 · NYSE/AMEX/Nasdaq · Table 1 · E/PExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 1 · E/P
+Statistic12345678910
+R10.12130.12710.13120.13570.13490.14240.15710.16680.17810.1880
+R20.11710.13020.13260.14030.14140.15690.15490.16190.18470.1967
+R30.12670.13260.13650.14520.14750.15180.15680.16360.17130.2051
+R40.13090.12750.13720.13820.14180.14170.15000.15410.18380.1897
+R50.13220.13830.13830.14160.14230.14670.15350.15400.17670.1801
+AR0.12560.13110.13510.14020.14160.14790.15450.16010.17890.1919
+CR50.80700.85170.88470.92710.93880.99301.05061.10101.27711.4054
+SAAR-0.0136-0.00010.00420.00850.00890.01530.01870.01960.03120.0323
+Q2-2 · NYSE/AMEX/Nasdaq · Table 1 · GSExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 1 · GS
+Statistic12345678910
+R10.18980.17170.15290.16520.15980.16520.15650.15620.13010.1247
+R20.16920.16320.16460.16210.15930.15560.14580.15870.15000.1430
+R30.16300.15940.15350.14950.15910.15590.14960.14510.13970.1413
+R40.16400.15790.15060.14900.14480.15160.13880.14000.14420.1394
+R50.15570.15830.14680.15090.15170.15090.14690.14700.14080.1368
+AR0.16840.16210.15370.15530.15500.15580.14750.14940.14090.1370
+CR51.17671.11941.04351.05821.05491.06290.98971.00590.93330.9003
+SAAR0.01120.01820.01460.01690.01870.01980.01260.01590.00870.0068
+Q2-2 · NYSE/AMEX/Nasdaq · Table 2 · C/P-GSExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 2 · C/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.14020.12710.12240.14710.15000.13560.21250.19760.1699
+R20.12260.11980.11750.15460.14990.15280.20430.19570.1831
+R30.12440.12350.12360.14790.14180.14630.19800.18930.1773
+R40.14080.11560.12270.13630.14140.13880.18880.17350.1697
+R50.14010.11730.12490.14340.14690.14890.17330.17390.1664
+AR0.13360.12070.12220.14590.14600.14450.19540.18600.1733
+CR50.87200.76750.77980.97530.97650.96341.44001.34591.2231
+SAAR-0.0070-0.0067-0.00210.01100.01480.01450.04620.04060.0307
+Q2-2 · NYSE/AMEX/Nasdaq · Table 2 · E/P-GSExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 2 · E/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.14530.13650.12600.14850.14610.12980.19090.18470.1525
+R20.14920.12520.12340.15050.14900.14480.18540.17650.1654
+R30.13240.13010.12400.15220.14320.14740.18180.17170.1639
+R40.14160.12090.12420.14180.13960.13770.17510.16350.1630
+R50.14450.13210.12180.13960.14300.14320.16650.16200.1648
+AR0.14260.12900.12390.14650.14420.14060.18000.17170.1619
+CR50.94730.83410.79310.98110.96100.93011.28701.20781.1179
+SAAR0.00260.00150.00000.01460.01530.01240.03300.02810.0200
+Q2-2 · NYSE/AMEX/Nasdaq · Table 2 · B/M-GSExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 2 · B/M-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11840.12960.13270.13870.15060.13210.22040.20450.1650
+R20.10830.11890.13140.14870.14990.15720.20320.19310.1904
+R30.11130.11940.12660.13900.14870.14740.19420.19340.1749
+R40.12430.12090.12710.14660.14440.14770.18030.17250.1691
+R50.12330.12150.12700.15130.14240.14940.17250.18700.1705
+AR0.11710.12210.12900.14490.14720.14680.19410.19010.1740
+CR50.73970.77860.83390.96670.98700.98311.42671.38691.2294
+SAAR-0.0177-0.00400.00490.01050.01670.01480.03320.03640.0236
+Q2-2 · NYSE/AMEX/Nasdaq · Table 2 · E/P-B/MExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 2 · E/P-B/M
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11780.12900.17350.13810.12980.16910.15590.16070.1892
+R20.10570.13860.18710.13400.13770.18230.18350.16930.1865
+R30.11480.14270.18720.13790.14360.17380.16760.16110.1939
+R40.11940.13570.17470.13640.13810.15810.17550.16490.1790
+R50.12230.14750.18490.14030.14040.16540.16910.16480.1744
+AR0.11600.13870.18150.13740.13790.16980.17030.16420.1846
+CR50.73100.91431.30210.90330.90791.18991.19481.13821.3325
+SAAR-0.00760.00180.01950.01030.00990.02110.02460.02400.0302
+Q2-2 · NYSE/AMEX/Nasdaq · Table 2 · B/M-C/PExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table 2 · B/M-C/P
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11630.14290.19490.11340.13510.16640.18000.16460.2040
+R20.10430.14400.18670.12790.14320.17910.17420.17140.2092
+R30.11650.13530.18750.13500.14300.17640.17290.16820.2055
+R40.12250.13480.18660.13700.14080.17010.14960.15100.1934
+R50.12410.13770.17140.15110.14280.16980.17050.17180.1789
+AR0.11670.13890.18540.13290.14100.17240.16940.16540.1982
+CR50.73660.91631.34060.86550.93371.21481.18661.14941.4691
+SAAR-0.00820.01110.0435-0.00690.01000.03360.00380.01200.0415
+Q2-2 · NYSE/AMEX/Nasdaq · Table IV · Annual cross-sectional regressionsExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table IV · Annual cross-sectional regressions
+ModelInt.GSB/MSIZEE/P+DE/PC/P+DC/P
+10.201-0.093——————
+(5.00)(-2.99)
+20.128—0.023—————
+(3.76)(4.17)
+30.225——-0.018————
+(3.40)(-2.61)
+40.138———0.161———
+(3.86)(2.15)
+50.132—————0.133—
+(3.77)(3.90)
+60.155-0.0610.010———0.1380.024
+(4.66)(-2.00)(1.78)(3.44)(0.75)
+70.221—0.005-0.018——0.079-0.023
+(3.72)(1.01)(-3.05)(3.11)(-0.94)
+80.247-0.046-0.000-0.018——0.120-0.008
+(4.27)(-1.69)(-0.06)(-3.05)(3.20)(-0.33)
+90.247-0.0430.010-0.0170.018-0.005——
+(4.36)(-1.61)(1.80)(-3.00)(0.30)(-0.23)
+Q2-2 · NYSE/AMEX/Nasdaq · Table V · Fundamentals and performanceExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table V · Fundamentals and performance
+B/MC/P-GS
+MetricGlamourValueGlamourValue
+E/P-0.447-0.3560.0300.114
+C/P-0.309-0.0480.0520.332
+S/P2.0587.9510.8205.453
+D/P0.0110.0290.0070.039
+B/M-0.4362.7540.3281.347
+SIZE2989.60555.106114.392165.10
+AEG(-5,0)——1.499—
+ACG(-5,0)—-0.0030.5340.108
+ASG(-5,0)-0.0250.0350.222-0.005
+RETURN(-3,0)1.194-0.1871.4590.190
+AEG(0,5)————
+ACG(0,5)——0.121-0.070
+ASG(0,5)0.004-0.0280.0870.009
+AEG(2,5)————
+ACG(2,5)——0.1770.099
+ASG(2,5)0.016-0.0230.0480.016
+Q2-2 · NYSE/AMEX/Nasdaq · Table VI · Cohort value-minus-glamour returnsExpand tableQ2-2 · NYSE/AMEX/Nasdaq · Table VI · Cohort value-minus-glamour returns
+C/P tailsC/P-GSB/M tails
+Formation1-year3-year5-year1-year3-year5-year1-year3-year5-year
+19630.0900.6801.1130.0760.1720.3710.0790.6231.257
+19640.1250.4331.0140.034-0.1220.254-0.0190.3281.103
+19650.0080.126-0.020-0.088-0.096-0.1070.1620.4290.147
+1966-0.0570.3400.524-0.1520.2140.276-0.1040.2620.256
+19670.1730.2890.6570.2380.4300.5540.1690.3350.464
+19680.0220.3140.5000.1130.2880.4370.0750.2050.334
+19690.1260.2460.4330.1510.1230.4500.0660.0560.303
+19700.1640.2380.4000.0600.3440.5470.0260.0310.292
+1971-0.0820.2150.422-0.0910.2800.575-0.1150.1600.464
+19720.1610.3230.7380.1860.4720.9360.1060.3390.804
+19730.0780.4120.9440.1640.6421.2950.0970.4710.965
+1974-0.0050.5441.2980.0510.6341.2950.0540.6841.509
+19750.2660.8711.1280.3461.1000.9960.4121.0441.076
+19760.2130.6321.1760.2330.5580.7450.1250.5180.569
+19770.1700.1040.5450.1750.0040.6210.118-0.0440.320
+19780.040-0.2630.199-0.021-0.1790.274-0.050-0.4910.247
+1979-0.220-0.0710.718-0.163-0.0450.478-0.1940.0421.173
+1980-0.0791.0782.261-0.1360.9902.082-0.1501.1582.520
+19810.3251.1472.6770.2701.0852.5880.3291.1762.827
+19820.0090.9341.9340.1170.8822.0950.1321.0732.099
+19830.3140.6841.1380.3580.8361.5420.3670.7321.113
+19840.2400.6831.1360.1250.6361.1900.1620.4840.979
+19850.0640.4830.797-0.0440.4200.6650.0220.4090.599
+19860.1160.4320.3470.1610.4530.2940.1330.4330.311
+19870.2090.3880.2500.1640.3950.2500.2180.3560.284
+19880.104-0.1270.0330.056-0.1090.0800.1200.0070.329
+1989-0.058-0.182-0.197-0.014-0.2660.050-0.061-0.0890.252
+1990-0.0850.1580.225-0.177-0.0400.104-0.0880.4690.915
+19910.0650.5440.5700.0420.6720.6710.1801.1271.691
+19920.2080.4580.8660.3320.7411.0000.3280.8501.444
+19930.1130.0530.7210.1470.0760.4370.2170.5741.498
+19940.0270.3510.4840.0370.2940.4120.1650.7200.834
+1995-0.1570.479-0.509-0.0820.522-0.321-0.0680.829-0.015
+19960.2830.4330.1660.1610.199-0.0150.3590.5420.504
+19970.007-0.2140.255-0.005-0.4290.0700.048-0.4610.387
+19980.040-0.0280.1070.019-0.128-0.012-0.077-0.0260.306
+1999-0.3190.1540.550-0.0450.2090.724-0.1730.5411.275
+20000.3580.8732.3110.2680.5371.6770.5001.0872.434
+20010.4231.1112.0680.2830.9391.6280.3931.2952.215
+20020.0440.7421.5610.0980.7611.3880.1100.8581.690
+20030.4481.3601.6320.3961.0101.3620.6011.6711.528
+20040.1790.4570.2860.1190.3870.1040.1900.4830.173
+20050.0430.2080.381-0.0100.1140.1540.0190.0340.079
+20060.126-0.0150.2250.201-0.0460.0320.063-0.019-0.001
+2007-0.0270.0730.089-0.0980.0940.065-0.046-0.070-0.132
+2008-0.0220.2060.526-0.0010.2470.523-0.075-0.0520.273
+20090.5810.6881.3730.5700.4571.2430.6250.3471.085
+2010-0.0230.1320.212-0.1140.0250.010-0.1380.1100.223
+2011-0.0010.2980.292-0.0230.2550.2970.0360.2940.524
+20120.1050.2980.2510.2220.3430.6270.1220.2900.664
+20130.159-0.061-0.0150.1430.0650.2370.1730.2820.602
+2014-0.017-0.135-0.352-0.0390.050-0.170-0.0490.2560.155
+2015-0.101-0.276-0.583-0.015-0.017-0.3430.1050.167-0.085
+20160.010-0.174-0.3250.043-0.117-0.3050.070-0.163-0.558
+2017-0.083-0.3520.007-0.032-0.3450.164-0.023-0.350-0.426
+2018-0.142-0.1330.150-0.092-0.1140.288-0.124-0.477-0.154
+2019-0.2680.5580.599-0.2780.3230.269-0.1700.1730.102
+20200.7691.302—0.8330.981—0.4891.103—
+20210.2430.319—0.3040.258—0.4210.516—
+2022-0.028——-0.054——-0.022——
+20230.092——-0.021——0.060——
+Average0.0910.3530.6370.0900.3130.5820.1070.4020.734
+t-statistic3.7644.4473.8703.7464.1453.8264.3274.3564.518
+Figure 2 · Annual C/P–GS performanceR denotes a May-April holding window overlapping the versioned NBER peak-to-trough dates, including the peak month; D denotes a negative CRSP equally weighted index buy-and-hold return over that window. The R convention may differ from printed marker placement.
+Q2-3 / Subsample comparison
+Does the value effect weaken in the recent period?
+The requested split is 1963–1989 versus 1990–2025. Both calculations use NYSE/AMEX common stocks, retaining the original paper universe; the actual formation and return dates are listed in the coverage table. Each subsample recomputes all five tables and Figure 2 using complete horizons entirely within its calendar window.
+For C/P–GS, the average one-year premium changes from 9.31% (t = 3.41) to 9.09% (t = 2.17). The C/P tails premium changes from 8.34% to 7.09%, while B/M tails change from 7.22% to 8.91%. The change in average annual value premiums is mixed across the three Table VI definitions.
+Table I AR, averaging annual holding years 1–5, has lower decile premiums for 4 of four signals (B/M: 10.49 to 9.24; C/P: 11.79 to 9.13; E/P: 8.41 to 5.35; GS: 4.78 to 2.75 percentage points). Size-adjusted SAAR premiums are lower for 3 of four signals. The evidence of weakening therefore depends on the return measure and portfolio definition; positive recent premiums remain visible in the tables.
+These estimates do not establish a uniform disappearance of the value effect. The recent absolute t-statistics are lower for all three main annual strategies. A lower t-statistic can reflect higher return uncertainty; it is not a test that the average premium fell. No formal test of a structural break or difference in means is reported here, and the missing 2025 endpoint limits the assignment comparison.
+Comparison spreads and differences are in percentage points. AR averages the five annual holding-horizon means; SAAR averages the corresponding size-adjusted means. Table VI three- and five-year spreads are cumulative rather than annualized. N counts complete formation cohorts.
+Q2-3 · Table I value-minus-glamour comparisonExpand tableQ2-3 · Table I value-minus-glamour comparison
+SignalStatistic1963–19891990–20251990–2025 − 1963–1989
+B/MR16.699.042.35
+B/MAR10.499.24-1.26
+B/MSAAR6.126.500.38
+C/PR111.309.28-2.02
+C/PAR11.799.13-2.66
+C/PSAAR8.526.52-2.00
+E/PR14.505.300.80
+E/PAR8.415.35-3.06
+E/PSAAR5.563.49-2.06
+GSR16.466.600.15
+GSAR4.782.75-2.04
+GSSAAR2.300.70-1.60
+Q2-3 · Table VI premium and inference comparisonExpand tableQ2-3 · Table VI premium and inference comparison
+1963–19891990–20251990–2025 − 1963–1989
+StrategyYearsMean (pp)tNMean (pp)tNDifference (pp)
+C/P tails18.343.65267.092.0334-1.25
+C/P tails337.606.562425.602.4332-12.00
+C/P tails582.058.392242.092.3330-39.97
+C/P-GS19.313.41269.092.1734-0.22
+C/P-GS340.693.902426.523.0032-14.17
+C/P-GS584.473.882241.482.8530-42.99
+B/M tails17.222.74268.912.16341.68
+B/M tails336.724.152430.542.8332-6.18
+B/M tails582.506.752248.932.4830-33.57
+B/M 10−1 (sensitivity)16.692.07269.041.78342.35
+B/M 10−1 (sensitivity)338.543.362437.112.6432-1.42
+B/M 10−1 (sensitivity)590.813.772259.152.4230-31.66Table I average annual decile returns, using each case's complete horizons. GS runs from value to glamour; valuation-ratio deciles run from glamour to value.Table II extreme-portfolio annual raw and size-adjusted spreads for all five independent double sorts.Table VI average cohort spreads with 1.96 Hansen–Hodrick standard-error bands. Three- and five-year returns are cumulative, not annualized. These bands describe each mean; they do not test the difference between samples.Complete Tables I, II, IV, V, VI and Figure 2 for each caseShow results for1963–19891990–2025
+1963–1989
+April formations 1963–1988; holding returns end 1989-04-30. Table V future growth uses 23 complete five-year follow-up cohorts, with outcomes through 1989; 4 growth cells are undefined because aggregate accounting levels are nonpositive. 461 formation observations have non-USD accounts without currency conversion.
+The complete tables use decimal returns and growth rates; 0.1000 means 10%. SIZE is USD millions. The comparison summaries above use percentage points. Expand any table to display all rows.
+Q2-3 · 1963–1989 · Table 1 · B/MExpand tableQ2-3 · 1963–1989 · Table 1 · B/M
+Statistic12345678910
+R10.13890.12780.13160.13460.13650.15720.16130.18890.20550.2058
+R20.10000.11110.12810.13760.16130.16050.17670.18650.21200.2150
+R30.10220.11040.12610.13860.15630.16130.17810.19260.18840.2114
+R40.08490.11460.11610.14010.15110.14740.17700.17720.19210.2038
+R50.08800.11160.13780.15280.15550.15930.18160.17670.17980.2029
+AR0.10280.11510.12790.14070.15210.15710.17490.18440.19560.2078
+CR50.63010.72390.82550.93151.02991.07451.23871.33061.44211.5698
+SAAR-0.0290-0.0218-0.0104-0.00080.00740.00940.01880.02050.02710.0322
+Q2-3 · 1963–1989 · Table 1 · C/PExpand tableQ2-3 · 1963–1989 · Table 1 · C/P
+Statistic12345678910
+R10.11440.14410.14590.14380.16260.16370.15890.17840.19830.2274
+R20.09450.12580.13200.16620.15850.17690.17810.18930.20720.2202
+R30.09170.12200.14180.14760.15870.16890.17870.18620.19340.2146
+R40.09840.10510.13100.13480.15050.16170.16940.17540.19740.2125
+R50.08880.12030.14060.14730.16260.16870.17160.17070.17930.2024
+AR0.09760.12350.13830.14790.15860.16800.17130.18000.19510.2154
+CR50.59260.78930.91080.99291.08751.17341.20471.28781.43771.6521
+SAAR-0.0424-0.0204-0.0091-0.00010.00830.01670.01830.02280.02890.0428
+Q2-3 · 1963–1989 · Table 1 · E/PExpand tableQ2-3 · 1963–1989 · Table 1 · E/P
+Statistic12345678910
+R10.15540.14090.14750.14370.13850.15750.17490.18220.19380.2004
+R20.13990.11950.13570.14470.15930.16890.18640.18100.19870.2048
+R30.11650.12210.14050.14500.15560.16300.18060.17740.18590.2071
+R40.09730.10820.13540.13510.13990.15300.17370.17550.19410.2118
+R50.09930.11080.13760.14710.14830.16670.17570.17170.18480.2047
+AR0.12170.12030.13930.14310.14830.16180.17830.17760.19150.2058
+CR50.77380.76430.91970.95200.99641.11651.27101.26411.40111.5486
+SAAR-0.0280-0.0191-0.0041-0.00260.00340.01720.02640.01930.02510.0275
+Q2-3 · 1963–1989 · Table 1 · GSExpand tableQ2-3 · 1963–1989 · Table 1 · GS
+Statistic12345678910
+R10.20180.17570.16440.15800.16620.17000.16120.15920.13640.1373
+R20.19300.17390.16550.18090.15760.15350.14780.14780.15360.1471
+R30.16780.18210.16100.16330.14530.14540.14900.13090.13740.1355
+R40.16920.15980.15770.16220.13660.14230.15070.12640.13120.1231
+R50.16790.17430.14990.16320.16320.14230.15310.13350.13840.1177
+AR0.18000.17310.15970.16550.15380.15070.15240.13960.13940.1321
+CR51.28661.22171.09751.15061.04401.01691.03200.92120.92010.8594
+SAAR0.01310.01940.01220.01910.01230.00870.0089-0.0022-0.0023-0.0100
+Q2-3 · 1963–1989 · Table 2 · C/P-GSExpand tableQ2-3 · 1963–1989 · Table 2 · C/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.15530.13610.12300.17310.15110.13820.21620.21160.1837
+R20.13550.11820.11050.17660.15780.16140.21670.20190.1903
+R30.13040.11050.10410.16520.14790.14710.21360.18780.1777
+R40.13100.10020.09710.16580.14780.13320.19960.18080.1752
+R50.14070.11560.09720.16820.15920.14540.17920.18140.1676
+AR0.13860.11610.10640.16980.15280.14510.20500.19270.1789
+CR50.91310.73160.65741.19031.03570.96821.54021.41291.2768
+SAAR-0.0141-0.0166-0.02650.01890.01190.00170.04410.03670.0256
+Q2-3 · 1963–1989 · Table 2 · E/P-GSExpand tableQ2-3 · 1963–1989 · Table 2 · E/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.18530.14140.13090.16230.15830.13220.20770.19890.1665
+R20.15960.12800.11700.17940.15550.15400.20770.18970.1731
+R30.14070.11760.10660.17690.14880.14000.20010.17770.1650
+R40.13680.10480.09160.17010.14290.12770.18910.18500.1752
+R50.14410.11640.08820.16560.15510.14450.18400.18240.1686
+AR0.15330.12160.10690.17080.15210.13970.19770.18670.1697
+CR51.03930.77480.66061.20021.02970.92241.46421.35371.1892
+SAAR-0.0023-0.0104-0.02380.02440.0126-0.00210.03630.03030.0142
+Q2-3 · 1963–1989 · Table 2 · B/M-GSExpand tableQ2-3 · 1963–1989 · Table 2 · B/M-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.14280.13270.13990.14560.15060.13410.20590.20540.1887
+R20.11950.11400.12190.15730.15320.15690.20390.19540.2105
+R30.10480.11080.10410.15550.14570.15190.19600.19340.1886
+R40.10760.10680.09880.15630.14920.14130.18190.18450.1861
+R50.11600.11600.10560.17230.15300.14510.17560.18650.1812
+AR0.11810.11610.11410.15740.15040.14590.19260.19300.1910
+CR50.74710.73130.71531.07661.01440.97531.41241.41671.3961
+SAAR-0.0211-0.0123-0.01760.01250.01080.00160.02820.03400.0307
+Q2-3 · 1963–1989 · Table 2 · E/P-B/MExpand tableQ2-3 · 1963–1989 · Table 2 · E/P-B/M
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12570.15350.23500.14080.13670.18620.13300.17660.2017
+R20.09390.13960.23120.14220.14840.21300.17980.19050.1922
+R30.09980.14540.19570.13330.15130.19840.16560.17750.1999
+R40.08660.13040.19940.13170.14360.17410.16580.18620.1963
+R50.08670.15780.18710.14320.15380.18370.19500.17190.1946
+AR0.09850.14530.20970.13820.14680.19110.16780.18060.1969
+CR50.59910.97061.58870.91050.98321.39661.17061.29291.4565
+SAAR-0.0305-0.00540.0292-0.00160.00780.0312-0.00060.02160.0274
+Q2-3 · 1963–1989 · Table 2 · B/M-C/PExpand tableQ2-3 · 1963–1989 · Table 2 · B/M-C/P
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.12250.15030.17010.14510.14010.18450.22370.18220.2102
+R20.09320.15310.17840.12850.15280.20020.24440.19300.2085
+R30.10150.13180.17620.13270.15300.19270.21050.18690.2008
+R40.09680.12530.16020.12740.15100.18020.17240.17640.2011
+R50.10050.14000.17660.16460.15940.16850.16710.18390.1886
+AR0.10290.14010.17230.13960.15130.18520.20360.18450.2019
+CR50.63150.92581.21400.92171.02241.33841.52211.33131.5073
+SAAR-0.02880.00050.0173-0.01510.00820.03140.02470.01690.0337
+Q2-3 · 1963–1989 · Table IV · Annual cross-sectional regressionsExpand tableQ2-3 · 1963–1989 · Table IV · Annual cross-sectional regressions
+ModelInt.GSB/MSIZEE/P+DE/PC/P+DC/P
+10.206-0.088——————
+(4.19)(-2.01)
+20.128—0.032—————
+(2.88)(3.13)
+30.240——-0.019————
+(2.84)(-1.86)
+40.151———0.173———
+(2.96)(1.21)
+50.137—————0.189—
+(2.84)(3.18)
+60.132-0.0350.016———0.2430.026
+(2.70)(-0.66)(1.37)(2.82)(0.64)
+70.216—0.001-0.018——0.1420.003
+(2.55)(0.06)(-1.86)(2.86)(0.09)
+80.228-0.027-0.004-0.018——0.218-0.006
+(3.08)(-0.57)(-0.43)(-1.93)(2.73)(-0.22)
+90.250-0.0250.016-0.019-0.041-0.028——
+(3.31)(-0.53)(1.46)(-2.03)(-0.31)(-1.50)
+Q2-3 · 1963–1989 · Table V · Fundamentals and performanceExpand tableQ2-3 · 1963–1989 · Table V · Fundamentals and performance
+B/MC/P-GS
+MetricGlamourValueGlamourValue
+E/P-0.098-0.0120.0480.111
+C/P-0.0270.2260.0740.296
+S/P1.6278.7851.1676.035
+D/P0.0130.0350.0130.040
+B/M0.0472.4350.3771.511
+SIZE871.71126.71646.09488.14
+AEG(-5,0)—-0.2520.2710.126
+ACG(-5,0)0.273-0.0180.2410.055
+ASG(-5,0)0.0430.0510.2060.027
+RETURN(-3,0)1.562-0.0281.4160.222
+AEG(0,5)——0.0430.029
+ACG(0,5)0.266-0.0050.0910.027
+ASG(0,5)0.0830.0190.1120.041
+AEG(2,5)-0.429—0.0170.244
+ACG(2,5)-0.0040.1100.0630.086
+ASG(2,5)0.0700.0250.0850.043
+Q2-3 · 1963–1989 · Table VI · Cohort value-minus-glamour returnsExpand tableQ2-3 · 1963–1989 · Table VI · Cohort value-minus-glamour returns
+C/P tailsC/P-GSB/M tails
+Formation1-year3-year5-year1-year3-year5-year1-year3-year5-year
+19630.0900.6801.1130.0760.1720.3710.0790.6231.257
+19640.1250.4331.0140.034-0.1220.254-0.0190.3281.103
+19650.0080.126-0.020-0.088-0.096-0.1070.1620.4290.147
+1966-0.0570.3400.524-0.1520.2140.276-0.1040.2620.256
+19670.1730.2890.6570.2380.4300.5540.1690.3350.464
+19680.0220.3140.5000.1130.2880.4370.0750.2050.334
+19690.1260.2460.4330.1510.1230.4500.0660.0560.303
+19700.1640.2380.4000.0600.3440.5480.0260.0310.292
+1971-0.0820.2150.422-0.0910.2800.576-0.1150.1600.465
+19720.1610.3230.7380.1860.4720.9360.1060.3400.804
+19730.0380.3360.8900.1370.6011.2440.0690.4540.982
+1974-0.0130.5731.4200.0800.7201.5030.0290.6621.662
+19750.2940.9631.2140.3831.1451.1020.4391.1261.301
+19760.2360.7691.6840.2150.5820.8910.1640.7251.111
+19770.2150.2490.7510.2270.0450.6400.2020.1700.621
+19780.043-0.1270.210-0.008-0.0940.189-0.027-0.3570.122
+1979-0.185-0.1330.226-0.1870.0320.655-0.200-0.1140.606
+1980-0.0380.7271.323-0.0081.0251.684-0.0601.0691.751
+19810.2590.7381.8200.2480.9852.2560.2110.8042.044
+1982-0.0140.3811.1490.1580.6051.7450.2600.6501.463
+19830.2080.3760.8050.2770.6501.4220.2220.2730.537
+19840.1770.4250.7790.0460.5550.9580.0340.2500.525
+1985-0.0100.245—-0.0820.366—-0.0040.204—
+19860.0560.299—0.1410.444—0.0080.128—
+19870.098——0.155——0.076——
+19880.076——0.114——0.010——
+Average0.0830.3760.8210.0930.4070.8450.0720.3670.825
+t-statistic3.6476.5618.3863.4143.9053.8772.7444.1506.746
+Figure 2 · Annual C/P–GS performanceR denotes a May-April holding window overlapping the versioned NBER peak-to-trough dates, including the peak month; D denotes a negative CRSP equally weighted index buy-and-hold return over that window. The R convention may differ from printed marker placement.
+1990–2025
+April formations 1990–2023; holding returns end 2024-04-30. Table V future growth uses 31 complete five-year follow-up cohorts, with outcomes through 2024; 16 growth cells are undefined because aggregate accounting levels are nonpositive. 25 formation observations have non-USD accounts without currency conversion.
+The complete tables use decimal returns and growth rates; 0.1000 means 10%. SIZE is USD millions. The comparison summaries above use percentage points. Expand any table to display all rows.
+Q2-3 · 1990–2025 · Table 1 · B/MExpand tableQ2-3 · 1990–2025 · Table 1 · B/M
+Statistic12345678910
+R10.13740.09870.12260.12020.12360.12710.13650.14900.18640.2278
+R20.11430.10000.12000.13850.13830.15410.15140.17300.16750.2352
+R30.10920.12220.12540.14140.12530.14480.14910.17310.18740.2179
+R40.12050.13200.13420.12620.15390.13650.15660.14390.18750.1912
+R50.11470.12280.13160.13870.13150.12820.16160.17220.18510.1857
+AR0.11920.11510.12670.13300.13450.13810.15100.16230.18280.2116
+CR50.75580.72370.81590.86680.87900.90941.02021.12011.31481.6088
+SAAR-0.0236-0.0144-0.00560.00080.00000.00110.00960.01610.02800.0414
+Q2-3 · 1990–2025 · Table 1 · C/PExpand tableQ2-3 · 1990–2025 · Table 1 · C/P
+Statistic12345678910
+R10.10000.11300.11880.13170.13530.12930.15160.15660.16270.1928
+R20.09660.11000.12660.14580.14100.14690.15110.17480.17740.2045
+R30.11150.13590.13820.13120.13360.14330.15440.14860.19280.2074
+R40.13340.13650.12860.13370.13580.13790.14170.14950.16390.2227
+R50.11420.12670.14030.12960.13910.13780.13950.16370.17870.1849
+AR0.11110.12440.13050.13440.13700.13900.14770.15870.17510.2024
+CR50.69320.79710.84640.87840.89980.91710.99091.08791.24021.5130
+SAAR-0.0240-0.0061-0.00060.00030.00190.00290.00990.01800.02910.0413
+Q2-3 · 1990–2025 · Table 1 · E/PExpand tableQ2-3 · 1990–2025 · Table 1 · E/P
+Statistic12345678910
+R10.10970.11640.12260.12180.12800.12990.14550.14760.14920.1627
+R20.12080.14380.12450.12260.13740.14560.13850.15290.17310.1765
+R30.13780.12370.13950.14130.14940.13700.14010.14650.16040.2080
+R40.13780.12860.13610.13700.13780.13110.14420.14410.17380.1927
+R50.14290.13710.13360.11920.13840.13960.14070.14790.17920.1763
+AR0.12980.12990.13130.12840.13820.13660.14180.14780.16710.1832
+CR50.84010.84160.85250.82900.90980.89720.94080.99221.16531.3184
+SAAR-0.0069-0.00300.0016-0.00320.00610.00310.00710.00690.02280.0280
+Q2-3 · 1990–2025 · Table 1 · GSExpand tableQ2-3 · 1990–2025 · Table 1 · GS
+Statistic12345678910
+R10.18770.17150.15480.15590.14420.15430.13950.13670.13130.1217
+R20.16860.15360.15940.15300.15500.15130.14300.14740.14810.1357
+R30.16390.15450.15740.14020.12920.15890.15230.13720.14290.1402
+R40.14870.15080.15210.14650.14850.14740.14720.14150.14730.1368
+R50.14470.15750.14480.14820.16130.13570.14030.15370.14070.1419
+AR0.16270.15760.15370.14880.14760.14950.14440.14330.14210.1353
+CR51.12411.07831.04391.00040.99031.00680.96320.95320.94280.8855
+SAAR0.00840.01370.01180.00860.00650.01020.00680.00830.00710.0014
+Q2-3 · 1990–2025 · Table 2 · C/P-GSExpand tableQ2-3 · 1990–2025 · Table 2 · C/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11680.13230.10430.13850.13870.12540.19520.16700.1546
+R20.11810.12490.11160.14830.14630.14550.19940.17080.1850
+R30.12900.12960.12460.14120.13340.14530.19460.17900.1634
+R40.13000.12190.13070.11420.14370.14600.18450.17150.1695
+R50.12080.11930.13460.12470.14170.13960.18360.16510.1743
+AR0.12300.12560.12120.13340.14070.14040.19150.17070.1693
+CR50.78560.80690.77100.86950.93160.92841.40091.19871.1858
+SAAR-0.0142-0.0059-0.0058-0.00280.00570.00630.03950.02220.0254
+Q2-3 · 1990–2025 · Table 2 · E/P-GSExpand tableQ2-3 · 1990–2025 · Table 2 · E/P-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11370.13660.10580.13390.13440.12200.15900.16200.1466
+R20.14500.13200.12330.13640.14330.13320.17740.15580.1732
+R30.13100.13700.12280.14380.13420.15210.18220.16890.1582
+R40.11930.12460.13010.12260.14290.14430.17820.16230.1635
+R50.14140.13490.13970.12310.13380.13880.17350.16400.1674
+AR0.13010.13300.12440.13200.13770.13810.17410.16260.1618
+CR50.84240.86690.79660.85840.90610.90891.23061.12391.1160
+SAAR-0.00810.0000-0.0027-0.00080.00550.00720.02390.01660.0189
+Q2-3 · 1990–2025 · Table 2 · B/M-GSExpand tableQ2-3 · 1990–2025 · Table 2 · B/M-GS
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.13760.13480.11990.12930.13500.12800.23130.18390.1510
+R20.12860.12260.11470.12930.15080.15610.21180.17900.1677
+R30.12830.12280.12210.13510.13590.14820.20400.18700.1581
+R40.12500.12680.12340.15100.13790.15080.16850.18630.1591
+R50.11610.13240.13020.13840.13490.14840.18410.17930.1744
+AR0.12710.12790.12210.13660.13890.14630.19990.18310.1620
+CR50.81880.82510.77850.89690.91620.97881.48571.31801.1187
+SAAR-0.0138-0.0040-0.0058-0.00090.00430.01220.03970.02700.0140
+Q2-3 · 1990–2025 · Table 2 · E/P-B/MExpand tableQ2-3 · 1990–2025 · Table 2 · E/P-B/M
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.11480.11230.12420.13100.12190.15640.12220.14850.1616
+R20.10250.14350.17860.13320.13340.14980.15640.14920.1785
+R30.11640.14550.16570.13360.13590.17100.14070.14590.1924
+R40.12290.14300.15330.12990.13220.16650.15550.15070.1808
+R50.12280.14420.18040.12700.12780.16650.17370.15570.1770
+AR0.11590.13770.16040.13090.13030.16200.14970.15000.1781
+CR50.73010.90531.10250.85010.84451.11851.00761.01131.2686
+SAAR-0.01020.00180.01090.0033-0.00080.01520.00680.01320.0246
+Q2-3 · 1990–2025 · Table 2 · B/M-C/PExpand tableQ2-3 · 1990–2025 · Table 2 · B/M-C/P
+Statistic1,11,21,32,12,22,33,13,23,3
+R10.10880.13430.19630.10420.12740.14820.14600.16820.1766
+R20.10260.14320.15850.12400.14500.15420.13700.15400.2047
+R30.12060.12980.16020.13870.13700.14670.16430.16090.2053
+R40.12390.13520.15660.14750.13400.15860.14500.15020.1899
+R50.11640.12840.18950.13120.12650.16570.18370.17380.1782
+AR0.11450.13420.17220.12910.13400.15470.15520.16140.1909
+CR50.71900.87681.21210.83440.87491.05241.05631.11301.3951
+SAAR-0.01220.00410.0241-0.00650.00070.01810.00200.01190.0355
+Q2-3 · 1990–2025 · Table IV · Annual cross-sectional regressionsExpand tableQ2-3 · 1990–2025 · Table IV · Annual cross-sectional regressions
+ModelInt.GSB/MSIZEE/P+DE/PC/P+DC/P
+10.198-0.098——————
+(3.18)(-1.98)
+20.140—0.000—————
+(3.22)(0.12)
+30.219——-0.013————
+(2.13)(-1.38)
+40.140———0.026———
+(3.07)(0.76)
+50.134—————0.057—
+(3.08)(2.18)
+60.171-0.076-0.004———0.0650.044
+(3.78)(-2.04)(-0.94)(2.12)(0.92)
+70.220—-0.006-0.013——0.046-0.016
+(2.57)(-1.41)(-1.77)(1.74)(-0.52)
+80.260-0.052-0.006-0.014——0.0420.009
+(2.88)(-1.65)(-1.35)(-1.93)(1.46)(0.27)
+90.255-0.051-0.005-0.0130.0300.025——
+(2.93)(-1.61)(-1.25)(-1.91)(0.74)(0.87)
+Q2-3 · 1990–2025 · Table V · Fundamentals and performanceExpand tableQ2-3 · 1990–2025 · Table V · Fundamentals and performance
+B/MC/P-GS
+MetricGlamourValueGlamourValue
+E/P-0.821-0.4580.0250.102
+C/P-0.601-0.0240.0480.371
+S/P3.9607.6020.7974.843
+D/P0.0270.0450.0070.052
+B/M-1.2773.0560.3031.096
+SIZE8439.502404.5512286.265115.44
+AEG(-5,0)——0.841—
+ACG(-5,0)—0.0180.387-0.156
+ASG(-5,0)-0.0600.0240.171-0.037
+RETURN(-3,0)0.731-0.2101.1750.150
+AEG(0,5)————
+ACG(0,5)——-0.1330.037
+ASG(0,5)-0.043-0.0470.060-0.014
+AEG(2,5)————
+ACG(2,5)——-0.2410.428
+ASG(2,5)-0.019-0.0340.0360.006
+Q2-3 · 1990–2025 · Table VI · Cohort value-minus-glamour returnsExpand tableQ2-3 · 1990–2025 · Table VI · Cohort value-minus-glamour returns
+C/P tailsC/P-GSB/M tails
+Formation1-year3-year5-year1-year3-year5-year1-year3-year5-year
+1990-0.0900.0430.209-0.0570.1510.372-0.1840.0990.288
+19910.0350.4900.7220.0730.6700.7900.1330.8311.247
+19920.1330.3490.4610.1880.6230.7760.1960.5320.806
+19930.024-0.0010.4750.1370.1340.1270.1790.3070.968
+19940.0120.2040.4240.0320.0770.1040.0340.2340.235
+1995-0.0550.3270.048-0.0470.360-0.4890.0020.470-0.179
+19960.0900.0910.0170.0630.0270.0730.1100.2230.366
+19970.034-0.151-0.041-0.009-0.0790.0850.073-0.1260.334
+1998-0.045-0.0060.0880.0270.0770.076-0.130-0.0370.328
+1999-0.1570.1830.7070.0010.0710.619-0.0160.2930.893
+20000.1940.5421.6910.1130.3801.5700.1690.5931.702
+20010.3481.0071.6610.1930.9301.5220.4071.0551.795
+20020.0250.6581.5770.0320.5591.1770.0010.5841.648
+20030.4311.1461.5380.4971.1351.5870.3501.1901.343
+20040.1720.4710.2890.1040.3620.1280.1120.4760.212
+20050.0160.0750.259-0.0060.0320.1660.0060.0310.275
+20060.104-0.0890.1380.200-0.0560.0200.092-0.0240.137
+2007-0.0340.0440.015-0.0750.0430.026-0.0710.046-0.033
+20080.0160.2570.511-0.0020.2700.569-0.0320.1430.484
+20090.5950.6251.4740.7390.5841.6500.9420.5761.766
+20100.0280.1480.271-0.0050.2120.268-0.0630.0600.115
+2011-0.0280.1680.171-0.0730.1660.153-0.0360.2500.287
+20120.1000.1650.0860.2620.4550.6410.0910.2040.374
+20130.148-0.118-0.0060.1580.1420.2340.1200.0420.303
+2014-0.033-0.145-0.312-0.051-0.019-0.111-0.1240.017-0.134
+2015-0.126-0.261-0.518-0.054-0.044-0.255-0.0100.034-0.328
+20160.071-0.057-0.1980.064-0.103-0.024-0.025-0.277-0.727
+2017-0.078-0.2300.072-0.062-0.466-0.0660.016-0.377-0.135
+2018-0.151-0.0900.187-0.134-0.0830.324-0.206-0.2080.010
+2019-0.3240.6720.612-0.3600.4940.332-0.1800.4480.298
+20200.6981.442—0.9691.215—0.7171.623—
+20210.2160.229—0.2670.166—0.4040.460—
+2022-0.044——-0.041——-0.050——
+20230.082——-0.052——0.002——
+Average0.0710.2560.4210.0910.2650.4150.0890.3050.489
+t-statistic2.0292.4322.3342.1713.0012.8542.1552.8332.479
+Figure 2 · Annual C/P–GS performanceR denotes a May-April holding window overlapping the versioned NBER peak-to-trough dates, including the peak month; D denotes a negative CRSP equally weighted index buy-and-hold return over that window. The R convention may differ from printed marker placement.
+Q2-4 / Sample construction and replication limits
+Filters and data-availability rules
+Formation universe. The original sample and Q2-3 use historical NYSE/AMEX exchange codes 1/2. Q2-2 uses NYSE code 1 or NYSE/AMEX/Nasdaq codes 1/2/3. All cases require ordinary common share codes 10/11, and finite positive April market equity.
+Later exchange changes do not remove an original constituent's holding returns.
+Accounting and links. April t uses the last account dated in calendar year t−1, matched through active CCM LC/LU/LS links.
+Primary links and link quality resolve overlapping candidates. Book equity is CEQ. The current accounting and linking files are not point-in-time vintages.
+Signal availability. Positive C/P and E/P are required for their portfolio sorts, while B/M retains every finite ratio.
+GS requires five valid growth observations with consecutive years and positive sales levels. Double sorts require both signals.
+Holding returns. Missing internal monthly returns are not replaced with zero. Annual stock returns require twelve valid months after the post-disappearance replacement rule.
+Raw and size-adjusted results can use different numbers of stocks when December size is unavailable. No separate legacy delisting-return adjustment is added.
+Currency convention. The Q2-1 baseline has 403 formation observations with non-USD accounts divided by USD market equity, reproducing the supplied notebook's unconverted ratios.
+This currency inconsistency limits interpretation of those ratios. The selected restriction is reference convention; no currency restriction. A USD-only sensitivity is available and stored separately.
+Table-specific availability. Table IV uses model-specific complete cases. Table V uses paired accounting outcomes and complete past-return histories without changing formation eligibility.
+Table VI requires complete calendar horizons; the original sample has 22/20/18 cohorts at one/three/five years. Extended-sample counts are reported in each comparison. Table V future growth uses only cohorts with complete five-year follow-up inside the applicable sample endpoint, without filtering portfolio formation by future firm survival.
+Table I has an independently replayed reference program. The remaining tables implement the paper's stated definitions with the explicit conventions above, tested on constructed examples.
+Their comparisons show numerical agreement and disagreement with the published paper without treating a similar return pattern as proof of identical implementation.
+Phil Xu · Homework 1 · Lakonishok, Shleifer & Vishny (1994) · Question 2

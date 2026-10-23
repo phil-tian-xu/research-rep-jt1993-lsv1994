@@ -1,0 +1,2651 @@
+
+PAGE 1
+THE JOURNAL OF FINANCE • VOL. XLVIII, NO. 1 • MARCH 1993
+Returns to Buying Winners and Selling
+Losers: Implications for
+Stock Market Efficiency
+NARASIMHAN JEGADEESH and SHERIDAN TITMAN*
+ABSTRACT
+This paper documents that strategies which huy stocks that have performed well in
+the past and sell stocks that have performed poorly in the past generate significant
+positive returns over 3- to 12-month holding periods. We find that the profitability
+of these strategies are not due to their systematic risk or to delayed stock price
+reactions to common factors. However, part of the abnormal returns generated in
+the first year after portfolio formation dissipates in the following two years. A
+similar pattern of returns around the earnings announcements of past winners and
+losers is also documented.
+A POPULAR VIEW HELD by many journalists, psychologists, and economists is
+tbat individuals tend to overreact to information.^ A direct extension of tbis
+view, suggested by De Bondt and Thaler (1985, 1987), is tbat stock prices also
+overreact to information, suggesting tbat contrarian strategies (buying past
+losers and selling past winners) achieve abnormal returns. De Bondt and
+Thaler (1985) show that over 3- to 5-year holding periods stocks tbat per-
+formed poorly over the previous 3 to 5 years achieve higher returns than
+stocks tbat performed well over tbe same period. However, the interpretation
+of tbe De Bondt and Thaler results are still being debated. Some have argued
+tbat the De Bondt and Thaler results can be explained by the systematic risk
+of their contrarian portfolios and tbe size effect.^ In addition, since the
+long-term losers outperform tbe long-term winners only in Januaries, it is
+unclear whether tbeir results can be attributed to overreaction.
+*Jegadeesh is from the Anderson Graduate School of Management, UCLA. Titman is from
+Hong Kong University of Science and Technology and the Anderson Graduate School of Manage-
+ment, UCLA. We would like to thank Kent Daniel, Ravi Jagannathan, Richard Roll, Hans StoU,
+Rene Stulz, and two referees. We also thank participants of the Johnson Symposium held at the
+University of Wisconsin at Madison and seminar participants at Harvard, SMU, UBC, UCLA,
+Penn State, University of Michigan, University of Minnesota, and York University for helpful
+comments, and Juan Siu and Kwan Ho Kim for excellent research assistance.
+'See for example, the academic papers by Kahneman and Tversky (1982), De Bondt and
+Thaler (1985) and Shiller (1981).
+^See for example, Chan (1988), Ball and Kothari (1989), and Zarowin (1990). For an alternate
+view, see the recent paper by Chopra, Lakonishok, and Ritter (1992).
+65
+
+PAGE 2
+66 The Journal of Finance
+More recent papers by Jegadeesh (1990) and Lebmann (1990) provide
+evidence of shorter-term return reversals. Tbese papers show tbat contrarian
+strategies that select stocks based on tbeir returns in the previous week or
+month generate significant abnormal returns. However, since tbese strate-
+gies are transaction intensive and are based on short-term price movements,
+tbeir apparent success may reflect tbe presence of short-term price pressure
+or a lack of liquidity in tbe market ratber tban overreaction. Jegadeesb and
+Titman (1991) provide evidence on the relation between short-term return
+reversals and bid-ask spreads that supports this interpretation. In addition,
+Lo and MacKinlay (1990) argue tbat a large part of the abnormal returns
+documented by Jegadeesb and Lebmann is attributable to a delayed stock
+price reaction to common factors ratber tban to overreaction.
+Although contrarian strategies bave received a lot of attention in tbe recent
+academic literature, the early literature on market efficiency focused on
+relative strength strategies that buy past winners and sell past losers. Most
+notably. Levy (1967) claims tbat a trading rule tbat buys stocks with current
+prices tbat are substantially higher than their average prices over tbe past 27
+weeks realizes significant abnormal returns. Jensen and Bennington (1970),
+bowever, point out that Levy bad come up witb bis trading rule after
+examining 68 different trading rules in bis dissertation and because of tbis
+express skepticism about his conclusions. Jensen and Bennington analyze the
+profitability of Levy's trading rule over a long time period tbat was, for the
+most part, outside Levy's original sample period. They find that in their
+sample period Levy's trading rule does not outperform a buy and hold
+strategy and hence attribute Levy's result to a selection bias.
+Altbougb tbe current academic debate bas focused on contrarian ratber
+tban relative strength trading rules, a number of practitioners still use
+relative strength as one of tbeir stock selection criteria. For example, a
+majority of tbe mutual funds examined by Grinblatt and Titman (1989, 1991)
+sbow a tendency to buy stocks tbat bave increased in price over tbe previous
+quarter. In addition, tbe Value Line rankings are known to be based in large
+part on past relative strength. Tbe success of many of tbe mutual funds in
+tbe Grinblatt and Titman sample and tbe predictive power of Value Line
+rankings (see Copeland and Mayers (1982) and Stickel (1985)) provide sug-
+gestive evidence tbat tbe relative strength strategies may generate abnormal
+returns.
+How can we reconcile tbe success of Value Line rankings and tbe mutual
+funds tbat use relative strength rules witb tbe current academic literature
+tbat suggests that tbe opposite strategy generates abnormal returns? One
+possibility is that the abnormal returns realized by tbese practitioners are
+either spurious or are unrelated to tbeir tendencies to buy past winners. A
+second possibility is that the discrepancy is due to tbe difference between tbe
+time horizons used in the trading rules examined in tbe recent academic
+papers and tbose used in practice. For instance, the above cited evidence
+favoring contrarian strategies focuses on trading strategies based on either
+
+PAGE 3
+Returns to Buying Winners and Selling Losers 67
+very short-term return reversals (1 week or 1 month), or very long-term
+return reversals (3 to 5 years). However, anecdotal evidence suggests that
+practitioners who use relative strength rules base their selections on price
+movements over the past 3 to 12 months.^ This paper provides an analysis of
+relative strength trading strategies over 3- to 12-month horizons. Our analy-
+sis of NYSE and AMEX stocks documents significant profits in the 1965 to
+1989 sample period for each of the relative strength strategies examined. We
+piovide a decomposition of these profits into different sources and develop
+tests that allow us to evaluate their relative importance. The results of these
+tests indicate that the profits are not due to the systematic risk of the trading
+strategies. In addition, the evidence indicates that the profits cannot be
+attributed to a lead-lag effect resulting from delayed stock price reactions to
+information about a common factor similar to that proposed by Lo and
+MacKinlay (1990). The evidence is, however, consistent with delayed price
+reactions to firm-specific information.
+Further tests suggest that part of the predictable price changes that occur
+during these 3- to 12-nionth holding periods may not be permanent. The
+stocks included in the relative strength portfolios experience negative abnor-
+mal returns starting around 12 months after the formation date and continu-
+ing up to the thirty-first month. For example, the portfolio formed on the
+basis of returns realized in the past 6 months generates an average cumula-
+tive return of 9.5% over the next 12 months but loses more than half of this
+return in the following 24 months.
+Our analysis of stock returns around earnings announcement dates sug-
+gests a similar bias in market expectations. We find that past winners realize
+consistently higher returns around their earnings announcements in the 7
+months following the portfolio formation date than do past losers. However,
+in each of the following 13 months past losers realize higher returns than
+past winners around earnings announcements.
+The rest of this paper is organized as follows: Section I describes the
+trading strategies that we examine and Section II documents their excess
+returns. Section III provides a decomposition of the profits from relative
+strength strategies and evaluates the relative importance of the different
+components. Section IV documents these returns in subsamples stratified on
+the basis of ex ante beta and firm size and Section V measures these profits
+across calendar months and over 5-year subperiods. The longer term perfor-
+mance of the stocks included in the relative strength portfolios is examined in
+Section VI and Section VII back tests the strategy over the 1927 to 1964
+''For instance, one ofthe inputs used by Value Line to assign a timeliness rank for each stock
+is a price momentum factor computed based on the stock's past 3- to 12-month returns. Value
+Line reports that the price momentum factor is computed by "dividing the stock's latest 10-week
+average relative price by its 52-week average relative price." These timeliness ranks, according
+to Value Line, are "designed to discriminate among stocks on the basis of relative price
+performance over the next 6 to 12 months" (see Bernard (1984), pp. 52-53).
+
+PAGE 4
+68 The Journal of Finance
+period. Section VIII examines the returns of past winners and past losers
+around earnings announcement dates and Section IX concludes the paper.
+I. Trading Strategies
+If stock prices either overreact or underreact to information, then profitable
+trading strategies that select stocks based on their past returns will exist.
+This study investigates the efficiency of the stock market by examining the
+profitability of a number of these strategies. The strategies we consider select
+stocks based on their returns over the past 1, 2, 3, or 4 quarters. We also
+consider holding periods that vary from 1 to 4 quarters. This gives a total of
+16 strategies. In addition, we examine a second set of 16 strategies that skip
+a week between the portfolio formation period and the holding period. By
+skipping a week, we avoid some of the bid-ask spread, price pressure, and
+lagged reaction effects that underlie the evidence documented in Jegadeesh
+(1990) and Lehmann (1990).
+To increase the power of our tests, the strategies we examine include
+portfolios with overlapping holding periods. Therefore, in any given month t,
+the strategies hold a series of portfolios that are selected in the current
+month as well as in the previous K - 1 months, where K is the holding
+period. Specifically, a strategy that selects stocks on the basis of returns over
+the past J months and holds them for K months (we will refer to this as a
+J-month/^-month strategy) is constructed as follows: At the beginning of
+each month t the securities are ranked in ascending order on the basis of.
+their returns in the past J months. Based on these rankings, ten decile
+portfolios are formed that equally weight the stocks contained in the top
+decile, the second decile, and so on. The top decile portfolio is called the
+"losers" decile and the bottom decile is called the "winners" decile. In each
+month t, the strategy buys the winner portfolio and sells the loser portfolio,
+holding this position for K months. In addition, the strategy closes out the
+position initiated in month t - K. Hence, under this trading strategy we
+revise the weights on — of the securities in the entire portfolio in any given
+month and carry over the rest from the previous month.
+The profits of the above strategies were calculated for both a series of buy
+and hold portfolios and a series of portfolios that were rebalanced monthly to
+maintain equal weights. Since the returns for these two strategies were very
+similar (the buy and hold strategies yielded slightly higher returns) we
+present only the rebalanced returns which are also used in the event study
+presented in Section VL
+II. The Returns of Relative Strength Portfolios
+This section documents the returns of the portfolio strategies described in
+the last section over the 1965 to 1989 period using data from the CRSP daily
+
+PAGE 5
+Returns to Buying Winners and Selling Losers 69
+returns file."* All stocks with available returns data in the J months preced-
+ing the portfolio formation date are included in the sample from which the
+buy and sell portfolios are constructed.
+Table I reports the average returns of the different buy and sell portfolios
+as well as the zero-cost, winners minus losers portfolio, for the 32 strategies
+described above. The returns of all the zero-cost portfolios (i.e., the returns
+per dollar long in this portfolio) are positive. All these returns are statisti-
+cally significant except for the 3-month/3-month strategy that does not skip
+a week. Many of the individual ^-statistics are sufficiently large to be
+significant even after considering the fact that we have conducted 32 sepa-
+rate tests. The probability of obtaining a single ^statistic as large as 4.28
+(obtained with the 12-month/3-month strategy that skips a week) with 32
+observations is less than 0.0006, as given by the Bonferroni inequality.^
+The most successful zero-cost strategy selects stocks based on their returns
+over the previous 12 months and then holds the portfolio for 3 months. This
+strategy yields 1.31% per month (shown in Panel A) when there is no time
+lag between the portfolio formation period and the holding period and it
+yields 1.49% per month (shown in Panel B) when there is a 1-week lag
+between the formation period and the holding period.^ The 6-month forma-
+tion period produces returns of about 1% per month regardless of the holding
+period. These holding period returns are slightly higher when there is a
+1-week lag between the formation period and the holding period (Panel B)
+than when the formation and holding periods are contiguous (Panel A).
+Having established that the relative strength strategies are on average
+quite profitable, we now examine one specific strategy in detail, the 6-
+month/6-month strategy that does not skip a week between the portfolio
+formation period and the holding period. The results for this strategy are
+representative of the results for the other strategies.
+III. Sources of Relative Strength Profits
+This section presents two simple return-generating models that allow us to
+decompose the excess returns documented in the last section and identify the
+important sources of relative strength profits. The first model allows for
+factor-mimicking portfolio returns to be serially correlated but requires indi-
+""The latest version ofthe CRSP daily returns file at the time this study was initiated covers
+the July 1962 to December 1989 period. Monthly returns were obtained by compounding the
+daily returns recorded in this data set. Since the 12-month/12-month strategy considered here
+requires lagged returns data over 23 months the first full calendar year for which we could
+examine portfolio returns is 1965.
+'The Bonferroni inequality provides a bound for the probability of observing a i-statistic of a
+certain magnitude with N tests that are not necessarily independent.
+*De Bondt and Thaler (1985) report 1-year holding period returns in their tables that are
+consistent with our findings here. However, they do not examine strategies based on 1-year
+horizons in any detail and based on their analysis of longer horizon strategies conclude that the
+market overreacts.
+
+PAGE 6
+70 The Journal of Finance
+Table I
+Returns of Relative Strength Portfolios
+The relative strength portfolios are formed based on J-month lagged returns and held for K
+months. The values of J and K for the different strategies are indicated in the first column and
+row, respectively. The stocks are ranked in ascending order on the basis of t/-month lagged
+returns and an equally weighted portfolio of stocks in the lowest past return decile is the sell
+portfolio and an equally weighted portfolio of the stocks in the highest return decile is the buy
+portfolio. The average monthly returns of these portfolios are presented in this table. The
+relative strength portfolios in Panel A are formed immediately after the lagged returns are
+measured for the purpose of portfolio formation. The relative strength portfolios in Panel B are
+formed 1 week after the lagged returns used for forming these portfolios are measured. Tlie
+^-statistics are reported in parentheses. The sample period is January 1965 to December 1989.
+3
+3
+3
+6
+6
+6
+9
+9
+9
+12
+12
+12
+T T/-
+tf ti.
+Sell
+Buy
+Buy-sell
+Sell
+Buy
+Buy-sell
+Sell
+Buy
+Buy-sell
+Sell
+Buy
+Buy-sell
+3
+0.0108
+(2.16)
+0.0140
+(3.57)
+0.0032
+(1.10)
+0.0087
+(1.67)
+0.0171
+(4.28)
+0.0084
+(2.44)
+0.0077
+(1.47)
+0.0186
+(4.56)
+0.0109
+(3.03)
+0.0060
+(1.17)
+0.0192
+(4.63)
+0.0131
+(3.74)
+Panel
+6
+0.0091
+(1.87)
+0.0149
+(3.78)
+0.0058
+(2.29)
+0.0079
+(1.56)
+0.0174
+(4.33)
+0.0095
+(3.07)
+0.0065
+(1.29)
+0.0186
+(4.53)
+0.0121
+(3.78)
+0.0065
+(1.29)
+0.0179
+(4.36)
+0.0114
+(3.40)
+A
+9
+0.0092
+(1.92)
+0.0152
+(3.83)
+0.0061
+(2.69)
+0.0072
+(1.48)
+0.0174
+(4.31)
+0.0102
+(3.76)
+0.0071
+(1.43)
+0.0176
+(4.30)
+0.0105
+(3.47)
+0.0075
+(1.48)
+0.0168
+(4.10)
+0.0093
+(2.95)
+12 K =
+0.0087
+(1.87)
+.0156
+(3.89)
+0.0069
+(3.53)
+0.0080
+(1.66)
+0.0166
+(4.13)
+0.0086
+(3.36)
+0.0082
+(1.66)
+0.0164
+(4.03)
+0.0082
+(2.89)
+0.0087
+(1.74)
+0.0155
+(3.81)
+0.0068
+(2.25)
+3
+0.0083
+(1.67)
+0.0156
+(3.95)
+0.0073
+(2.61)
+0.0066
+(1.28)
+0.0179
+(4.47)
+0.0114
+(3.37)
+0.0058
+(1.13)
+0.0193
+(4.72)
+0.0135
+(3.85)
+0.0048
+(0.93)
+0.0196
+(4.73)
+0.0149
+(4.28)
+Panel
+6
+0.0079
+(1.64)
+0.0158
+(3.98)
+0.0078
+(3.16)
+0.0068
+(1.35)
+0.0178
+(4.41)
+0.0110
+(3.61)
+0.0058
+(1.15)
+0.0188
+(4.56)
+0.0130
+(4.09)
+0.0058
+(1.15)
+0.0179
+(4.36)
+0.0121
+(3.65)
+B
+9
+0.0084
+(1.77)
+0.0158
+(3.96)
+0.0074
+(3.36)
+0.0067
+(1.38)
+0.0175
+(4.32)
+0.0108
+(4.01)
+0.0066
+(1.34)
+0.0176
+(4.30)
+0.0109
+(3.67)
+0.0070
+(1.40)
+0.0167
+(4.09)
+0.0096
+(3.09)
+12
+0.0083
+(1.79)
+0.0160
+(3.98)
+0.0077
+(4.00)
+0.0076
+(1.58)
+0.0166
+(4.13)
+0.0090
+(3.54)
+0.0078
+(1.59)
+0.0164
+(4.04)
+0.0085
+(3.04)
+0.0085
+(1.71)
+0.0154
+(3.79)
+0.0069
+(2.31)
+vidual stocks to react instantaneously to factor realizations. This model is
+used to decompose relative strength profits into two components relating to
+systematic risk, which would exist in an efficient market, and a third
+component relating to firm-specific returns, which would contribute to rela-
+tive strength profits only if the market were inefficient. The second return-
+generating model relaxes the assumption that stocks react instantaneously to
+the common factor. This model enables us to evaluate the possibility that the
+relative strength profits arise because of a lead-lag relationship in stock
+prices similar to that proposed by Lo and MacKinlay (1990) as a partial
+explanation for short horizon contrarian profits.
+
+PAGE 7
+Returns to Buying Winners and Selling Losers 71
+A. A Simple One-Factor Model
+Consider the following one-factor model describing stock returns:^
+(1)
+= 0,
+where /x, is the unconditional expected return on security i, r^, is the
+return on security i, /", is the unconditional unexpected return on a factor-
+mimicking portfolio, e;( is the firm-specific component of return at time t, and
+6; is the factor sensitivity of security t. For the 6-month/6-month strategy
+that we consider in the rest of this paper the length of a period is 6 months.
+The superior performance of the relative strength strategies documented in
+the last section implies that stocks that generate higher than average returns
+in one period also generate higher than average returns in the period that
+follows. In other words, these results imply that:
+and
+E(r,,-rJr;,_i-r,_i<0) < 0,
+where a bar above a variable denotes its cross-sectional average.
+Therefore,
+mru-r,){ru-,-r,_,)}>0. (2)
+The above cross-sectional covariance equals the expected profits from the
+zero-cost contrarian trading strategy examined by Lehmann (1990) and Lo
+and MacKinlay (1990) that weights stocks by their past returns less the past
+equally weighted index returns. This weighted relative strength strategy
+(WRSS) is closely related to our strategy. The WRSS yields a profit of 4.5%
+per dollar long semiannually (^-statistic = 2.99) and the correlation between
+the returns of this strategy and that of the trading strategy examined in the
+last section is 0.95. The equally weighted decile portfolios are used in most of
+our empirical tests since they provide relatively more information than the
+WRSS. However, as the following analysis demonstrates, the closely related
+WRSS provides a tractable framework for analytically examining the sources
+of relative strength profits and evaluating the relative importance of each of
+these sources.
+'Our analysis in this subsection is similar to that in Jegadeesh (1987) and Lo and MacKinlay
+(1990).
+
+PAGE 8
+72 The Journal of Finance
+Given the one-factor model defined in (1), the WRSS profits given in
+expression (2) can he decomposed into the following three terms:
+e,,,e,,_i), (3)
+where a^ and a^ are the cross-sectional variances of expected returns and
+factor sensitivities respectively.
+The above decomposition suggests three potential sources of the relative
+strength profits. The first term in this expression is the cross-sectional
+dispersion in expected returns. Intuitively, since realized returns contain a
+component related to expected returns, securities that experience relatively
+high returns in one period can be expected to have higher than average
+returns in the following period. The second term is related to the potential to
+time the factor. If the factor portfolio returns exhibit positive serial correla-
+tion, the relative strength strategy will tend to pick stocks with high b's
+when the conditional expectation of the factor portfolio return is high. As the
+above expression demonstrates, the extent to which relative strength strate-
+gies generate profits because of the serial correlation of the factor portfolio
+return is a function ofthe cross-sectional variance ofthe 6's. The last term in
+the above expression is the average serial covariance of the idiosyncratic
+components of security returns.
+To assess whether the existence of relative strength profits imply market
+inefficiency, it is important to identify the sources of the profits. If the profits
+are due to either the first or the second term in expression (3) they may be
+attributed to compensation for bearing systematic risk and need not be an
+indication of market inefficiency. However, if the superior performance of the
+relative strength strategies is due to the third term, then the results would
+suggest market inefficiency.
+B. The Average Size and Beta of Relative Strength Portfolios
+This subsection considers the possibility that relative strength strategies
+systematically pick high-risk stocks and benefit from the first term in expres-
+sion (3). Table II reports estimates of the two most, common indicators of
+systematic risk, the post-ranking betas of the ten 6-month/6-month relative
+strength portfolios and the average capitalizations of the stocks in these
+portfolios. The betas of the extreme past returns portfolios are higher than
+the average beta for the full sample. In addition, since the beta of the
+portfolio of past losers is higher than the beta ofthe portfolio of past winners,
+the beta of the zero-cost winners minus losers portfolio is negative. The
+average capitalizations of the stocks in the different portfolios show that the
+highest and the lowest past returns portfolios consist of smaller than average
+stocks, with the stocks in the losers portfolios being smaller tban the stocks
+in the winners portfolio. This evidence suggests that the observed relative
+strength profits are not due to the first source of profits in expression (3).
+
+PAGE 9
+Returns to Buying Winners and Selling Losers 73
+Table II
+Betas and Market Capitalization of Relative Strength
+Portfolios
+The relative strength portfolios are formed based on 6-month lagged returns and held for 6
+months. The stocks are ranked in ascending order on the basis of 6-month lagged returns. The
+equally weighted portfolio of stocks in the lowest past return decile is portfolio PI, the equally
+weighted portfolio of stocks in the next decile is portfolio P2, and so on. The betas with respect to
+the value-weighted index and the average market capitalizations ofthe stocks included in these
+portfolios are reported here. The sample period is January 1965 to December 1989.
+Average Market
+Beta Capitalization
+PI 1.36 208.24
+P2 1.19 480.07
+P3 1.14 545.31
+P4 1.11 618.85
+P5 1.09 692.89
+P6 1.08 702.51
+P7 1.09 738.09
+P8 1.12 758.87
+P9 1.17 680.18
+PIO 1.28 495.13
+PlO-Pl -0.08 —
+Additional evidence relating to the extent to which the dispersion in expected
+returns explains these profits is given in the next section.
+C. The Serial Covariance of 6-Month Returns
+This subsection examines the serial covariance of 6-month returns in order
+to assess the potential contribution of the second and third source of profits
+from our decomposition. Given the model expressed in (1), the serial covari-
+ance of an equally weighted portfolio of a large number of stocks is:*
+(/;,/;_!)• (4)
+If the source of relative strength profits is the serial covariance of factor-
+related returns then, from the above expression, the in-sample serial covari-
+ance of the equally weighted index returns is required to be positive. How-
+ever, we find that the serial covariance of 6-month returns of the equally
+weighted index is negative (-0.0028) which, from the decomposition in
+expression (3), reduces the relative strength profits. This result indicates that
+the serial covariance of factor portfolio returns is unlikely to be the source of
+relative strength profits.
+The contribution of the serial covaHances of e,, to the serial covariance of the equally
+weighted index becomes arbitrarily small as the number of stocks in the index becomes
+arbitrarily large.
+
+PAGE 10
+74 The Journal of Finance
+The estimates of the serial covariance of market model residuals for
+individual stocks are on average positive (0.0012). This evidence suggests
+that the relative strength profits may arise from stocks underreacting to
+firm-specific information. However, this evidence is also potentially consis-
+tent with an alternative model in which some stocks react with a lag to factor
+realizations, and we address this possibility in the next subsection.
+D. Lead-Lag Effects and Relative Strength Profits
+This subsection examines whether the relative strength profits can arise
+from a lead-lag relationship in stock prices similar to that considered in Lo
+and MacKinlay (1990). In contrast to the model previously presented, the
+model in this subsection assumes that stocks can either overreact or underre-
+act to the common factor but that the factor-mimicking portfolio returns are
+serially uncorrelated.
+Consider the following return generating process:
+rit = (^i + buft + b2ift-i + eit, (5)
+where b^^ and 63; are sensitivities to the contemporaneous and lagged factor
+realizations, ig; > 0 implies that stock i partly reacts to the factor with a lag
+as in Lo and MacKinlay and 621 < ^ implies that the stock overreacts to
+contemporaneous factor realizations and this overreaction gets corrected in
+the subsequent period.
+Given this model, the WRSS profits and the serial covariance of the equally
+weighted index are given by:
+/ / (6)
+and
+where 6^ and 62 are cross-sectional averages of b^^ and 621)
+From expression (6), when 5 < 0 the lead-lag relation has a negative effect
+on the profitability of the WRSS, or equivalently, a positive effect on contrar-
+ian profits as in Lo and MacKinlay. However, when 6 > 0, the lead-lag
+relation will generate positive relative strength profits. In addition, if 62 is
+positive (negative) then the equally weighted index returns will be positively
+(negatively) serially correlated. This parameter, however, does not affect the
+profitability of the WRSS.
+If the lead-lag effect is. an important source of relative strength profits,
+then the profit in any period will depend on the magnitude of factor portfolio
+
+PAGE 11
+Returns to Buying Winners and Selling Losers 75
+return in the previous period. Formally, consider the expected WRSS profits
+conditional on the past factor portfolio return:
+= cr/= cr/ + Sf,'_,. (8)
+In contrast, under model (1), the conditional expectation of the WRSS
+profits given in expression (3), assuming that the factor portfolio returns are
+normally distributed, is:
+where p is the first order serial correlation of the factor portfolio returns.
+Expression (8) implies that if the relative strength profits come entirely
+from the lead-lag effect in stock returns, then the magnitude of the profits
+should be positively related to the squared factor portfolio return in the
+previous period. Intuitively, if inefFicient stock price reactions to factor real-
+izations are important for the profitability of relative, strength strategies,
+then large factor realizations should result in large WRSS profits. Alterna-'
+tively, if the lead-lag effect does not contribute to the profits, then the
+observed negative serial covariance of the market index implies a negative
+relation between the magnitude of the WRSS profits and squared lagged
+factor portfolio returns.
+To examine which of these predictions best explains the time-series varia-
+tion in relative strength profits we estimate the following regression using
+the value-weighted index as a proxy for the factor portfolio:
+where r^^ g is the 6-month return ofthe relative strength portfolio formed in
+month t based on 6-month lagged returns and r,^^ _e is the demeaned return
+on the value-weighted index in the months t - 6 through t - 1. The esti-
+mates of d and the corresponding autocorrelation-consistent ^statistic over
+the 1965 to 1989 sample period are -2.29 and -1,74 respectively. The
+estimates (^-statistic) of 6 in the first and second half of this sample period
+are -2.55 (-2.65) and -1.83 (-2,52) respectively.^ This reliably negative
+relation between the relative strength profits and lagged squared market
+returns is consistent with the model presented in the last subsection which
+assumed no lead-lag relationship and is inconsistent with the lead-lag model.
+This evidence indicates that the lead-lag effect is not an important source of
+relative strength profits and that the profitability of these strategies is
+therefore related to market underreaction to the firm-specific information.
+'When this regression is fitted with the WRSS profits as the dependent variable, the estimate
+((-statistic) of e over 1965-1989 is -1.77 (-3,56) and the corresponding statistics in the two
+equal subperiods are -1,94 (-2,52) and -1,51 (-2,53).
+
+PAGE 12
+76 The Journal of Finance
+IV. Profitability of Relative Strength Strategies Within
+Size- and Beta-Based Subsamples
+In this section we examine the profitability of the 6-month/6-month strat-
+egy within subsamples stratified on the basis of firm size and ex ante
+estimates of betas. Specifically, we implement this strategy on three size-
+based subsamples (small, medium, and large), and three beta-based subsam-
+ples (low-beta, medium-beta, and high-beta stocks).
+Measuring relative strength profits on size- and beta-based subsamples
+allows us to examine whether the profitability of the strategy is confined to
+any particular subsample of stocks. This analysis also provides additional
+evidence about the source of the observed relative strength profits. Since
+extant empirical evidence indicates that size and beta are related to both risk
+and expected returns,^° the cross-sectional dispersion in expected returns
+should be less within these subsamples than in the full sample. Therefore, if
+the relative strength strategy profits are related to differences in expected
+returns, they will be less when they are implemented on stocks within each
+subsample rather than on all the stocks in the sample. The profits need not
+be reduced in these subsamples, however, if the profits of the strategies are
+due to serial covariances in idiosyncratic returns. In fact, ifthe profits are not
+factor-related, the strategies are likely to generate higher returns when they
+are implemented within the small-firm subsample that consists of less ac-
+tively traded stocks and to generate lower returns when they are imple-
+mented within the large-firm subsample.
+Table III presents the average returns of the 6-month/6-month strategy
+for each ofthe subsamples. The results in Panel A indicate that the observed
+abnormal returns are of approximately the same magnitude when the strate-
+gies are implemented on the various subsamples of stocks as when they are
+implemented on the entire sample. They do, however, appear to be somewhat
+related to firm size and beta; for the zero-cost, winners minus losers portfolio,
+the subsample with the largest firms generates lower abnormal returns than
+the other two subsamples and the returns in the subsamples segmented by
+beta are monotonically increasing in beta.^^ These findings indicate that the
+relative strength profits are not primarily due to the cross-sectional differ-
+ences in the systematic risk of the stocks in the sample. This evidence
+suggests that the profits are due to the serial correlation in the firm-specific
+component of returns. Furthermore, these results indicate that the profitabil-
+'"See Fama and MacBeth (1973) and Banz (1981).
+"One thing that is interesting to note here is that the average returns of low heta stocks are
+higher than the returns ofthe medium and high beta stocks. The average returns of stocks in the
+low, medium and high beta groups are 1.48%, 1.39%, and 1.16% respectively. These results,
+obtained with daily betas, should be contrasted with earlier findings of positive relations
+between monthly betas and average returns (e.g., Fama and MacBeth (1973)). The difference
+between our results using daily betas and the earlier results using monthly betas is due to the
+lower correlation between firm size and daily betas. Jegadeesh (1992) and Fama and French
+(1992) document that there is no reliahle relation between monthly betas and average returns
+after controlling for firm size.
+
+PAGE 13
+Returns to Buying Winners and Selling Losers 11
+ity of the relative strength strategies is not confined to any particular
+subsample of stocks.
+As a further test Panel B of Table III presents the risk-adjusted returns of
+the relative strength strategies implemented within the size- and beta-based
+subsamples. The risk-adjusted returns are estimated as the intercepts from
+the following market model regression:
+rpt - rft = ftp + /3p(r^, - rf^) + e,^, (9)
+where r^^ is the return on the portfolio p, r^^ is the return on the value-
+weighted index, and r^^ is the interest rate on 1-month Treasury Bill.
+Consistent with the negative betas of the zero-cost strategies, the abnormal
+returns of the relative strength strategies estimated from these regressions
+slightly exceed the raw returns given in Table III (Panel A). With the
+exception of the F-statistics becoming somewhat more significant, the find-
+ings in Table III (Panel B) are virtually the same as those reported in Table
+III (Panel A).
+An additional implication of the results in Table III (Panel B) is that the
+abnormal performance of the zero-cost portfolio is due to the buy side of the
+transaction rather than the sell side. The portfolio of past winners achieves
+significant positive abnormal return when the value-weighted index is used
+as the benchmark, while the abnormal return of the portfolio of past losers is
+not statistically significant with this benchmark. However, in unreported
+regressions that used the equally weighted index as the benchmark, the
+positive and the negative abnormal returns of the winners and losers port-
+folios were both statistically significant. The magnitude and statistical sig-
+nificance of the abnormal returns of the zero-cost, winners minus losers,
+portfolio (0.0115 with a ^statistic of 3.84) was slightly higher when the
+equally weighted index was used in place of the value-weighted index as the
+benchmark.
+From a practical investment perspective, it is important to assess whether
+the relative strength strategies will be profitable after accounting for transac-
+tion costs. On average, the relative strength trading rule results in a turnover
+of 84.8% semiannually.^^ The risk-adjusted return of the relative strength
+trading rule after considering a 0.5% one-way transaction cost^^ is 9.29% per
+year, which is reliably different from zero. The risk-adjusted returns after
+transaction costs are also significantly positive in each of the three size-based
+subsamples.
+The average turnovers for the buy and sell sides of the zero-cost portfolio are 86.6% and
+83.1% respectively. These percentages are significantly less than the 90% turnover that would
+he^expected if the transition probabilities are equal across the return decile portfolios.
+Berkowitz, Logue, and Noser (1988) estimate one way transaction costs of 23 basis points for
+institutional investors, suggesting that the assumed transaction cost of 0.5% per trade is
+conservative.
+
+PAGE 14
+78 The Journal of Finance
+V. Subperiod Analysis
+A. Seasonal Patterns in Relative Strength Portfolio Returns
+This section tests for possible seasonal effects in the performance of the
+relative strength portfolios. Based on earlier papers, e.g.. Roll (1983), we have
+reason to expect that the relative strength strategies will not be successful in
+the month of January. Table IV reports the average returns of the zero-cost
+portfolio in each calendar month and the results here support this conjecture.
+Table III
+Returns of Size-Based and Beta-Based Relative Strength
+Portfolios
+The relative strength portfolios are formed based on 6-month lagged returns and held for 6
+months. The stocks are ranked in ascending order on the basis of 6-month lagged returns and the
+equally weighted portfolio of stocks in the lowest past return decile is portfolio PI, the equally
+weighted portfolio of stocks in the next decile is portfolio P2, and so on. Average monthly returns
+and excess returns of these portfolios and the returns of the relative strength portfolios formed
+using size-based and beta-based subsamples of securities are reported here. The subsample SI
+contains the smallest firms, S2 contains the medium-sized firms, and S3 contains the largest
+firms. The subsamples P^, p^, and P^ contain the firms with the smallest, medium, and the
+largest Scholes-Williams betas estimated from the returns data in the calendar year prior to
+portfolio formation. The sample period is January 1965 to December 1989.
+PI
+P2
+P3
+P4
+P5
+P6
+P7
+P8
+P9
+PIO
+PlO-Pl
+F-Statistics"
+p-Value
+All
+0.0079
+(1.56)
+0.0112
+(2.78)
+0.0125
+(3.40)
+0.0124
+(3.59)
+0.0128
+(3.87)
+0.0134
+(4.14)
+0.0136
+(4.19)
+0.0143
+(4.30)
+0.0153
+(4.36)
+0.0174
+(4.33)
+0.0095
+(3.07)
+2.83
+(0.00)
+Panel A: Average Monthly Returns
+SI
+0.0083
+(1.35)
+0.0117 .
+(2.29)
+0.0152
+(3.23)
+0.0163
+(3.59)
+0.0164
+(3.74)
+0.0174
+(4.08)
+0.0175
+(4.13)
+0.0174
+(4.11)
+0.0183
+(4.28)
+0.0182
+(3.99)
+0.0099
+(2.77)
+2.65
+(0.00)
+S2
+0.0047
+(0.99)
+0.0102
+(2.54)
+0.0125
+(3.34)
+0.0130
+(3.58)
+0.0134
+(3.83)
+0.0146
+(4.22)
+0.0143
+(4.12)
+0.0148
+(4.16)
+0.0154
+(4.11)
+0.0173
+(4.11)
+0.0126
+(4.57)
+4.51
+(0.00)
+S3
+0.0082
+(2.22)
+0.0098
+(3.08)
+0.0105
+(3.53)
+0.0105
+(3.66)
+0.0109
+(3.85)
+0.0102
+(3.66)
+0.0109
+(3.90)
+0.0111
+(3.86)
+0.0126
+(4.17)
+0.0157
+(4.41)
+0.0075
+(3.03)
+4.38
+(0.00)
+0.0129
+(2.92)
+0.0140
+(4.38)
+0.0132
+(4.59)
+0.0134
+(5.02)
+0.0135
+(5.14)
+0.0135
+(5.23)
+0.0136
+(5.09)
+0.0143
+(5.12)
+0.0165
+(5.34)
+0.0191
+(5.17)
+0.0062
+(2.05)
+2.51
+(0.01)
+0.0097
+(2.01)
+0.0128
+(3.37)
+0.0133
+(3.77)
+0.0128
+(3.82)
+0.0135
+(4.15)
+0.0142
+(4.38)
+0.0142
+(4.43)
+0.0146
+(4.44)
+0.0156
+(4.56)
+0.0176
+(4.53)
+0.0079
+(2.64)
+1.99
+(0.04)
+0.0052
+(0.95)
+0.0086
+(1.83)
+0.0102
+(2.28)
+0.0110
+(2.50)
+0.0121
+(2.86)
+0.0122
+(2.92)
+0.0126
+(3.01)
+0.0132
+(3.15)
+0.0141
+(3.28)
+0.0160
+(3.50)
+0.0108
+(3.35)
+1.69
+(0.09)
+
+PAGE 15
+Returns to Buying Winners and Selling Losers 79
+Table III—Continued
+Panel
+PI
+P2
+P3
+P4
+P5
+P6
+P7
+P8
+P9
+PIO
+PlO-Pl
+F-Statistics*"
+B: Excess Returns Using the CRSP Value-Weighted Index
+All
+-0.0030
+[-0.89)
+0.0011
+(0.43)
+0.0026
+(1.24)
+0.0026
+(1.48)
+0.0031
+(1.96)
+0.0037
+(2.55)
+0.0039
+(2.70)
+0.0045
+(3.01)
+0.0053
+(3.20)
+0.0070
+(3.24)
+0.0100
+(3.23)
+5.2910
+SI
+-0.0029
+(-0.60)
+0.0012
+(0.31)
+0.0051
+(1.46)
+0.0062
+(1.90)
+0.0064
+(2.06)
+0.0075
+(2.51)
+0.0075
+(2.57)
+0.0074
+(2.56)
+0.0082
+(2.89)
+0.0077
+(2.56)
+0.0106
+(2.97)
+5.4401
+S2
+-0.0062
+(-2.11)
+-0.0001
+(-0.03)
+0.0024
+(1.18)
+0.0030
+(1.57)
+0.0036
+(1.98) .
+0.0048
+(2.74)
+0.0044
+(2.61)
+0.0048
+(2.76)
+0.0052
+(2.76)
+0.0067
+(2.91)
+0.0129
+(4.69)
+8.3713
+S3
+-0.0020
+(-1.17)
+0.0000
+(0.03)
+0.0009
+(0.93)
+0.0011
+(1.24)
+0.0014
+(1.84)
+0.0008
+(1.13)
+0.0015
+(2.15)
+0.0016
+(2.12)
+0.0029
+(3.23)
+0.0056
+(3.50)
+0.0076
+(3.08)
+4.7386
+Pi
+0.0031
+(0.94)
+0.0051
+(2.36)
+0.0045
+(2.45)
+0.0048
+(2.98)
+0.0049
+(3.21)
+0.0048
+(3.46)
+0.0049
+(3.29)
+0.0054
+(3.53)
+0.0074
+(4.10)
+0.0094
+(4.10)
+0.0063
+(2.09)
+3.6045
+as the Market Proxy
+P2
+-0.0009
+(-0.28)
+0.0029
+(1.26)
+0.0035
+(1.83)
+0.0031
+(1.83)
+0.0038
+(2.55)
+0.0045
+(3.12)
+0.0045
+(3.25)
+0.0049
+(3.29)
+0.0057
+(3.60)
+0.0074
+(3.47)
+0.0083
+(2.76)
+4.0171
+P3
+-0.0062
+(-1.71)
+-0.0024
+(-0.87)
+-0.0007
+(-0.29)
+0.0000
+(0.01)
+0.0012
+(0.58)
+0.0013
+(0.69)
+0.0017
+(0.90)
+0.0023
+(1.19)
+0.0031
+(1.54)
+0.0048
+(2.02)
+0.0111
+(3.42)
+2.5872
+"The F-statistics are computed under the hypothesis that the returns on portfolios PI through
+PIO are jointly equal.
+The F-statistics are computed under the hypothesis that the ahnormal returns on portfolios
+PI through PIO are jointly equal to zero. All F-statistics are significant at the 1 percent level.
+The relative strength strategy loses about 7% on average in each January but
+achieves positive abnormal returns in each of the other months." The
+relative strength strategy realizes positive returns in 67% of the months, and
+71% of the months when January is excluded (see Table V). The average
+return in non-January months is 1.66% per month.^^ Consistent with earlier
+papers, we find the magnitude of the negative January performance of the
+relative strength strategy to be inversely related to firm size. The negative
+It is possihle that at least part of the negative January returns of the relative strength
+strategy is due to a tendency of past winners to trade at the ask prices and past losers to sell at
+the hid prices at the close ofthe last trading day in the year. See Keim (1989) for a discussion of
+bid-ask spread hiases and the January effect.
+If we were to use our priors ahout the performance of relative strength strategies in January
+and reverse the huy and sell portfolios in that calendar month (taking a long position in the past
+losers and a short position in the past winners in January only), then the abnormal returns
+would be even larger. Such a strategy generates close to 25% per year in abnormal returns, and
+loses money (about -0.7%) only in 1 year out ofthe 25 years in the sample period.
+
+PAGE 16
+80 The Journal of Finance
+Table IV
+Returns on Size-Based Relative Strength Portfolios (PlO-Pl)
+by Calendar Months
+The relative strength portfolios are formed hased on 6-month lagged returns and held for 6
+months. The stocks are ranked in ascending order on the hasis of 6-month lagged returns and the
+equally weighted portfolio of stocks in the lowest past return decile is the sell portfolio and the
+equally weighted portfolio of stocks in the highest past return decile is the buy portfolio. This
+tahle reports the average monthly returns of the zero-cost, huy minus sell, portfolio in each
+calendar month. The average returns of the zero-cost portfolios formed using size-hased suhsam-
+ples of securities are also reported. The suhsample SI contains the smallest firms, S2 contains
+the medium-sized firms, and S3 contains the largest firms. The sample period is January 1965 to
+Decemher 1989.
+Jan.
+Feh.
+Mar.
+Apr.
+May
+June
+July
+Aug.
+Sept.
+Oct.
+Nov.
+Dec.
+Feh.-Dec.
+F-Statistics"
+p-Value
+F-Statistics''
+p-Value
+All
+-0.0686
+(-3.52)
+0.0063
+(0.85)
+0.0105
+(1.37)
+0.0333
+(7.39)
+0.0102
+(1.32)
+0.0238
+(3.86)
+0.0075
+(0.96)
+0.0027
+(0.35)
+0.0116
+(1.10)
+0.0137
+(1.30)
+0.0372
+(5.31)
+0.0264
+(2.61)
+0.0166
+(6.67)
+7.90
+(0.00)
+2.04
+(0.03)
+SI
+-0.0797
+(-3.36)
+0.0089
+(0.81)
+0.0196
+(2.08)
+0.0323
+(5.35)
+0.0046
+(0.56)
+0.0237
+(3.50)
+0.0112
+(1.44)
+0.0079
+(0.97)
+0.0126
+(1.20)
+0.0160
+(1.40)
+0.0352
+(5.01)
+0.0265
+(2.13)
+0.0181
+(6.47)
+7.14
+(0.00)
+1.23
+(0.27)
+S2
+-0.0347
+(-2.14)
+0.0149
+(2.44)
+0.0103
+(1.49)
+0.0368
+(7.29)
+0.0091
+(1.18)
+0.0231
+(3.23)
+0.0084
+(0.96)
+-0.0011
+(-0.14)
+0.0137
+(1.27)
+0.0151
+(1.44)
+0.0331
+(4.12)
+0.0224
+(2.86)
+0.0169
+(6.83)
+4.11
+(0.00)
+1.91
+(0.04)
+S3
+-0.0161
+(-1.28)
+0.0099
+(1.35)
+0.0108
+(1.49)
+0.0215
+(4.91)
+0.0079
+(1.19)
+0.0185
+(2.59)
+0.0035
+(0.41)
+-0.0058
+(-0.71)
+0.0053
+(0.60)
+0.0025
+(0.22)
+0.0248
+(2.78)
+0.0070
+(0.99)
+0.0096
+(4.00)
+1.81
+(0.51)
+1.28
+(0.24)
+"The F-statistics are computed under the hypothesis that the returns on the zero-cost portfolio
+are jointly equal in all calendar months.
+""The F-statistics are computed under the hypothesis that the returns on the zero-cost
+portfolios are jointly equal in the calendar months February through Decemher.
+
+PAGE 17
+Returns to Buying Winners and Selling Losers 81
+Table V
+Proportion of Positive Returns of Relative Strength Portfolios
+by Calendar Months
+The relative strength portfolios are formed hased on 6-month lagged returns and held for 6
+months. The stocks are ranked in ascending order on the hasis of 6-month lagged returns and the
+equally weighted portfolio of stocks in the lowest past return decile is the sell portfolio and the
+equally weighted portfolio of stocks in the highest past return decile is the buy portfolio. This
+tahle reports the proportion of months when the average return ofthe zero-cost, huy minus sell,
+portfolio is positive. This proportion for the zero-cost portfolio formed within each size-based
+suhsample of securities is also reported. The suhsample SI contains the smallest firms, S2
+contains the medium-sized firms, and S3 contains the largest firms. The sample period is
+January 1965 to Decemher 1989.
+Jan.
+Feb.
+Mar.
+Apr.
+May
+June
+July
+Aug.
+Sept.
+Oct.
+Nov.
+Dec.
+Feh.-Dec.
+All
+All
+0.24
+0.60
+0.80
+0.96
+0.68
+0.76
+0.56
+0.52
+0.80
+0.64
+0.84
+0.68
+0.71
+0.67
+SI
+0.16
+0.60
+0.76
+0.92
+0.68
+0.64
+0.68
+0.60
+0.72
+0.60
+0.84
+0.76
+0.71
+0.66
+S2
+0.20
+0.76
+0.72
+0.96
+0.72
+0.76
+0.56
+0.48
+0.80
+0.64
+0.84
+0.68
+0.72
+0.68
+S3
+0.44
+0.60
+0.72
+0.80
+0.56
+0.72
+0.52
+0.48
+0.68
+0.56
+0.68
+0.44
+0.61
+0.60
+average relative strength return in January is not statistically significant for
+the subsample of large firms.
+The findings in Table IV suggest that there is also a seasonal pattern
+outside January. For example, the returns are fairly low in August and are
+particularly high in April, November, and December. The /^-statistics re-
+ported in this table indicate that these monthly differences outside January
+are statistically significant for the whole sample as well as for the sample of
+medium-size firms.
+One ofthe interesting findings documented in this table is that the relative
+strength strategy produces positive returns in 96% (24 out of 25) of the
+Aprils. The large (3.33%) and consistently positive April returns may be
+related to the fact that corporations must transfer money to their pension
+funds prior to April 15 if the funds are to qualify for a tax deduction in the
+previous year. If these pension fund assets are primarily invested by portfolio
+managers who follow relative strength rules, then the winners portfolio may
+benefit from additional price pressure in this month. Similarly, the larger
+than average returns in November and December may in part be due to price
+pressure arising from portfolio managers selling their losers in these months
+for tax or window dressing reasons.
+
+PAGE 18
+82 The Journal of Finance
+Table VI
+Returns of Size-Based Relative Strength Portfolios: Subperiod
+Analysis
+The relative strength portfolios are formed based on 6-month lagged returns and held for 6
+months. The stocks are ranked in ascending order on the basis of 6-month lagged returns and the
+equally weighted portfolio of stocks in the lowest past return decile is the sell portfolio and the
+equally weighted portfolio of stocks in the highest past return decile is the buy portfolio. This
+table reports the average monthly returns ofthe zero-cost, buy minus sell, portfolio within 5-year
+subperiods. The average returns of the zero-cost portfolios formed using size-based subsamples of
+securities within subperiods are also reported. The subsample SI contains the smallest firms, S2
+contains the medium-sized firms, and S3 contains the largest firms. The sample period is
+January 1965 to December 1989,
+Sample
+All
+SI
+S2
+S3
+Months
+All
+Jan,
+Feb,-Dec,
+All
+Jan,
+Feb,-Dec,
+All
+Jan,
+Feb,-Dec,
+All
+Jan,
+Feb,-Dec,
+65-69
+0,0123
+(1,94)
+-0,0524
+(-1,28)
+0,0182
+(3,36)
+0,0082
+(1,14)
+-0,0838
+(-1,60)
+0,0165
+(3,19)
+0,0177
+(3,08)
+-0,0264
+(-1,05)
+0,0217
+(3,86)
+0,0129
+(2,71)
+-0,0073
+(-0.32)
+0,0148
+(3,08)
+70-74 •
+0,0109
+(1.23)
+-0,1070
+(-2,54)
+0,0217
+(2,88)
+0,0128
+(1,63)
+-0,0853
+(-2,29)
+0,0217
+(3.18)
+0,0115
+(1,57)
+-0,0465
+(-1,81)
+0,0168
+(2,29)
+0,0115
+(1,62)
+-0,0154
+(-0,48)
+0,0139
+(1,95)
+75-79
+-0,0044
+(-0,51)
+-0,1017
+(-1,31)
+0,0044
+(0,78)
+-0,0064
+(-0,58)
+-0,1107
+(-1,09)
+0,0031
+(0.41)
+0,0018
+(0,24)
+-0,0795
+(-1.16)
+0,0092
+(1,87)
+0,0018
+(0,35)
+-0.0335
+(-0,77)
+0,0050
+(1,21)
+80-84
+0,0127
+(2,67)
+-0,0253
+(-1,38)
+0,0161
+(3,44)
+0,0153
+(2,61)
+-0,0124
+(-0,62)
+0,0179
+(2.94)
+0,0172
+(3,38)
+-0,0100
+(-0,46)
+0,0197
+(3,83)
+0,0076
+(1,41)
+-0,0094
+(-0,33)
+0,0092
+(1,70)
+85-89
+0,0162
+(3,42)
+-0,0569
+(-2,76)
+0,0229
+(6,09)
+0.0197
+(2,89)
+-0,1064
+(-4,45)
+0,0311
+(6,59)
+0,0146
+(3,40)
+-0,0112
+(-0,48)
+0,0170
+(4,08)
+0,0035
+(0,73)
+-0,0147
+(-0,78)
+0,0052
+(1,04)
+B. Portfolio Returns Over 5-Year Subperiods
+This section documents the returns of the 6-month/6-month zero-cost
+strategy in each of the five 5-year subperiods in the 1965 to 1989 sample
+period. The evidence in Table VI indicates tbat tbe returns of tbe strategy,
+wben implemented on tbe entire sample of stocks, produces average returns
+tbat are positive in all but one time period (1975 to 1979). An analysis of tbis
+strategy applied to size-based subsamples indicates tbat tbe negative returns
+
+PAGE 19
+Returns to Buying Winners and Selling Losers 83
+in tbe 1975 to 1979 time period is due primarily to tbe January returns of tbe
+small firms. The strategy yields positive profits in each of tbe 5-year time
+periods wben it is implemented on tbe subsamples of large- and medium-size
+firms. In addition, tbe returns are positive in eacb of tbe 5-year periods as
+well as in eacb size-based subsample wben tbe montb of January is excluded.
+VI. Performance of Relative Strength Portfolios in Event
+Time
+In tbis section we examine tbe returns of tbe relative strengtb portfolio in
+event time. We track tbe average portfolio returns in eacb of tbe 36 montbs
+following tbe portfolio formation date.
+Tbis event study analysis provides botb additional insigbts about tbe
+riskiness of tbe strategy and about wbetber tbe profits are due to overreac-
+tion or underreaction. Significant positive returns in montbs beyond tbe
+bolding period would indicate tbat tbe zero-cost portfolio systematically
+selects stocks tbat bave bigber tban average unconditional returns eitber
+because of tbeir risk or for otber reasons sucb as differential tax exposures.
+Significant negative returns of tbe zero-cost portfolio in tbe montbs following
+tbe bolding period would suggest tbat tbe price cbanges during tbe bolding
+period are at least partially temporary.
+Table VII presents tbe average montbly and cumulative returns of tbe
+zero-cost portfolio in event time in tbe 36 montbs after tbe formation date.^''
+Witb the exception of month 1, the average return in each month is positive
+in the first year. Tbe average return is negative in eacb montb in year 2 as
+well as in tbe first balf of year 3 and virtually zero tbereafter. Tbe cumulative
+returns reacb a maximum of 9.5% at tbe end of 12 montbs but decline to
+ahout 4% by tbe end of montb 36.
+Tbe negative returns beyond montb 12 indicate tbat tbe relative strengtb
+strategy does not tend to pick stocks tbat bave bigh unconditional expected
+returns. Tbe observed pattern of initially positive and tben negative returns
+of tbe zero-cost portfolio also suggests tbat tbe ohserved price cbanges in tbe
+first 12 montbs after tbe formation period may not be permanent. Unfortu-
+nately, estimates of expected returns over 2-year periods are not very precise.
+As a result, tbe negative returns for tbe zero-cost portfolio in years 2 and 3
+are not statistically significant (^-statistic of -1.27). Similarly, since tbe
+abnormal return over tbe entire 36-montb period is not statistically different
+from zero, we cannot rule out tbe possibility tbat tbe positive returns over tbe
+first 12 montbs is entirely temporary.'^
+Since overlapping returns are used to calculate the cumulative returns in event time, the
+autocorrelation-consistent Newey-West standard errors are used to compute the i-statistics for
+the cumulative returns (see Newey and West (1987)),
+Another reason why we find this evidence hard to interpret is that the entire negative return
+over this holding period occurs in Januaries, The returns beyond the first year are close to zero
+in non-January months.
+
+PAGE 20
+84 The Journal of Finance
+Table VII
+Performance of Relative Strength Portfolios in Event Time
+The relative strength portfolios are formed based on 6-month lagged returns. The stocks are
+ranked in ascending order on the basis of 6-month lagged returns. The equally weighted portfolio
+of stocks in the lowest past return decile is the sell portfolio and the equally weighted portfolio of
+stocks in the highest past return decile is the buy portfolio. This table reports the average
+returns of the zero-cost, buy minus sell, portfolio in each month following the formation period,
+t is the month after portfolio formation. The sample period is January 1965 to December 1989,
+Autocorrelation-consistent estimates of standard errors are used to compute the ^-statistics for
+cumulative returns.
+t
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Monthly
+Return
+-0,0025
+(-0,59)
+0,0124
+(3,29)
+0,0116
+(3,18)
+0,0110
+(3,19)
+0,0093
+(2,82)
+0,0091
+(2,94)
+0,0134
+(4,98)
+0,0115
+(4,16)
+0,0085
+(3,07)
+0,0048
+(1,69)
+0,0045
+(1,55)
+0,0013
+(0,43)
+Cumulative
+Return
+-0,0025
+(-0,59)
+0.0099
+(1,37)
+0,0216
+(2,20)
+0,0326
+(2,67)
+0,0419
+(2,79)
+0,0510
+(2,92)
+0,0644
+(3,32)
+0,0759
+(3,60)
+0,0844
+(3,73)
+0.0892
+(3.74)
+0,0938
+(3,77)
+0,0951
+(3,67)
+t
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+Monthly
+Return
+-0,0036
+(-1,12)
+-0,0039
+(-1.34)
+-0,0034
+(-1,21)
+-0,0038
+(-1,41)
+-0,0047
+(-1,74)
+-0.0056
+(-2,19)
+-0,0026
+(-1,14)
+-0,0032
+(-1,35)
+-0,0032
+(-1,32)
+-0,0034
+(-1,39)
+-0,0011
+(-0,45)
+-0,0010
+(-0,40)
+Cumulative
+Return
+0,0915
+(3,35)
+0,0876
+(3,07)
+0,0842
+(2,89)
+0,0804
+(2,76)
+0,0757
+(2,70)
+0,0701
+(2,68)
+0,0675
+(2.75)
+0,0642
+(2,73)
+0,0611
+(2,55)
+0,0577
+(2,21)
+0,0566
+(1,93)
+0,0556
+(1,69)
+t ,
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+Monthly
+Return
+-0,0035
+(-1,36)
+-0,0030
+(-1,14)
+-0,0024
+(-0,98)
+-0,0032
+(-1,33)
+-0,0032
+(-1,38)
+-0.0030
+(-1,31)
+-0,0001
+(-0,06)
+0,0008
+(0,41)
+0,0013
+(0,62)
+0,0008
+(0,36)
+0,0010
+(0.45)
+-0,0005
+(-0,24)
+Cumulative
+Return
+0,0521
+(1,41)
+0,0492
+(1,22)
+0,0467
+(1.10)
+0,0435
+(0,98)
+0,0403
+(0,87)
+0,0373
+(0,77)
+0,0372
+(0,74)
+0,0380
+(0,73)
+0,0394
+(0,73)
+0,0402
+(0,71)
+0,0412
+(0,71)
+0,0406
+(0,67)
+One possible explanation of the inverted U shape in the cumulative returns
+is that the risk ofthe strategy changes over event time. Perhaps, the strategy
+picks stocks that are initially very risky and the risk then diminishes with
+time. To assess this possibility we estimate tbe betas in eacb event month
+with respect to the value-weighted index and the equally weighted index. The
+beta of the zero-cost portfolio with respect to the value-weighted (equally
+weighted) index is initially -0.20 (-0.41) and then it steadily increases to
+0.02 (-0.08). Although these results indicate that the risk of the zero-cost
+portfolio does change over time, the direction of change in risk goes counter to
+what would be required to explain tbe change in average returns.
+
+PAGE 21
+Returns to Buying Winners and Selling Losers 85
+VII. Back-Testing the Strategy
+This section examines the extent to which the relative strength profits
+reported in the previous sections existed prior to 1965. Specifically, we
+replicate the test in Table VII, which tracks the performance of the 6-month
+relative strength portfolio in event time for both the 1927 to 1940 time period
+and the 1941 to 1964 time period. As Fama and French (1988) and others
+have noted, the market was extremely volatile and experienced a significant
+degree of mean reversion in the 1927 to 1940 period. In contrast, the market's
+volatility in the 1941 to 1964 period was similar to the volatility in the 1965
+to 1989 period and the market index did not exhibit mean reversion in the
+post-1940 period.
+Table VIII (Panel A) reports the returns of the 6-month relative strength
+strategy in the 36 event months over the 1927 to 1940 time period. The
+returns in this time period are significantly lower than the returns in the
+1965 to 1989 period, but the patterns of returns across event months is
+somewhat similar. The month 1 returns are strongly negative on average
+(about - 5%). The returns in months 2 through 10 are statistically insignifi-
+cant, but the returns in the later months are substantially lower. The
+cumulative excess return equals -40.81% in month 36.
+These negative cumulative returns are likely to be due to two factors: First,
+because ofthe greater volatility in this period, many ofthe firms in tbe loser's
+decile were close to bankruptcy and thus bad very bigb betas over tbe bolding
+periods. Tbe beta of tbe zero-cost 6-montb/6-montb strategy is about -0.5 in
+tbis period and it is substantially bigber following periods of market declines.
+Tbe second factor relates to tbe market's mean reversion in tbis time period.
+As tbe decomposition in Subsection III. A and tbe regression results in
+Subsection III.S indicate, negative serial correlation in tbe market and large
+market movements will reduce tbe profits from relative strengtb strategies.
+Tbis is because tbe relative strengtb strategy tends to select bigb- (low-) beta
+stocks following a market increase (decrease) and bence tends to perform
+poorly during market reversals. For example, following a 40% decline in tbe
+equally weigbted index over tbe previous 6 montbs, tbe index rebounded witb
+a 43% increase in July 1932. In tbis montb tbe 6-montb/6-montb relative
+strengtb portfolio experienced a negative 40% return. In tbe following montb
+tbe equally weigbted index increased an additional 66% and tbe 6-montb/6-
+montb strategy lost 68%. In tbe 1930s tbere were four otber montbs in wbicb
+tbe 6-montb/6-montb strategy lost over 40%. Eacb occurred wben tbe mar-
+ket increased substantially.
+Panel B of Table VIII reports tbe returns in tbe 36 event montbs for tbe
+1941 to 1964 period. Tbe relative strengtb strategy returns over tbis time
+period are very similar to tbe returns in tbe more recent time period reported
+earlier. As in tbe 1965 to 1989 time period, tbe average return is sligbtly
+negative in montb 1, significantly positive in montb 2 tbrougb montb 8, and
+negative in montb 12 and beyond. In contrast to tbe findings for tbe 1965 to
+
+PAGE 22
+86 The Journal of Finance
+1989 period, the positive cumulative return over the first 12 months dissi-
+pates almost entirely by month 24.
+VIII. Stock Returns Around Earnings Announcement Dates
+This section examines the returns of past winners and losers around their
+quarterly earnings announcement dates. By analyzing stock returns within a
+short window around the dissemination of important firm-specific informa-
+tion we have a sharp test that directly assesses the potential biases in market
+expectations. Consider, for example, the possibility that stock prices system-
+Table VIII
+Back-Testing the Strategy: Performance of Relative Strength
+Portfolios Prior to 1965
+The relative strength portfolios are formed based on 6-month lagged returns. The stocks are
+ranked in ascending order on the basis of 6-month lagged returns. The equally weighted portfolio
+of stocks in the lowest past return decile is the sell portfolio and the equally weighted portfolio of
+stocks in the highest past return decile is the buy portfolio. This table reports the average
+returns of the zero-cost, buy minus sell, portfolio in each month following the formation period,
+t is the month after portfolio formation. Autocorrelation consistent estimates of standard errors
+are used to compute the i-statistics for cumulative returns.
+t
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Monthly
+Return
+-0,0495
+(-3,72)
+-0,0143
+(-1,32)
+-0,0088
+(-0,87)
+-0,0048
+(-0,45)
+0,0061
+(0,60)
+0,0057
+(0,55)
+0,0092
+(0,83)
+0,0054
+(0,52)
+-0,0029
+(-0,34)
+-0,0065
+(-0,68)
+-0,0183
+(-1,74)
+-0,0225
+(-2,35)
+Cumulative
+Return
+-0,0495
+(-3,72)
+-0,0639
+(-2,21)
+-0,0726
+(-1,78)
+-0,0775
+(-1,60)
+-0,0713
+(-1,40)
+-0,0656
+(-1,22)
+-0,0564
+(-1,05)
+-0,0511
+(-0,92)
+-0,0539
+(-0,94)
+-0,0604
+(-0,90)
+-0,0787
+(-1,04)
+-0,1012
+(-1,27)
+t
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+Panel A: 1927-1940
+Monthly
+Return
+-0,0245
+(-2,60)
+-0,0166
+(-2,08)
+-0,0164
+(-1,87)
+-0,0200
+(-2,20)
+-0,0131
+(-1,80)
+-0,0166
+(-2,11)
+-0,0161
+(-1,90)
+-0,0224
+(-2,28)
+-0,0178
+(-1,92)
+-0,0213
+(-2,08)
+-0,0183
+(-1,74)
+-0,0198
+(-1,94)
+Cumulative
+Return
+-0,1257
+(-1,50)
+-0,1423
+(-1,69)
+-0,1587
+(-1,83)
+-0,1787
+(-2,01)
+-0,1919
+(-2,12)
+-0,2085
+(-2,07)
+-0,2245
+(-2,01)
+-0,2469
+(-2,03)
+-0,2647
+(-2,04)
+-0,2860
+(-2,14)
+-0,3043
+(-2,23)
+-0,3241
+(-2,41)
+t
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+Monthly
+Return
+-0,0118
+(-1,41)
+-0,0067
+(-1,01)
+-0,0135
+(-1,82)
+-0,0082
+(-1,06)
+-0,0125
+(-1,37)
+-0,0107
+(-1,20)
+-0,0018
+(-0,20)
+-0,0022
+(-0,26)
+0,0008
+(0,11)
+-0,0025
+(-0,41)
+-0,0050
+(-0,89)
+-0,0098
+(-1,47)
+Cumulative
+Return
+-0,3359
+(-2,48)
+-0,3427
+(-2,53)
+-0,3562
+(-2,52)
+-0,3644
+(-2,47)
+-0,3769
+(-2,39)
+-0,3876
+(-2,29)
+-0,3894
+(-2,18)
+-0,3916
+(-2,07)
+-0,3908
+(-1,99)
+-0,3933
+(-1,97)
+-0,3983
+(-1,97)
+-0,4081
+(-2,01)
+
+PAGE 23
+Returns to Buying Winners and Selling Losers
+Table VIII—Continued
+87
+t
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Monthly
+Return
+-0.0035
+(-1.04)
+0.0069
+(2.32)
+0.0109
+(4.15)
+0.0098
+(3.81)
+0.0075
+(3.09)
+0.0049
+(1.97)
+0.0079
+(3.24)
+0.0062
+(2.52)
+0.0039
+(1.63)
+0.0022
+(0.96)
+0.0024
+(1.00)
+-0.0009
+(-0.34)
+Cumulative
+Return
+-0.0035
+(-1.04)
+0.0034
+(0.59)
+0.0143
+(2.20)
+0.0241
+(3.15)
+0.0316
+(3.40)
+0.0365
+(3.42)
+0.0444
+(3.82)
+0.0507
+(4.00)
+0.0546
+(3.91)
+0.0568
+(3.73)
+0.0592
+(3.70)
+0.0583
+(3.40)
+t
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+Panel B:
+Monthly
+Return
+-0.0068
+(-2.14)
+-0.0085
+(-3.07)
+-0.0059
+(-2.40)
+- 0.0063
+(-2.80)
+-0.0080
+(-3.70)
+-0.0074
+(-3.63)
+-0.0033
+(-1.61)
+-0.0012
+(-0.61)
+-0.0016
+(-0.81)
+-0.0021
+(-1.04)
+-0.0008
+(-0.35)
+-0.0014
+(-0.60)
+1941-1964
+Cumulative
+Return
+0.0515
+(2.57)
+0.0429
+(1.90)
+0.0371
+(1.54)
+0.0308
+(1.21) ,
+0.0228
+(0.86)
+0.0153
+(0.56)
+0.0120
+(0.43)
+0.0108
+(0.38)
+0.0092
+(0.31)
+0.0071
+(0.22)
+0.0063
+(0.19)
+0.0050
+(0.14)
+t
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+Monthly
+Return
+-0.0035
+(-1.32)
+-0.0027
+(-1.08)
+-0.0015
+(-0.69)
+-0.0003
+(-0.14)
+-0.0009
+(-0.51)
+-0.0001
+(-0.03)
+0.0017
+(0.98)
+0.0011
+(0.69)
+-0.0005
+(-0.32)
+-0.0006
+(-0.37)
+-0.0004
+(-0.24)
+-0.0004
+(-0.28)
+Cumulative
+Return
+0.0014
+(0.04)
+-0.0013
+(-0.03)
+-0.0028
+(-0.07)
+-0.0030
+(-0.08)
+-0.0039
+(-0.11)
+-0.0040
+(-0.12)
+-0.0023
+(-0.08)
+-0.0012
+(-0.05)
+-0.0017
+(-0.10)
+-0.0023
+(-0.17)
+-0.0027
+(-0.20)
+-0.0030
+(-0.20)
+atically underreact to information about future earnings. In this case, the
+stock returns for past winners, which presumably had favorable information
+revealed in the past, should realize positive returns around the time when
+their earnings are actually announced. Similarly, past losers should realize
+negative returns around the time their earnings are announced. ^^ The
+quarterly earnings announcement dates used in this analysis are obtained
+from the COMPUSTAT quarterly industrial database. The sample period
+for this part of the study is 1980 to 1989, the period covered by the 1990
+COMPUSTAT quarterly file. On average, there are 429.2 available quarterly
+earnings announcements per month with matched stock return data.
+Our tests again separate firms irito deciles based on their prior 6-month
+returns. The 3-day returns (days - 2 to 0) of the individual stocks in these
+groups are then calculated around each of their quarterly earnings announce-
+ments that occur within 36 months of the date at which the stocks are ranked
+according to their past returns. Table IX reports the differences between the
+Chopra, Lakonishok, and Ritter (1992) use a similar approach to evaluate the evidence of
+long horizon overreaction documented by De Bondt and Thaler (1985). See also Bernard and
+Thomas (1990).
+
+PAGE 24
+88 The Journal of Finance
+Table IX
+Quarterly Earnings Announcement Date Returns
+The stocks are ranked in ascending order on the hasis of 6-month lagged returns. The stocks in
+the lowest past return decile are called the losers group and the stocks in the highest past return
+decile is called the winners group. The differences between the 3-day returns (returns on days
+-2 to 0) around quarterly earnings announcements for stocks in the winners group and the
+losers group are reported here (r,'" - r/), t is the month after the ranking date. The sample
+period is January 1980 to December 1989,
+t
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+r"" - r'
+0,0055
+(2,75)
+0,0082
+(4,41)
+0,0082
+(4,36)
+0,0090
+(4,88)
+0,0059
+(3,16)
+0,0058
+(3,14)
+0,0013
+(0,62)
+0,0000
+(-0,02)
+-0,0020
+(-1.07)
+-0,0031
+(-1,60)
+-0,0039
+(-2,23)
+-0,0053
+(-2,75)
+t
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+r"' — r'
+-0,0055
+(-2,56)
+-0,0080
+(-3,89)
+-0,0071
+(-4,04)
+-0,0097
+(-5,75)
+-0,0062
+(-2,90)
+-0,0060
+(-2,96)
+-0,0031
+(-1,63)
+-0,0017
+(-0,82)
+0,0006
+(0.27)
+-0,0005
+(-0,29)
+-0,0001
+(-0,05)
+0,0012
+(0,63)
+t
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+r"" - r'
+-0,0002
+(-0.11)
+-0,0021
+(-1,02)
+-0,0032
+(-1,68)
+-0,0028
+(-1,31)
+-0,0015
+(-0,62)
+-0,0021
+(-1,10)
+-0,0027
+(-1,52)
+-0,0021
+(-1,13)
+-0,0020
+(-1.05)
+-0,0017
+(-0,91)
+-0,0022
+(-1,29)
+-0,0059
+(-2,91)
+average announcement period returns for the winners and losers deciles in
+each of the 36 months following the ranking date. The pattern of announce-
+ment date returns presented in this table is consistent with the pattern of the
+zero-cost portfolio returns reported in Table VII. For the first 6 months the
+announcement date returns of the past winners exceed the announcement
+date returns of the past losers by over 0.7% on average, and is statistically
+significant in each of these 6 months. Since there are on average 2 quarterly
+earnings announcements per firm within a 6-month period, the returns
+around the earnings announcements represents about 25% of the zero-cost
+portfolio returns over this holding period.
+The negative announcement period returns in later months are consistent
+with the negative relative strength portfolio returns beyond month 12 docu-
+mented earlier (see Table VII). From months 8 through 20 the differences in
+
+PAGE 25
+Returns to Buying Winners and Selling Losers 89
+announcement date returns are negative and are generally statistically sig-
+nificant. The announcement period returns are especially significant in
+months 11 through 18 where they average about -0.7%. In the later months
+the differences between the announcement period returns of the winners and
+losers are generally negative but are close to zero.
+The predictability of stock returns around quarterly earnings announce-
+ments documented in Table IX is similar to the recent findings of Bernard
+and Thomas (1990). Bernard and Thomas find that average returns around
+quarterly earnings announcement dates are significantly positive following a
+favorable earnings surprise in the previous quarter. This is consistent with
+the positive announcement returns we see in the first 7 months in Table DC.
+Bernard and Thomas also find that the average return around earnings
+announcement dates is significantly negative 4 quarters after a positive
+earnings surprise. The significant negative returns around earnings an-
+nouncement dates in months 11 through 18 are consistent with this finding.
+IX. Conclusions
+Trading strategies that buy past winners and sell past losers realize
+significant abnormal returns over the 1965 to 1989 period. For example, the
+strategy we examine in most detail, which selects stocks based on their past
+6-month returns and holds them for 6 months, realizes a compounded excess
+return of 12.01% per year on average. Additional evidence indicates that the
+profitability of the relative strength strategies are not due to their systematic
+risk. The results of our tests also indicate that the relative strength profits
+cannot be attributed to lead-lag effects that result from delayed stock price
+reactions to common factors. The evidence is, however, consistent with de-
+layed price reactions to firm-specific information.
+The returns of the zero-cost winners minus losers portfolio were examined
+in each of the 36 months following the portfolio formation date. With the
+exception of the first month, this portfolio realizes positive returns in each of
+the 12 months after the forniation date. However, the longer-term perfor-
+mances of these past winners and losers reveal that half of their excess
+returns in the year following the portfolio formation date dissipate within the
+following 2 years.
+The returns of the stocks in the winners and losers portfolios around their
+earnings announcements in the 36 months following the formation period
+were also examined and a similar pattern was found. Specifically, stocks in
+the winners portfolio realize significantly higher returns than the stocks in
+the losers portfolio around the quarterly earnings announcements that are
+made in the first few months following the formation date. However, the
+announcement date returns in the 8 to 20 months following the formation
+date are significantly higher for the stocks in the losers portfolio than for the
+stocks in the winners portfolio.
+
+PAGE 26
+90 The Journal of Finance
+The evidence of initial positive and later negative relative strength returns
+suggests that common interpretations of return reversals as evidence of
+overreaction and return persistence (i.e., past winners achieving positive
+returns in the future) as evidence of underreaction are probably overly
+simplistic. A more sophisticated model of investor behavior is needed to
+explain the observed pattern of returns. One interpretation of our results is
+that transactions by investors who buy past winners and sell past losers
+move prices away from their long-run values temporarily and thereby cause
+prices to overreact. This interpretation is consistent with the analysis of
+DeLong, Shleifer, Summers, and Waldman (1990) who explore the impHca-
+tions of what they call "positive feedback traders" on market price. Alterna-
+tively, it is possible that the market underreacts to information about the
+short-term prospects of firms but overreacts to information about their
+long-term prospects. This is plausible given that the nature of the informa-
+tion available about a firm's short-term prospects, such as earnings forecasts,
+is different from the nature of the more ambiguous information that is used
+by investors to assess a firm's longer-term prospects.
+The evidence in this paper does not allow us to distinguish between these
+two hypotheses about investor behavior. In addition, there are probably other
+explanations for these results. Given that our results suggest that investor
+expectations are systematically biased, further research that attempts to
+identify explanations for these empirical regularities would be of interest.
+REFERENCES
+Ball, Ray and S. P. Kothari, 1989, Nonstationary expected returns: Implications for tests of
+market efficiency and serial correlation in returns. Journal of Financial Economics 25
+51-74.
+Banz, Rolf, 1981, The relationship between return and market value of common stocks. Journal
+of Financial Economics 9, Z-\S.
+Berkowitz, Stephen A., Dennis E. Logue, and Eugene A. Noser, 1988, The total costs of
+transactions on the NYSE, Journal of Finance 43, 97-112.
+Bernard, Arnold, 1984, How to Use the Value Line Investment Survey: A Subscriber's Guide
+(Value Line, New York).
+Bernard, Victor and Jacob Thomas, 1990, Evidence that stock prices do not fully reflect the
+implications of current earnings for future earnings. Journal of Accounting and Economics
+13, 305-340.
+Chan, K. C, 1988, On the contrarian investment strategy. Journal of Business 61, 147-163.
+Chopra, Navin, Josef Lakonishok, and Jay Ritter, 1992, Measuring abnormal returns: Do stocks
+overreact? Journal of Financial Economics 31, 235-268.
+Copeland, Thomas and David Mayers, 1982, The Value Line enigma (1965-1978): A case study
+of performance evaluation issues. Journal of Financial Economics 10, 289-321.
+De Bondt, Werner F. M. and Richard Thaler, 1985, Does the stock market overreact? Journal of
+Finance 40, 793-805.
+, 1987, Further evidence of investor overreaction and stock market seasonality Journal
+of Finance 42, 557-581.
+De Long, Bradford J., Andrei Shleifer, Lawrence H. Summers, and Robert J. Waldman, 1990,
+Positive Feedback Investment Strategies and Destabilizing Rational Speculation Journal of
+Finance 45, 379-395.
+
+PAGE 27
+Returns to Buying Winners and Selling Losers 91
+Fama, Eugene and Kenneth French, 1988, Permanent and temporary components of stock
+prices. Journal of Political Economy 96, 246-273.
+, 1992, The cross-section of expected stock returns. Journal of Finance 47, 427-465.
+Fama, Eugene, and J. D. MacBeth, 1973, Risk return and equilibrium: Empirical test. Journal of
+Political Economy 81, 607-636.
+Grinblatt, Mark and Sheridan Titman, 1989, Mutual fund performance: An analysis of quarterly
+portfolio holdings, Journal of Business 62, 394-415.
+, 1991, Performance measurement without benchmarks: An examination of mutual fund
+returns. Working paper. University of California at Los Angeles.
+Jegadeesh, Narasimhan, 1987, Predictable behavior of security returns and tests of asset pricing
+models, Ph.D. dissertation, Columbia University.
+, 1990, Evidence of predictable behavior of security returns. Journal of Finance 45,
+881-898.
+, 1992, Does market risk really explain the size effect?. Journal of Financial and
+Quantitative Analysis 10, 337-351.
+and Sheridan Titman, 1991, Short horizon return reversals and the bid-ask spread.
+Working paper. University of California at Los Angeles.
+Jensen, Michael and George Bennington, 1970, Random walks and technical theories: Some
+additional evidence. Journal of Finance 25, 469-482.
+Kahneman, D. and A. Tversky, 1982, Intuitive prediction: Biases and corrective procedures, in D.
+Kahneman, P. Slovic, and A. Tversky, eds.: Judgement Under Uncertainty: Heuristics and
+Biases (Cambridge University Press, London).
+Keim, Donald, 1989, Trading patterns, bid-ask spreads, and estimated security returns: The case
+of common stocks at calendar turning points. Journal of Financial Economics 25, 75-98.
+Lehmann, Bruce, 1990, Fads, martingales and market efficiency. Quarterly Journal of Eco-
+nomics 105, 1-28.
+Levy, Robert, 1967, Relative strength as a criterion for investment selection. Journal of Finance
+22, 595-610.
+Lo, Andrew and Craig MacKinlay, 1990, When are contrarian profits due to stock market
+overreaction?. Review of Financial Studies 3, 175-205.
+Newey, W. K. and K. D. West, 1987, A Simple positive definite, heteroskedasticity and autocorre-
+lation consistent covariance matrix, Econometrica 55, 703-705.
+Roll, Richard, 1983, Vas ist Das? Journal of Portfolio Management, 18-28.
+Scholes, Myron and Joseph Williams, 1977, Estimating betas from nonsynchronous data. Jour-
+nal of Financial Economics 5, 309-327.
+Shiller, Robert J., 1981, Do stock prices move too much to be justified by subsequent changes in
+dividends? American Economic Review 71, 421-436.
+Stickel, Scott, 1985, The effect of Value Line Investment Survey rank changes on common stock
+prices. Journal of Financial Economics 14, 121-144.
+Zarowin, Paul, 1990, Size, seasonality, and stock market overreaction. Journal of Financial and
+Quantitative Analysis 25, 113-125.
+
+PAGE 28

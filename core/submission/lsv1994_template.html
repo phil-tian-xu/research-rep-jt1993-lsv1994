@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phil Xu · LSV1994 replication · Homework 1, $report_scope</title><style>$style</style></head><body>
+<header class="masthead"><div class="eyebrow">Homework 1 / $report_scope</div>
+<h1>Lakonishok, Shleifer &amp; Vishny (1994)<br><span>Replication and comparison</span></h1>
+<p class="author">Phil Xu <span>·</span> Finance PhD, CUHK</p>
+<p class="lead">Contrarian Investment, Extrapolation, and Risk</p>
+<div class="sample"><span>Q2-1 · NYSE / AMEX common stocks</span><span>April formations: 1968–1989</span><span>Holding returns: May 1968–April 1990</span>$extension_badge</div></header>
+<nav aria-label="Report sections"><a href="#table-i">Q2-1 · I</a><a href="#table-ii">II</a><a href="#table-iv">IV</a><a href="#table-v">V</a><a href="#table-vi">VI &amp; Figure 2</a>$extension_nav<a href="#filters">Q2-4 · Filters</a></nav>
+<main>
+$coverage_overview
+<section id="table-i"><div class="section-label">Q2-1 / One-dimensional value strategies</div>
+<h2>Table I · Returns of decile portfolios</h2>
+<p>Stocks are independently sorted into ascending deciles of book-to-market (B/M), cash-flow-to-price (C/P), earnings-to-price (E/P), or weighted past sales growth (GS).
+For the three valuation ratios, decile 1 is glamour and decile 10 is value. The direction reverses for GS.</p>
+<details class="methods"><summary>Timing, weighting, and size adjustment</summary>
+<p>April t formations use accounting observations dated in calendar year t−1 and April market equity. C/P and E/P sorts require positive ratios.
+GS uses five consecutive annual sales-growth ranks, normalized to percentiles and weighted 5,4,3,2,1 from most recent to oldest. SAS average-rank deciles keep ties together.</p>
+<p>Returns are annual May–April buy-and-hold returns. Surviving original stocks receive equal weights at the beginning of each subsequent holding year; portfolios are not re-sorted.
+Months after a stock's final CRSP row in a holding year receive the corresponding size-decile return. Internal missing returns remain missing.
+Previous-December market equity determines each holding year's size benchmark.</p>
+<p>Each horizon averages all available formation cohorts, giving 22, 21, 20, 19 and 18 cohorts for years 1–5. AR averages the five horizon means; CR5 compounds those means;
+SAAR averages the five size-adjusted horizon means. This CR5 is distinct from Table VI's mean of cohort-specific cumulative returns.</p></details>
+$table1
+<p class="table-note">Returns in decimals: 0.1000 means 10%. The default calculation matches all 320 cells of an independent replay of the supplied Table I notebook to floating-point precision.
+The published paper is a separate benchmark.</p>
+<h3>Comparison with the original paper</h3>$comparison1
+<p class="table-note">Published Table I: printed pp. 1548–1549. Numerical differences can reflect data vintage, linking, and construction conventions; notebook agreement does not establish an exact match to the paper.</p>
+$figure1</section>
+<section id="table-ii"><div class="section-label">Q2-1 / Joint classifications</div>
+<h2>Table II · Two-dimensional value strategies</h2>
+<p>For each pair of signals, the eligible sample is independently split into bottom 30%, middle 40%, and top 30% groups on each signal. Their intersections give nine portfolios.
+The five pairs are C/P–GS, E/P–GS, B/M–GS, E/P–B/M, and B/M–C/P. Column labels give the first and second signal's group.</p>
+<details class="methods"><summary>Independent sorts and portfolio construction</summary><p>Both ranks use the pair's common eligible sample; C/P and E/P must be positive when used for classification.
+Groups collapse SAS deciles 1–3, 4–7, and 8–10, preserving the baseline tie convention. The sorts are independent rather than sequential.
+Annual holding returns, size adjustment, and horizon averaging follow Table I.</p></details>
+<div class="finding"><p>The calculated C/P–GS annual value-minus-glamour spread is $cp_ar_spread percentage points, compared with 10.7 percentage points in the published table.
+This contrasts high C/P and low GS with low C/P and high GS.</p></div>
+$table2<h3>Comparison with the original paper</h3>$comparison2
+<p class="table-note">Returns in decimals. Published Table II: printed pp. 1552–1553. Complete results retain all nine intersections for each pair.</p>$figure2</section>
+<section id="table-iv"><div class="section-label">Q2-1 / Cross-sectional regressions</div>
+<h2>Table IV · Returns regressed on characteristics</h2>
+<p>Nine specifications are estimated separately for each of the 22 April formation years. The dependent variable is the stock's following one-year raw buy-and-hold return.
+The table reports the average annual coefficient, with its time-series t-statistic in parentheses.</p>
+<details class="methods"><summary>Regressors and inference</summary><p>SIZE is log April market equity in USD millions. E/P+ and C/P+ equal their positive ratios and zero otherwise;
+DE/P and DC/P indicate negative earnings and cash flow. Missing ratios remain missing. Negative-ratio firms are retained in the regressions when their required characteristics are available.
+The two univariate positive-part specifications have no negative dummy, matching the displayed models; the multivariate specifications include the displayed dummy.</p>
+<p>Each annual regression uses complete observations for its own regressors, with an intercept and no winsorization. Standard errors equal the time-series standard deviation
+of the annual coefficient divided by the square root of 22. An all-zero negative-ratio dummy is unavailable for that annual fit; other slopes remain estimated. Each coefficient uses its own number of identified years for time-series inference. Other rank deficiencies cause an error.</p></details>
+$table4<h3>Comparison with the original paper</h3>$comparison4
+<p class="table-note">Published Table IV: printed p. 1558. The complete comparison includes all 32 coefficients and their t-statistics. SIZE slopes depend on the stated unit of market equity.</p>$figure4</section>
+<section id="table-v"><div class="section-label">Q2-1 / Extrapolation and fundamentals</div>
+<h2>Table V · Fundamentals, past growth, and future growth</h2>
+<p>Glamour and value portfolios are the B/M extremes (deciles 1 and 10), and the C/P–GS extremes (groups 1,3 and 3,1).
+Panel A reports valuation ratios and average size; Panel B reports past growth and the previous three-year stock return; Panel C reports subsequent accounting growth.</p>
+<aside class="convention"><strong>Accounting-growth implementation.</strong> Relative accounting year 0 is the preformation year t−1.
+For each annual transition, paired observations use a fixed ownership proportion equal to the inverse of market equity at the April starting the base relative year.
+Accounting amounts per dollar are averaged within portfolios and then across formation cohorts before growth rates are calculated.
+Geometric averages combine these annual transition growth rates. The paper does not fully specify missing-outcome handling or the exact price observation used in every transition;
+these conventions are stated so the numerical comparisons can be assessed.</aside>
+<details class="methods"><summary>Outcome availability and past returns</summary><p>Fundamental ratios retain negative accounting amounts and are first averaged within each formation cohort.
+Growth uses the same firms on both sides of each annual transition; future accounting availability never affects formation membership.
+Market equity for later accounting outcomes is read from the separate extended legacy cache, through April 1993; accounts extend through 1993.
+These later observations do not extend the April 1990 holding-return cutoff.</p>
+<p>Past performance is the equal-weighted mean of individual three-year buy-and-hold returns from May t−3 through April t, using complete 36-month stock histories.
+Missing returns are not filled. Undefined geometric growth from a nonpositive aggregate accounting level is displayed as a dash and retained with an explanation in the saved calculation.</p></details>
+<aside class="convention"><strong>Observed difference from the published sample.</strong> There are $undefined_growth_count undefined statistics in this Table V calculation because aggregate earnings or cash-flow levels are nonpositive. The baseline retains negative-book-equity firms: its B/M glamour portfolio has average B/M $bm_glamour_ratio, versus 0.225 in the paper. These cells are not numerical replications of the published growth statistics. No extra positivity filter or winsorization has been selected to force agreement.</aside>
+$table5<h3>Comparison with the original paper</h3>$comparison5
+<p class="table-note">Published Table V: printed p. 1560. Ratios, growth rates, and cumulative returns are decimals. SIZE is USD millions.
+AEG, ACG, and ASG denote geometric average growth of earnings, cash flow, and sales.</p>$figure5</section>
+<section id="table-vi"><div class="section-label">Q2-1 / Consistency over time</div>
+<h2>Table VI · Year-by-year value-minus-glamour returns</h2>
+<p>Each row follows portfolios formed in that April for one, three or five complete years. Returns on each value and glamour leg are compounded separately before subtraction.
+Later formations are omitted only from horizons that cannot finish by April 1990; constituent stocks need not survive for the full horizon.</p>
+<aside class="convention"><strong>Portfolio definition and inference.</strong> C/P and B/M combine stocks from deciles 9/10 versus 1/2 with equal initial stock weights.
+The B/M choice follows the column heading and surrounding text on p. 1566; its caption instead says decile 10 versus 1. That alternative is saved as a sensitivity.
+C/P–GS uses groups 3,1 versus 1,3. Hansen–Hodrick standard errors use rectangular weights, lags 0/2/4 for one/three/five-year horizons, and an n/(n−1) correction.
+A nonpositive estimated long-run variance is left undefined rather than replaced with a different estimator.
+The stated HH estimator does not reproduce every published multi-year t-statistic when applied to the paper's rounded cohort returns; this discrepancy is retained in the inference audit. The published t-statistics below are transcribed, not reconstructed.</aside>
+<div class="finding"><p>For C/P–GS, value outperforms glamour in $annual_wins of 22 one-year cohorts and $five_wins of $five_total complete five-year cohorts.
+The worst calculated one-year spread is $worst_annual percentage points. These are descriptive outcomes under the stated construction rules.</p></div>
+$table6<h3>Comparison with the original paper</h3>$comparison6
+<p class="table-note">Published Table VI: printed p. 1565. Complete comparisons retain all formation years, horizon returns, average returns, and t-statistics.
+A dash in a late cohort means that its full holding horizon exceeds the original return cutoff.</p>
+<h3>Figure 2 · Annual C/P–GS value-minus-glamour performance</h3>$figure6
+<p>These annual returns are exactly the one-year C/P–GS column of Table VI. The figure compares the frequency and timing of gains with the published series.
+Persistence alone does not establish a risk-based or behavioral explanation.</p></section>
+ $extension_sections
+<section id="filters"><div class="section-label">Q2-4 / Sample construction and replication limits</div>
+<h2>Filters and data-availability rules</h2>
+<ol class="filter-list"><li><strong>Formation universe.</strong> The original sample and Q2-3 use historical NYSE/AMEX exchange codes 1/2. Q2-2 uses NYSE code 1 or NYSE/AMEX/Nasdaq codes 1/2/3. All cases require ordinary common share codes 10/11, and finite positive April market equity.
+Later exchange changes do not remove an original constituent's holding returns.</li>
+<li><strong>Accounting and links.</strong> April t uses the last account dated in calendar year t−1, matched through active CCM LC/LU/LS links.
+Primary links and link quality resolve overlapping candidates. Book equity is CEQ. The current accounting and linking files are not point-in-time vintages.</li>
+<li><strong>Signal availability.</strong> Positive C/P and E/P are required for their portfolio sorts, while B/M retains every finite ratio.
+GS requires five valid growth observations with consecutive years and positive sales levels. Double sorts require both signals.</li>
+<li><strong>Holding returns.</strong> Missing internal monthly returns are not replaced with zero. Annual stock returns require twelve valid months after the post-disappearance replacement rule.
+Raw and size-adjusted results can use different numbers of stocks when December size is unavailable. No separate legacy delisting-return adjustment is added.</li>
+<li><strong>Currency convention.</strong> The Q2-1 baseline has $currency_count formation observations with non-USD accounts divided by USD market equity, reproducing the supplied notebook's unconverted ratios.
+This currency inconsistency limits interpretation of those ratios. The selected restriction is $currency_setting. A USD-only sensitivity is available and stored separately.</li>
+<li><strong>Table-specific availability.</strong> Table IV uses model-specific complete cases. Table V uses paired accounting outcomes and complete past-return histories without changing formation eligibility.
+Table VI requires complete calendar horizons; the original sample has 22/20/18 cohorts at one/three/five years. Extended-sample counts are reported in each comparison. Table V future growth uses only cohorts with complete five-year follow-up inside the applicable sample endpoint, without filtering portfolio formation by future firm survival.</li></ol>
+<p>Table I has an independently replayed reference program. The remaining tables implement the paper's stated definitions with the explicit conventions above, tested on constructed examples.
+Their comparisons show numerical agreement and disagreement with the published paper without treating a similar return pattern as proof of identical implementation.</p>
+</section></main><footer>Phil Xu · Homework 1 · Lakonishok, Shleifer &amp; Vishny (1994) · $report_scope</footer>
+<script>document.querySelectorAll('.table-expand').forEach(button=>{button.addEventListener('click',()=>{const expanded=button.closest('.table-panel').classList.toggle('is-expanded');button.setAttribute('aria-expanded',String(expanded));button.textContent=expanded?'Collapse table':'Expand table';});});document.querySelectorAll('.case-select').forEach(select=>{
+  select.addEventListener('change',()=>{
+    document.getElementById(select.dataset.group).querySelectorAll('.case-panel').forEach(panel=>{
+      panel.hidden=panel.id!==select.value;
+    });
+  });
+});
+</script>
+</body></html>

@@ -1,0 +1,23 @@
+.venv/
+.uv-cache/
+.mpl-cache/
+.idea/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.test_jt1993_*/
+.env
+.env.*
+.pgpass
+pgpass.conf
+
+# Keep the directory scaffold, not downloaded data or generated results.
+data/raw/**
+!data/raw/**/
+!data/raw/**/.gitkeep
+data/processed/**
+!data/processed/**/
+!data/processed/**/.gitkeep
+results/**
+!results/**/
+!results/**/.gitkeep

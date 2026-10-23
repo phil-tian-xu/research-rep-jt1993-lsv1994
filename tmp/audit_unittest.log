@@ -1,0 +1,480 @@
+test_environment_username_is_used (test_jt1993_data_download.ConnectionTests.test_environment_username_is_used) ... ok
+test_explicit_username_is_passed_without_a_password (test_jt1993_data_download.ConnectionTests.test_explicit_username_is_passed_without_a_password) ... ok
+test_missing_username_fails_without_an_interactive_connection (test_jt1993_data_download.ConnectionTests.test_missing_username_fails_without_an_interactive_connection) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_4az4ndtc\market_returns.parquet
+All requested JT1993 datasets are ready.
+test_changed_dates_cannot_reuse_an_explicit_cache_directory (test_jt1993_data_download.DownloadTests.test_changed_dates_cannot_reuse_an_explicit_cache_directory) ... ok
+Pending downloads: daily_returns, monthly_returns, monthly_characteristics, market_returns
+WRDS connection ready. Starting downloads.
+[1/4] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[daily_returns] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_ciz_20250101_20250228\daily_returns.parquet
+[2/4] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[monthly_returns] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_ciz_20250101_20250228\monthly_returns.parquet
+[3/4] Preparing monthly_characteristics...
+[monthly_characteristics] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_characteristics] First batch received after 0.0s; validating and writing...
+[monthly_characteristics] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[monthly_characteristics] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_ciz_20250101_20250228\monthly_characteristics.parquet
+[4/4] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[market_returns] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_ciz_20250101_20250228\market_returns.parquet
+All requested JT1993 datasets are ready.
+[daily_returns] Using cached file: 2 rows.
+[monthly_returns] Using cached file: 2 rows.
+[monthly_characteristics] Using cached file: 2 rows.
+[market_returns] Using cached file: 2 rows.
+All requested datasets are cached; nothing to download.
+Pending downloads: daily_returns, monthly_returns, monthly_characteristics, market_returns
+WRDS connection ready. Starting downloads.
+[1/4] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[daily_returns] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_amex_nasdaq_ciz_20250101_20250228\daily_returns.parquet
+[2/4] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[monthly_returns] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_amex_nasdaq_ciz_20250101_20250228\monthly_returns.parquet
+[3/4] Preparing monthly_characteristics...
+[monthly_characteristics] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_characteristics] First batch received after 0.0s; validating and writing...
+[monthly_characteristics] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[monthly_characteristics] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_amex_nasdaq_ciz_20250101_20250228\monthly_characteristics.parquet
+[4/4] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[market_returns] Complete: 2 validated rows, 2025-01-31 to 2025-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fmb7lor7\nyse_amex_nasdaq_ciz_20250101_20250228\market_returns.parquet
+All requested JT1993 datasets are ready.
+[daily_returns] Using cached file: 2 rows.
+[monthly_returns] Using cached file: 2 rows.
+[monthly_characteristics] Using cached file: 2 rows.
+[market_returns] Using cached file: 2 rows.
+All requested datasets are cached; nothing to download.
+test_ciz_normalizes_schema_and_keeps_source_and_universe_in_provenance (test_jt1993_data_download.DownloadTests.test_ciz_normalizes_schema_and_keeps_source_and_universe_in_provenance) ... ok
+Pending downloads: daily_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[daily_returns] Complete: 2 validated rows, 2000-01-03 to 2000-01-04 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_egjb9mzi\daily_returns.parquet
+All requested JT1993 datasets are ready.
+test_daily_only_request_accepts_partial_month_dates (test_jt1993_data_download.DownloadTests.test_daily_only_request_accepts_partial_month_dates) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_h1yyao7g\nyse_19620701_19891231\market_returns.parquet
+All requested JT1993 datasets are ready.
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_h1yyao7g\nyse_ciz_19620701_19891231\market_returns.parquet
+All requested JT1993 datasets are ready.
+test_default_cache_directories_distinguish_legacy_and_ciz (test_jt1993_data_download.DownloadTests.test_default_cache_directories_distinguish_legacy_and_ciz) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_09z_9vex\market_returns.parquet
+All requested JT1993 datasets are ready.
+test_different_universe_or_source_cannot_reuse_an_explicit_cache_directory (test_jt1993_data_download.DownloadTests.test_different_universe_or_source_cannot_reuse_an_explicit_cache_directory) ... ok
+Pending downloads: daily_returns, monthly_returns, monthly_characteristics, market_returns
+Connecting to WRDS; its 'Done' message marks setup only, not download completion.
+WRDS connection ready. Starting downloads.
+[1/4] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[daily_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_461su81s\daily_returns.parquet
+[2/4] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_461su81s\monthly_returns.parquet
+[3/4] Preparing monthly_characteristics...
+[monthly_characteristics] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_characteristics] First batch received after 0.0s; validating and writing...
+[monthly_characteristics] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_characteristics] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_461su81s\monthly_characteristics.parquet
+[4/4] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_461su81s\market_returns.parquet
+Closing WRDS connection...
+All requested JT1993 datasets are ready.
+[daily_returns] Using cached file: 330 rows.
+[monthly_returns] Using cached file: 330 rows.
+[monthly_characteristics] Using cached file: 330 rows.
+[market_returns] Using cached file: 330 rows.
+All requested datasets are cached; nothing to download.
+test_download_then_reuse_all_caches_without_authentication (test_jt1993_data_download.DownloadTests.test_download_then_reuse_all_caches_without_authentication) ... ok
+Pending downloads: daily_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 100 rows written; 100 total (0.0s elapsed).
+Download failed. Previously completed datasets remain cached; see the traceback for details.
+test_duplicate_keys_across_chunks_are_rejected (test_jt1993_data_download.DownloadTests.test_duplicate_keys_across_chunks_are_rejected) ... ok
+Pending downloads: daily_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+Download failed. Previously completed datasets remain cached; see the traceback for details.
+test_empty_query_is_rejected_without_publishing_cache (test_jt1993_data_download.DownloadTests.test_empty_query_is_rejected_without_publishing_cache) ... ok
+Pending downloads: daily_returns, monthly_returns, monthly_characteristics, market_returns
+WRDS connection ready. Starting downloads.
+[1/4] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[daily_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_19620701_19891231\daily_returns.parquet
+[2/4] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_19620701_19891231\monthly_returns.parquet
+[3/4] Preparing monthly_characteristics...
+[monthly_characteristics] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_characteristics] First batch received after 0.0s; validating and writing...
+[monthly_characteristics] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_characteristics] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_19620701_19891231\monthly_characteristics.parquet
+[4/4] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_19620701_19891231\market_returns.parquet
+All requested JT1993 datasets are ready.
+[daily_returns] Using cached file: 330 rows.
+[monthly_returns] Using cached file: 330 rows.
+[monthly_characteristics] Using cached file: 330 rows.
+[market_returns] Using cached file: 330 rows.
+All requested datasets are cached; nothing to download.
+Pending downloads: daily_returns, monthly_returns, monthly_characteristics, market_returns
+WRDS connection ready. Starting downloads.
+[1/4] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[daily_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_19620701_19891231\daily_returns.parquet
+[2/4] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_19620701_19891231\monthly_returns.parquet
+[3/4] Preparing monthly_characteristics...
+[monthly_characteristics] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_characteristics] First batch received after 0.0s; validating and writing...
+[monthly_characteristics] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_characteristics] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_19620701_19891231\monthly_characteristics.parquet
+[4/4] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_19620701_19891231\market_returns.parquet
+All requested JT1993 datasets are ready.
+[daily_returns] Using cached file: 330 rows.
+[monthly_returns] Using cached file: 330 rows.
+[monthly_characteristics] Using cached file: 330 rows.
+[market_returns] Using cached file: 330 rows.
+All requested datasets are cached; nothing to download.
+Pending downloads: daily_returns, monthly_returns, monthly_characteristics, market_returns
+WRDS connection ready. Starting downloads.
+[1/4] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[daily_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_nasdaq_19620701_19891231\daily_returns.parquet
+[2/4] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_nasdaq_19620701_19891231\monthly_returns.parquet
+[3/4] Preparing monthly_characteristics...
+[monthly_characteristics] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_characteristics] First batch received after 0.0s; validating and writing...
+[monthly_characteristics] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_characteristics] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_nasdaq_19620701_19891231\monthly_characteristics.parquet
+[4/4] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_txggd4bg\nyse_amex_nasdaq_19620701_19891231\market_returns.parquet
+All requested JT1993 datasets are ready.
+[daily_returns] Using cached file: 330 rows.
+[monthly_returns] Using cached file: 330 rows.
+[monthly_characteristics] Using cached file: 330 rows.
+[market_returns] Using cached file: 330 rows.
+All requested datasets are cached; nothing to download.
+test_exchange_universes_filter_all_stock_datasets_and_cache_separately (test_jt1993_data_download.DownloadTests.test_exchange_universes_filter_all_stock_datasets_and_cache_separately) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_w1jphm45\market_returns.parquet
+All requested JT1993 datasets are ready.
+Pending downloads: market_returns
+Connecting to WRDS; its 'Done' message marks setup only, not download completion.
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 20 rows written; 20 total (0.0s elapsed).
+Download failed. Previously completed datasets remain cached; see the traceback for details.
+Closing WRDS connection...
+test_failed_refresh_preserves_previous_cache_and_closes_connection (test_jt1993_data_download.DownloadTests.test_failed_refresh_preserves_previous_cache_and_closes_connection) ... ok
+test_invalid_dates_and_partial_monthly_windows_fail_before_authentication (test_jt1993_data_download.DownloadTests.test_invalid_dates_and_partial_monthly_windows_fail_before_authentication) ... ok
+test_invalid_request_fails_before_authentication (test_jt1993_data_download.DownloadTests.test_invalid_request_fails_before_authentication) ... ok
+test_legacy_recent_dates_and_unknown_source_fail_before_authentication (test_jt1993_data_download.DownloadTests.test_legacy_recent_dates_and_unknown_source_fail_before_authentication) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_d7ivbl7e\market_returns.parquet
+All requested JT1993 datasets are ready.
+test_mismatched_cache_is_rejected_before_connecting (test_jt1993_data_download.DownloadTests.test_mismatched_cache_is_rejected_before_connecting) ... ok
+Pending downloads: monthly_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 329 rows written; 329 total (0.0s elapsed).
+Download failed. Previously completed datasets remain cached; see the traceback for details.
+test_missing_month_is_rejected_without_publishing_cache (test_jt1993_data_download.DownloadTests.test_missing_month_is_rejected_without_publishing_cache) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fhr8j2ve\market_returns.parquet
+All requested JT1993 datasets are ready.
+[market_returns] Using cached file: 330 rows.
+Pending downloads: monthly_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing monthly_returns...
+[monthly_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[monthly_returns] First batch received after 0.0s; validating and writing...
+[monthly_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[monthly_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_fhr8j2ve\monthly_returns.parquet
+All requested JT1993 datasets are ready.
+test_only_missing_dataset_is_queried (test_jt1993_data_download.DownloadTests.test_only_missing_dataset_is_queried) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 330 rows written; 330 total (0.0s elapsed).
+[market_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_gnyk5be3\relative_cache\market_returns.parquet
+All requested JT1993 datasets are ready.
+test_relative_cache_uses_project_root_instead_of_working_directory (test_jt1993_data_download.DownloadTests.test_relative_cache_uses_project_root_instead_of_working_directory) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[market_returns] Complete: 2 validated rows, 2000-01-31 to 2000-02-29 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_cyob75b9\nyse_amex_20000101_20000229\market_returns.parquet
+All requested JT1993 datasets are ready.
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+[market_returns] Batch 1: 2 rows written; 2 total (0.0s elapsed).
+[market_returns] Complete: 2 validated rows, 2001-01-31 to 2001-02-28 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_cyob75b9\nyse_amex_20010101_20010228\market_returns.parquet
+All requested JT1993 datasets are ready.
+test_requested_dates_reach_query_metadata_and_default_cache_directory (test_jt1993_data_download.DownloadTests.test_requested_dates_reach_query_metadata_and_default_cache_directory) ... ok
+Pending downloads: market_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing market_returns...
+[market_returns] Querying WRDS; waiting for the first batch (up to 250,000 rows)...
+[market_returns] First batch received after 0.0s; validating and writing...
+Download failed. Previously completed datasets remain cached; see the traceback for details.
+test_returned_dates_outside_the_requested_window_are_rejected (test_jt1993_data_download.DownloadTests.test_returned_dates_outside_the_requested_window_are_rejected) ... ok
+Pending downloads: daily_returns
+WRDS connection ready. Starting downloads.
+[1/1] Preparing daily_returns...
+[daily_returns] Querying WRDS; waiting for the first batch (up to 100 rows)...
+[daily_returns] First batch received after 0.0s; validating and writing...
+[daily_returns] Batch 1: 100 rows written; 100 total (0.0s elapsed).
+[daily_returns] Batch 2: 230 rows written; 330 total (0.0s elapsed).
+[daily_returns] Complete: 330 validated rows, 1962-07-31 to 1989-12-31 (0.0s elapsed). Saved to E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_vpn7vays\daily_returns.parquet
+All requested JT1993 datasets are ready.
+test_streams_multiple_chunks_and_keeps_caller_connection_open (test_jt1993_data_download.DownloadTests.test_streams_multiple_chunks_and_keeps_caller_connection_open) ... ok
+test_unknown_universe_fails_before_authentication (test_jt1993_data_download.DownloadTests.test_unknown_universe_fails_before_authentication) ... ok
+test_unlabelled_cache_is_not_silently_reused (test_jt1993_data_download.DownloadTests.test_unlabelled_cache_is_not_silently_reused) ... ok
+test_boundaries_preserve_values_schema_order_and_source_files (test_jt1993_data_partition.PartitionTests.test_boundaries_preserve_values_schema_order_and_source_files) ... ok
+test_invalid_boundaries_source_output_and_existing_targets_are_rejected (test_jt1993_data_partition.PartitionTests.test_invalid_boundaries_source_output_and_existing_targets_are_rejected) ... ok
+test_missing_dates_are_rejected_instead_of_silently_dropped (test_jt1993_data_partition.PartitionTests.test_missing_dates_are_rejected_instead_of_silently_dropped) ... ok
+test_missing_optional_inputs_are_not_created (test_jt1993_data_partition.PartitionTests.test_missing_optional_inputs_are_not_created) ... ok
+test_missing_warmup_or_report_month_publishes_neither_period (test_jt1993_data_partition.PartitionTests.test_missing_warmup_or_report_month_publishes_neither_period) ... ok
+test_relative_paths_use_path_info_instead_of_current_working_directory (test_jt1993_data_partition.PartitionTests.test_relative_paths_use_path_info_instead_of_current_working_directory) ... ok
+test_table1_results_match_using_full_source_or_each_partition (test_jt1993_data_partition.PartitionTests.test_table1_results_match_using_full_source_or_each_partition) ... ok
+test_bad_months_header_and_values_are_rejected (test_jt1993_ff3.DownloadTests.test_bad_months_header_and_values_are_rejected) ... ok
+test_cache_is_reused_and_failed_refresh_preserves_snapshot (test_jt1993_ff3.DownloadTests.test_cache_is_reused_and_failed_refresh_preserves_snapshot) ... ok
+test_monthly_block_units_dates_and_missing_codes (test_jt1993_ff3.DownloadTests.test_monthly_block_units_dates_and_missing_codes) ... ok
+test_bad_inputs_and_singular_design_are_rejected (test_jt1993_ff3.InferenceTests.test_bad_inputs_and_singular_design_are_rejected) ... ok
+test_intercept_only_agrees_with_existing_mean_inference (test_jt1993_ff3.InferenceTests.test_intercept_only_agrees_with_existing_mean_inference) ... ok
+test_ols_and_hac_against_known_coefficients_and_dense_kernel (test_jt1993_ff3.InferenceTests.test_ols_and_hac_against_known_coefficients_and_dense_kernel) ... ok
+test_missing_duplicate_months_and_wrong_units_are_rejected (test_jt1993_ff3.WorkflowTests.test_missing_duplicate_months_and_wrong_units_are_rejected) ... ok
+test_offline_regression_report_and_no_second_rf_subtraction (test_jt1993_ff3.WorkflowTests.test_offline_regression_report_and_no_second_rf_subtraction) ... ok
+test_spread_identity_dates_and_relative_paths (test_jt1993_ff3.WorkflowTests.test_spread_identity_dates_and_relative_paths) ... ok
+test_current_month_or_future_publication_is_rejected (test_jt1993_latest.LatestDateTests.test_current_month_or_future_publication_is_rejected) ... E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\utils\jt1993_data_download.py:225: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff = (pd.Timestamp(today).replace(day=1) - pd.Timedelta(days=1)).date()
+ok
+test_first_day_of_month_and_leap_year_cutoff (test_jt1993_latest.LatestDateTests.test_first_day_of_month_and_leap_year_cutoff) ... ok
+test_invalid_discovery_settings_fail_before_querying (test_jt1993_latest.LatestDateTests.test_invalid_discovery_settings_fail_before_querying) ... ok
+test_last_trading_day_is_normalized_to_calendar_month_end (test_jt1993_latest.LatestDateTests.test_last_trading_day_is_normalized_to_calendar_month_end) ... ok
+test_latest_month_is_bounded_by_daily_monthly_and_both_index_sources (test_jt1993_latest.LatestDateTests.test_latest_month_is_bounded_by_daily_monthly_and_both_index_sources) ... ok
+test_legacy_discovery_uses_legacy_tables_and_caps_at_2024 (test_jt1993_latest.LatestDateTests.test_legacy_discovery_uses_legacy_tables_and_caps_at_2024) ... ok
+test_no_common_publication_fails_clearly (test_jt1993_latest.LatestDateTests.test_no_common_publication_fails_clearly) ... E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\utils\jt1993_data_download.py:225: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff = (pd.Timestamp(today).replace(day=1) - pd.Timedelta(days=1)).date()
+ok
+test_requested_inputs_control_which_sources_are_required (test_jt1993_latest.LatestDateTests.test_requested_inputs_control_which_sources_are_required) ... ok
+test_availability_and_download_failures_close_the_connection (test_jt1993_latest.LatestPreparationTests.test_availability_and_download_failures_close_the_connection) ... ok
+test_available_end_before_start_fails_without_downloading (test_jt1993_latest.LatestPreparationTests.test_available_end_before_start_fails_without_downloading) ... ok
+test_bad_latest_request_settings_fail_before_authentication (test_jt1993_latest.LatestPreparationTests.test_bad_latest_request_settings_fail_before_authentication) ... ok
+test_latest_preparation_reuses_one_connection_and_resolves_cache_dates (test_jt1993_latest.LatestPreparationTests.test_latest_preparation_reuses_one_connection_and_resolves_cache_dates) ... E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\utils\jt1993_data_download.py:225: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff = (pd.Timestamp(today).replace(day=1) - pd.Timedelta(days=1)).date()
+ok
+test_conventional_t_statistic_uses_monthly_portfolio_returns (test_jt1993_portfolios.HoldingReturnTests.test_conventional_t_statistic_uses_monthly_portfolio_returns) ... ok
+test_missing_stock_returns_are_excluded_but_missing_cohorts_are_not_zero (test_jt1993_portfolios.HoldingReturnTests.test_missing_stock_returns_are_excluded_but_missing_cohorts_are_not_zero) ... ok
+test_rebalance_stocks_within_cohorts_then_equal_weight_cohorts (test_jt1993_portfolios.HoldingReturnTests.test_rebalance_stocks_within_cohorts_then_equal_weight_cohorts) ... ok
+test_daily_signal_excludes_boundary_gap_and_future_returns (test_jt1993_portfolios.RankingTests.test_daily_signal_excludes_boundary_gap_and_future_returns) ... ok
+test_monthly_signals_need_consecutive_valid_history_and_exclude_future_returns (test_jt1993_portfolios.RankingTests.test_monthly_signals_need_consecutive_valid_history_and_exclude_future_returns) ... ok
+test_ties_stay_together_and_small_cross_sections_are_ineligible (test_jt1993_portfolios.RankingTests.test_ties_stay_together_and_small_cross_sections_are_ineligible) ... ok
+test_mixed_summary_or_missing_month_is_rejected_before_plotting (test_jt1993_reporter.ReporterTests.test_mixed_summary_or_missing_month_is_rejected_before_plotting) ... ok
+test_notebook_units_gap_effect_and_stock_weighted_signal (test_jt1993_reporter.ReporterTests.test_notebook_units_gap_effect_and_stock_weighted_signal) ... ok
+test_overview_common_scales_and_additive_history (test_jt1993_reporter.ReporterTests.test_overview_common_scales_and_additive_history) ... ok
+test_report_only_renders_both_sets_and_preserves_saved_inputs (test_jt1993_reporter.ReporterTests.test_report_only_renders_both_sets_and_preserves_saved_inputs) ... ok
+test_table1_csv_round_trip_and_plain_html_display (test_jt1993_reporter.ReporterTests.test_table1_csv_round_trip_and_plain_html_display) ... ok
+test_table1_has_paper_layout_and_uses_calculated_values (test_jt1993_reporter.ReporterTests.test_table1_has_paper_layout_and_uses_calculated_values) ... ok
+test_table1_rejects_missing_or_duplicate_portfolio_cells (test_jt1993_reporter.ReporterTests.test_table1_rejects_missing_or_duplicate_portfolio_cells) ... ok
+test_without_paper_benchmark_the_notebook_comparison_plots_are_omitted (test_jt1993_reporter.ReporterTests.test_without_paper_benchmark_the_notebook_comparison_plots_are_omitted) ... ok
+test_comparisons_use_keys_independent_paper_values_and_correct_units (test_jt1993_submission.SubmissionTests.test_comparisons_use_keys_independent_paper_values_and_correct_units) ... ok
+test_expanded_submission_contains_every_sample_and_descriptive_period_differences (test_jt1993_submission.SubmissionTests.test_expanded_submission_contains_every_sample_and_descriptive_period_differences) ... ok
+test_extended_loader_respects_actual_dates_universe_and_month_counts (test_jt1993_submission.SubmissionTests.test_extended_loader_respects_actual_dates_universe_and_month_counts) ... ok
+test_missing_duplicate_and_nonfinite_cells_fail (test_jt1993_submission.SubmissionTests.test_missing_duplicate_and_nonfinite_cells_fail) ... ok
+test_mixed_samples_and_corrupted_cumulative_results_fail (test_jt1993_submission.SubmissionTests.test_mixed_samples_and_corrupted_cumulative_results_fail) ... ok
+test_one_offline_html_embeds_scrollable_tables_and_images_without_data_exports (test_jt1993_submission.SubmissionTests.test_one_offline_html_embeds_scrollable_tables_and_images_without_data_exports) ... ok
+test_published_values_coverage_and_rounding_are_preserved (test_jt1993_submission.SubmissionTests.test_published_values_coverage_and_rounding_are_preserved) ... ok
+test_q1_5_assembly_uses_saved_estimates_and_preserves_inputs (test_jt1993_submission.SubmissionTests.test_q1_5_assembly_uses_saved_estimates_and_preserves_inputs) ... ok
+test_q1_5_conclusion_follows_sign_and_significance (test_jt1993_submission.SubmissionTests.test_q1_5_conclusion_follows_sign_and_significance) ... ok
+test_q1_5_rejects_mismatched_inputs_and_invalid_inference (test_jt1993_submission.SubmissionTests.test_q1_5_rejects_mismatched_inputs_and_invalid_inference) ... ok
+test_sample_comparisons_reject_wrong_windows_universes_or_period_gaps (test_jt1993_submission.SubmissionTests.test_sample_comparisons_reject_wrong_windows_universes_or_period_gaps) ... ok
+test_prepare_selects_only_inputs_required_by_requested_tables (test_jt1993_tables2_7.PreparationAndLayoutTests.test_prepare_selects_only_inputs_required_by_requested_tables) ... ok
+test_reporters_reject_missing_or_duplicate_paper_rows (test_jt1993_tables2_7.PreparationAndLayoutTests.test_reporters_reject_missing_or_duplicate_paper_rows) ... ok
+test_beta_is_ols_with_intercept_and_spread_is_directly_estimated (test_jt1993_tables2_7.Table2Tests.test_beta_is_ols_with_intercept_and_spread_is_directly_estimated) ... ok
+test_size_uses_preformation_price_units_and_does_not_filter_returns (test_jt1993_tables2_7.Table2Tests.test_size_uses_preformation_price_units_and_does_not_filter_returns) ... ok
+test_event_returns_are_single_cohorts_and_cumulative_sums (test_jt1993_tables2_7.Table7Tests.test_event_returns_are_single_cohorts_and_cumulative_sums) ... ok
+test_newey_west_matches_bartlett_covariance_matrix (test_jt1993_tables2_7.Table7Tests.test_newey_west_matches_bartlett_covariance_matrix) ... ok
+test_missing_history_or_small_followup_window_is_rejected (test_jt1993_tables2_7.TableDraftWorkflowTests.test_missing_history_or_small_followup_window_is_rejected) ... ok
+test_missing_table2_inputs_require_preparation (test_jt1993_tables2_7.TableDraftWorkflowTests.test_missing_table2_inputs_require_preparation) ... ok
+test_table2_local_workflow_and_paper_layout (test_jt1993_tables2_7.TableDraftWorkflowTests.test_table2_local_workflow_and_paper_layout) ... ok
+test_table7_local_workflow_balanced_boundaries_and_paper_layout (test_jt1993_tables2_7.TableDraftWorkflowTests.test_table7_local_workflow_balanced_boundaries_and_paper_layout) ... ok
+test_local_data_must_cover_every_reported_month (test_jt1993_workflow.WorkflowTests.test_local_data_must_cover_every_reported_month) ... ok
+test_missing_daily_input_requires_preparation_without_connecting (test_jt1993_workflow.WorkflowTests.test_missing_daily_input_requires_preparation_without_connecting) ... ok
+test_prepare_table_i_then_run_two_local_windows_without_authentication (test_jt1993_workflow.WorkflowTests.test_prepare_table_i_then_run_two_local_windows_without_authentication) ... ok
+test_prepare_task2_passes_universe_source_and_all_required_inputs (test_jt1993_workflow.WorkflowTests.test_prepare_task2_passes_universe_source_and_all_required_inputs) ... ok
+test_changed_specification_and_unlabelled_cache_are_rejected (test_lsv1994_data_download.DownloadTests.test_changed_specification_and_unlabelled_cache_are_rejected) ... ok
+test_ciz_maps_formation_eligibility_without_removing_holding_returns (test_lsv1994_data_download.DownloadTests.test_ciz_maps_formation_eligibility_without_removing_holding_returns) ... ok
+test_failed_refresh_preserves_cached_data_and_metadata (test_lsv1994_data_download.DownloadTests.test_failed_refresh_preserves_cached_data_and_metadata) ... ok
+test_invalid_dates_and_options_fail_before_connecting (test_lsv1994_data_download.DownloadTests.test_invalid_dates_and_options_fail_before_connecting) ... ok
+test_missing_calendar_coverage_and_cross_chunk_duplicates_are_rejected (test_lsv1994_data_download.DownloadTests.test_missing_calendar_coverage_and_cross_chunk_duplicates_are_rejected) ... ok
+test_missing_market_index_leg_is_rejected (test_lsv1994_data_download.DownloadTests.test_missing_market_index_leg_is_rejected) ... ok
+test_queries_follow_reference_and_use_independent_accounting_dates (test_lsv1994_data_download.DownloadTests.test_queries_follow_reference_and_use_independent_accounting_dates) ... ok
+test_relative_cache_is_anchored_to_project (test_lsv1994_data_download.DownloadTests.test_relative_cache_is_anchored_to_project) ... ok
+test_stream_round_trip_preserves_raw_values_and_reuses_without_login (test_lsv1994_data_download.DownloadTests.test_stream_round_trip_preserves_raw_values_and_reuses_without_login) ... ok
+test_default_prepares_all_original_tables_and_reference_only_is_available (test_lsv1994_data_download.PreparationTests.test_default_prepares_all_original_tables_and_reference_only_is_available) ... ok
+test_preparation_prints_downloaded_coverage (test_lsv1994_data_download.PreparationTests.test_preparation_prints_downloaded_coverage) ... ok
+test_task2_requests_shared_legacy_history_through_2024 (test_lsv1994_data_download.PreparationTests.test_task2_requests_shared_legacy_history_through_2024) ... ok
+test_independent_common_sample_sorts_cover_all_nine_intersections (test_lsv1994_q21.DoubleSortTests.test_independent_common_sample_sorts_cover_all_nine_intersections) ... ok
+test_table2_horizon_averaging_has_known_result (test_lsv1994_q21.DoubleSortTests.test_table2_horizon_averaging_has_known_result) ... ok
+test_growth_uses_ratio_of_average_cohort_levels (test_lsv1994_q21.GrowthTests.test_growth_uses_ratio_of_average_cohort_levels) ... ok
+test_negative_aggregate_level_is_not_given_a_fake_growth_rate (test_lsv1994_q21.GrowthTests.test_negative_aggregate_level_is_not_given_a_fake_growth_rate) ... ok
+test_table5_outcomes_are_separate_and_market_equity_buffer_is_required (test_lsv1994_q21.GrowthTests.test_table5_outcomes_are_separate_and_market_equity_buffer_is_required) ... ok
+test_cumulative_spread_compounds_legs_and_respects_cutoff (test_lsv1994_q21.InferenceTests.test_cumulative_spread_compounds_legs_and_respects_cutoff) ... ok
+test_figure2_uses_equal_weighted_index_and_matching_holding_window (test_lsv1994_q21.InferenceTests.test_figure2_uses_equal_weighted_index_and_matching_holding_window) ... ok
+test_hh_uses_uniform_lag_weights_and_exposes_negative_variance (test_lsv1994_q21.InferenceTests.test_hh_uses_uniform_lag_weights_and_exposes_negative_variance) ... ok
+test_hh_zero_lag_equals_conventional_mean_test (test_lsv1994_q21.InferenceTests.test_hh_zero_lag_equals_conventional_mean_test) ... ok
+test_absent_negative_category_leaves_dummy_unestimated_and_preserves_slopes (test_lsv1994_q21.RegressionTests.test_absent_negative_category_leaves_dummy_unestimated_and_preserves_slopes) ... ok
+test_annual_ols_and_time_series_inference_recover_known_coefficients (test_lsv1994_q21.RegressionTests.test_annual_ols_and_time_series_inference_recover_known_coefficients) ... ok
+test_missing_ratio_is_not_encoded_as_zero (test_lsv1994_q21.RegressionTests.test_missing_ratio_is_not_encoded_as_zero) ... ok
+test_different_vintage_across_extended_cases_is_rejected (test_lsv1994_q21.SubmissionTests.test_different_vintage_across_extended_cases_is_rejected) ... ok
+test_extended_followup_cannot_cross_subsample_boundary (test_lsv1994_q21.SubmissionTests.test_extended_followup_cannot_cross_subsample_boundary) ... ok
+test_figure_with_shifted_year_labels_is_rejected (test_lsv1994_q21.SubmissionTests.test_figure_with_shifted_year_labels_is_rejected) ... ok
+test_full_submission_embeds_all_cases_and_figures_without_raw_access (test_lsv1994_q21.SubmissionTests.test_full_submission_embeds_all_cases_and_figures_without_raw_access) ... ok
+test_incorrect_future_cohort_count_is_rejected (test_lsv1994_q21.SubmissionTests.test_incorrect_future_cohort_count_is_rejected) ... ok
+test_missing_extended_case_is_rejected (test_lsv1994_q21.SubmissionTests.test_missing_extended_case_is_rejected) ... ok
+test_missing_table_and_mixed_samples_are_rejected (test_lsv1994_q21.SubmissionTests.test_missing_table_and_mixed_samples_are_rejected) ... ok
+test_modified_saved_output_is_rejected (test_lsv1994_q21.SubmissionTests.test_modified_saved_output_is_rejected) ... ok
+test_same_path_with_a_different_data_vintage_is_rejected (test_lsv1994_q21.SubmissionTests.test_same_path_with_a_different_data_vintage_is_rejected) ... ok
+test_submission_is_complete_and_offline_without_raw_files (test_lsv1994_q21.SubmissionTests.test_submission_is_complete_and_offline_without_raw_files) ... ok
+test_recent_recession_overlap_uses_full_may_april_window (test_lsv1994_runs.ExtendedFigureTests.test_recent_recession_overlap_uses_full_may_april_window) ... ok
+test_saved_report_contains_figure_without_submission_authoring (test_lsv1994_runs.ExtendedFigureTests.test_saved_report_contains_figure_without_submission_authoring) ... ok
+test_unverified_chronology_endpoint_is_rejected (test_lsv1994_runs.ExtendedFigureTests.test_unverified_chronology_endpoint_is_rejected) ... ok
+test_entire_missing_transition_is_a_coverage_error (test_lsv1994_runs.OutcomeCoverageTests.test_entire_missing_transition_is_a_coverage_error) ... ok
+test_later_outcomes_cannot_affect_bounded_subsample (test_lsv1994_runs.OutcomeCoverageTests.test_later_outcomes_cannot_affect_bounded_subsample) ... ok
+test_no_future_cohorts_are_explicitly_unavailable (test_lsv1994_runs.OutcomeCoverageTests.test_no_future_cohorts_are_explicitly_unavailable) ... ok
+test_partial_future_uses_same_eligible_cohorts_for_every_transition (test_lsv1994_runs.OutcomeCoverageTests.test_partial_future_uses_same_eligible_cohorts_for_every_transition) ... ok
+test_strict_original_outcome_requirement_is_preserved (test_lsv1994_runs.OutcomeCoverageTests.test_strict_original_outcome_requirement_is_preserved) ... ok
+test_batches_cover_requested_universes_and_never_build_submission (test_lsv1994_runs.RunPlanTests.test_batches_cover_requested_universes_and_never_build_submission) ... ok
+test_dry_run_and_strict_rejection_do_not_start_any_case (test_lsv1994_runs.RunPlanTests.test_dry_run_and_strict_rejection_do_not_start_any_case) ... ok
+test_market_and_accounting_endpoints_both_limit_full_years (test_lsv1994_runs.RunPlanTests.test_market_and_accounting_endpoints_both_limit_full_years) ... ok
+test_missing_files_filtered_cache_and_short_inference_are_rejected (test_lsv1994_runs.RunPlanTests.test_missing_files_filtered_cache_and_short_inference_are_rejected) ... ok
+test_new_cache_enables_1962_and_2025_without_changing_code (test_lsv1994_runs.RunPlanTests.test_new_cache_enables_1962_and_2025_without_changing_code) ... ok
+test_requested_and_available_dates_are_distinct (test_lsv1994_runs.RunPlanTests.test_requested_and_available_dates_are_distinct) ... ok
+test_subsample_returns_and_accounting_stay_inside_calendar_window (test_lsv1994_runs.RunPlanTests.test_subsample_returns_and_accounting_stay_inside_calendar_window) ... ok
+test_universe_eligibility_is_at_formation (test_lsv1994_runs.RunPlanTests.test_universe_eligibility_is_at_formation) ... ok
+test_currency_sensitivity_is_explicit_and_separate_from_reference (test_lsv1994_table1.FormationTests.test_currency_sensitivity_is_explicit_and_separate_from_reference) ... ok
+test_future_accounts_do_not_change_prior_formations (test_lsv1994_table1.FormationTests.test_future_accounts_do_not_change_prior_formations) ... E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.venv\Lib\site-packages\pandas\core\internals\concat.py:510: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  return dtype.type("NaT")
+ok
+test_invalid_returns_and_duplicate_months_are_rejected (test_lsv1994_table1.FormationTests.test_invalid_returns_and_duplicate_months_are_rejected) ... ok
+test_positive_cp_ep_restrictions_do_not_remove_bm_members (test_lsv1994_table1.FormationTests.test_positive_cp_ep_restrictions_do_not_remove_bm_members) ... ok
+test_sales_growth_does_not_bridge_missing_years (test_lsv1994_table1.FormationTests.test_sales_growth_does_not_bridge_missing_years) ... ok
+test_ties_stay_together_and_missing_signals_are_unranked (test_lsv1994_table1.FormationTests.test_ties_stay_together_and_missing_signals_are_unranked) ... ok
+test_disappearance_replacement_and_internal_missing_are_distinct (test_lsv1994_table1.HoldingTests.test_disappearance_replacement_and_internal_missing_are_distinct) ... ok
+test_exchange_change_does_not_remove_original_holding_returns (test_lsv1994_table1.HoldingTests.test_exchange_change_does_not_remove_original_holding_returns) ... ok
+test_missing_calendar_month_and_partial_return_year_are_rejected (test_lsv1994_table1.HoldingTests.test_missing_calendar_month_and_partial_return_year_are_rejected) ... ok
+test_summary_compounds_horizon_means_in_paper_order (test_lsv1994_table1.HoldingTests.test_summary_compounds_horizon_means_in_paper_order) ... ok
+test_survivors_are_reweighted_without_future_survival_filter_at_formation (test_lsv1994_table1.HoldingTests.test_survivors_are_reweighted_without_future_survival_filter_at_formation) ... ok
+test_end_to_end_constant_returns_raw_preservation_and_saved_only_reporting (test_lsv1994_table1.WorkflowTests.test_end_to_end_constant_returns_raw_preservation_and_saved_only_reporting) ... ok
+
+----------------------------------------------------------------------
+Ran 154 tests in 28.194s
+
+OK
+Table I results CSV: E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_f3ccmk55\reports\table1.csv
+Table I display: E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_f3ccmk55\reports\table1.html
+Table I reporter: 14 figures saved; gallery: E:\Workstation\coding_projects\coding_research\paper_replication\JNS1993_VME_Momentum\.test_jt1993_f3ccmk55\reports\index.html
